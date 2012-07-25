@@ -112,6 +112,13 @@ void SearchNode::reopen(const SearchNode &parent_node,
 	info.real_g = parent_node.info.real_g + parent_op->get_cost();
 	info.parent_state = parent_node.state_buffer;
 	info.creating_operator = parent_op;
+	if (g_multiple_goal) {
+		info.participated_agents.clear();
+		for (int i = 0; i < g_num_of_agents; i++)
+			info.participated_agents.push_back(
+					parent_node.info.participated_agents[i]);
+		info.participated_agents[parent_op->agent] = true;
+	}
 }
 
 // like reopen, except doesn't change status
