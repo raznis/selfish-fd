@@ -199,6 +199,10 @@ SearchEngine *OptionParser::parse_cmd_line(
         } else if (arg.compare("--symmetry") == 0) {
         	g_symmetry_pruning = true;
             cout << "running partition of action graph and symmetry pruning " << endl;
+        } else if (arg.compare("--limit_public") == 0) {
+        	g_limit_public_actions = atoi(argv[i + 1]);
+        	i++;
+            cout << "WARNING: SEARCH NOT OPTIMAL!!!   limiting number of public actions performed by an agent to: " << g_limit_public_actions << endl;
         } else if ((arg.compare("--help") == 0) && dry_run) {
             cout << "Help:" << endl;
             if (i + 1 < argc) {

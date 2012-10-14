@@ -56,6 +56,7 @@ public:
     void dump();
 
     bool is_relevant_for_mariginal_search();
+    bool is_above_limit_of_public_actions();
 };
 
 

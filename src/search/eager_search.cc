@@ -101,13 +101,16 @@ int EagerSearch::step() {
 		return SOLVED;
 
 	//pruning states that are no longer relevant in the search for marginal problems
-	if(g_multiple_goal && !node.is_relevant_for_mariginal_search()){
+	if (g_multiple_goal && !node.is_relevant_for_mariginal_search()) {
 		return IN_PROGRESS;
 	}
+	//TODO - add the option to "limit" (by pruning) the number of public actions
+	if (g_limit_public_actions && node.is_above_limit_of_public_actions())
+		return IN_PROGRESS;
 
 	const Operator * creating_op = node.get_creating_op();
-	bool apply_ma_pruning = (g_agents_search || g_symmetry_pruning) && creating_op
-			&& !creating_op->is_public;
+	bool apply_ma_pruning = (g_agents_search || g_symmetry_pruning)
+			&& creating_op && !creating_op->is_public;
 	int creating_op_agent = -1;
 	if (creating_op) {
 		creating_op_agent = creating_op->agent;
@@ -138,7 +141,7 @@ int EagerSearch::step() {
 			continue;
 
 		//ma_pruning
-		if (apply_ma_pruning && creating_op_agent != op->agent){
+		if (apply_ma_pruning && creating_op_agent != op->agent) {
 			//cout <<"here!" << endl;
 			continue;
 		}
@@ -146,7 +149,7 @@ int EagerSearch::step() {
 		//pruning action of marginal agents
 		//TODO - a smarter way to do this is to alter the problem so that it doesn't contain the marginal agent to begin with.
 		//This will make the heuristic estimate much better.
-		if(g_marginal_search && g_marginal_agent == op->agent)
+		if (g_marginal_search && g_marginal_agent == op->agent)
 			continue;
 
 		State succ_state(s, *op);
