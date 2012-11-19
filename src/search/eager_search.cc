@@ -90,6 +90,8 @@ void EagerSearch::statistics() const {
 }
 
 int EagerSearch::step() {
+
+	//TODO - add pruning of states for marginal search. a state not having a non-participating agent. a state having a single non-participating agent should not be sent to it. etc.
 	pair<SearchNode, bool> n = fetch_next_node();
 	if (!n.second) {
 		return FAILED;
