@@ -51,6 +51,7 @@ int main(int argc, const char **argv) {
     engine->heuristic_statistics();
     cout << "Search time: " << search_timer << endl;
     cout << "Total time: " << g_timer << endl;
-
+    cout << "State expansions pruned in multigoal: "<< g_pruned_expand_multigoal << endl;
+    cout << "States generations pruned in multigoal: "<< g_pruned_generate_multigoal << endl;
     return engine->found_solution() ? 0 : 1;
 }

@@ -79,6 +79,10 @@ void SearchNode::open_initial(int h) {
 		for (int i = 0; i < g_num_of_agents; i++)
 			info.participated_agents.push_back(false);
 	}
+	if (g_limit_public_actions) {
+		for (int i = 0; i < g_num_of_agents; i++)
+			info.num_of_public_actions_per_agent.push_back(0);
+	}
 }
 
 void SearchNode::open(int h, const SearchNode &parent_node,
@@ -96,6 +100,13 @@ void SearchNode::open(int h, const SearchNode &parent_node,
 			info.participated_agents.push_back(
 					parent_node.info.participated_agents[i]);
 		info.participated_agents[parent_op->agent] = true;
+	}
+	if (g_limit_public_actions) {
+		for (int i = 0; i < g_num_of_agents; i++)
+			info.num_of_public_actions_per_agent.push_back(
+					parent_node.info.num_of_public_actions_per_agent[i]);
+		if (parent_op->is_public)
+			info.num_of_public_actions_per_agent[parent_op->agent]++;
 	}
 }
 
@@ -118,6 +129,14 @@ void SearchNode::reopen(const SearchNode &parent_node,
 			info.participated_agents.push_back(
 					parent_node.info.participated_agents[i]);
 		info.participated_agents[parent_op->agent] = true;
+	}
+	if (g_limit_public_actions) {
+		info.num_of_public_actions_per_agent.clear();
+		for (int i = 0; i < g_num_of_agents; i++)
+			info.num_of_public_actions_per_agent.push_back(
+					parent_node.info.num_of_public_actions_per_agent[i]);
+		if (parent_op->is_public)
+			info.num_of_public_actions_per_agent[parent_op->agent]++;
 	}
 }
 
@@ -157,16 +176,42 @@ void SearchNode::dump() {
 }
 
 bool SearchNode::is_relevant_for_mariginal_search() {
-	bool found_non_participating_agent = false;
+	if (g_marginal_solution_for_agent[g_num_of_agents] == -1)
+		return true;
 	for (int i = 0; i < g_num_of_agents; i++) {
-		if (!info.participated_agents[i]){
-			found_non_participating_agent = true;
-			if(g_marginal_solution_for_agent[i] == -1)
+		if (!info.participated_agents[i]) {
+			if (g_marginal_solution_for_agent[i] == -1)
 				return true;
 		}
 	}
-	if(!found_non_participating_agent && g_marginal_solution_for_agent[g_num_of_agents] == -1)
+	return false;
+}
+
+bool SearchNode::is_state_with_agent_action_relevant_for_marginal_search(
+		int agent) {
+	if (g_marginal_solution_for_agent[g_num_of_agents] == -1)
 		return true;
+
+	if (info.participated_agents[agent])
+		return true;
+
+	//Agent does not participate
+	for (int i = 0; i < g_num_of_agents; i++) {
+		if (!info.participated_agents[i] && i != agent) {
+			if (g_marginal_solution_for_agent[i] == -1)
+				return true;
+		}
+	}
+
+	return false;
+}
+
+bool SearchNode::is_above_limit_of_public_actions() {
+	for (int i = 0; i < g_num_of_agents; i++) {
+		if (info.num_of_public_actions_per_agent[i] > g_limit_public_actions) {
+			return true;
+		}
+	}
 	return false;
 }
 

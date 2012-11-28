@@ -90,8 +90,6 @@ void EagerSearch::statistics() const {
 }
 
 int EagerSearch::step() {
-
-	//TODO - add pruning of states for marginal search. a state not having a non-participating agent. a state having a single non-participating agent should not be sent to it. etc.
 	pair<SearchNode, bool> n = fetch_next_node();
 	if (!n.second) {
 		return FAILED;
@@ -103,13 +101,17 @@ int EagerSearch::step() {
 		return SOLVED;
 
 	//pruning states that are no longer relevant in the search for marginal problems
-	if(g_multiple_goal && !node.is_relevant_for_mariginal_search()){
+	if (g_multiple_goal && !node.is_relevant_for_mariginal_search()) {
+		g_pruned_expand_multigoal++;
 		return IN_PROGRESS;
 	}
+	//TODO - add the option to "limit" (by pruning) the number of public actions
+	if (g_limit_public_actions && node.is_above_limit_of_public_actions())
+		return IN_PROGRESS;
 
 	const Operator * creating_op = node.get_creating_op();
-	bool apply_ma_pruning = (g_agents_search || g_symmetry_pruning) && creating_op
-			&& !creating_op->is_public;
+	bool apply_ma_pruning = (g_agents_search || g_symmetry_pruning)
+			&& creating_op && !creating_op->is_public;
 	int creating_op_agent = -1;
 	if (creating_op) {
 		creating_op_agent = creating_op->agent;
@@ -140,7 +142,7 @@ int EagerSearch::step() {
 			continue;
 
 		//ma_pruning
-		if (apply_ma_pruning && creating_op_agent != op->agent){
+		if (apply_ma_pruning && creating_op_agent != op->agent) {
 			//cout <<"here!" << endl;
 			continue;
 		}
@@ -148,9 +150,14 @@ int EagerSearch::step() {
 		//pruning action of marginal agents
 		//TODO - a smarter way to do this is to alter the problem so that it doesn't contain the marginal agent to begin with.
 		//This will make the heuristic estimate much better.
-		if(g_marginal_search && g_marginal_agent == op->agent)
+		if (g_marginal_search && g_marginal_agent == op->agent)
 			continue;
 
+		//if performing this action adds the last agent then prune it, saving heuristic calculation
+		if(g_multiple_goal && !node.is_state_with_agent_action_relevant_for_marginal_search(op->agent)){
+			g_pruned_generate_multigoal++;
+			continue;
+		}
 		State succ_state(s, *op);
 		search_progress.inc_generated();
 		bool is_preferred = (preferred_ops.find(op) != preferred_ops.end());

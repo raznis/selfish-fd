@@ -363,6 +363,9 @@ int g_marginal_agent = -1;
 int g_num_of_agents = -1;
 bool g_multiple_goal = false;
 vector<int> g_marginal_solution_for_agent;
+int g_limit_public_actions = 0;
+int g_pruned_expand_multigoal = 0;
+int g_pruned_generate_multigoal = 0;
 
 void update_private_public_actions() {
 	//	for (int var = 0; var < g_variable_domain.size(); var++) {
