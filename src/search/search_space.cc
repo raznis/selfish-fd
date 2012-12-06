@@ -175,7 +175,7 @@ void SearchNode::dump() {
 			<< info.parent_state << endl;
 }
 
-bool SearchNode::is_relevant_for_mariginal_search() {
+bool SearchNode::is_relevant_for_marginal_search() {
 	if (g_marginal_solution_for_agent[g_num_of_agents] == -1)
 		return true;
 	for (int i = 0; i < g_num_of_agents; i++) {

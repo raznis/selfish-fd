@@ -101,7 +101,7 @@ int EagerSearch::step() {
 		return SOLVED;
 
 	//pruning states that are no longer relevant in the search for marginal problems
-	if (g_multiple_goal && !node.is_relevant_for_mariginal_search()) {
+	if (g_multiple_goal && !node.is_relevant_for_marginal_search()) {
 		g_pruned_expand_multigoal++;
 		return IN_PROGRESS;
 	}
