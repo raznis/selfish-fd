@@ -4,1959 +4,9320 @@ end_version
 begin_metric
 0
 end_metric
-39
+13
 begin_variable
 var0
 -1
-6
-Atom at(rover0, waypoint0)
-Atom at(rover0, waypoint1)
-Atom at(rover0, waypoint2)
-Atom at(rover0, waypoint3)
-Atom at(rover0, waypoint4)
-Atom at(rover0, waypoint5)
+8
+Atom at(person1, city0)
+Atom at(person1, city1)
+Atom at(person1, city2)
+Atom at(person1, city3)
+Atom at(person1, city4)
+Atom in(person1, plane1)
+Atom in(person1, plane2)
+Atom in(person1, plane3)
 end_variable
 begin_variable
 var1
 -1
-6
-Atom at(rover1, waypoint0)
-Atom at(rover1, waypoint1)
-Atom at(rover1, waypoint2)
-Atom at(rover1, waypoint3)
-Atom at(rover1, waypoint4)
-Atom at(rover1, waypoint5)
+8
+Atom at(person2, city0)
+Atom at(person2, city1)
+Atom at(person2, city2)
+Atom at(person2, city3)
+Atom at(person2, city4)
+Atom in(person2, plane1)
+Atom in(person2, plane2)
+Atom in(person2, plane3)
 end_variable
 begin_variable
 var2
 -1
-2
-Atom at_rock_sample(waypoint0)
-Atom have_rock_analysis(rover0, waypoint0)
+8
+Atom at(person3, city0)
+Atom at(person3, city1)
+Atom at(person3, city2)
+Atom at(person3, city3)
+Atom at(person3, city4)
+Atom in(person3, plane1)
+Atom in(person3, plane2)
+Atom in(person3, plane3)
 end_variable
 begin_variable
 var3
 -1
-2
-Atom at_rock_sample(waypoint2)
-Atom have_rock_analysis(rover0, waypoint2)
+8
+Atom at(person4, city0)
+Atom at(person4, city1)
+Atom at(person4, city2)
+Atom at(person4, city3)
+Atom at(person4, city4)
+Atom in(person4, plane1)
+Atom in(person4, plane2)
+Atom in(person4, plane3)
 end_variable
 begin_variable
 var4
 -1
-2
-Atom at_rock_sample(waypoint3)
-Atom have_rock_analysis(rover0, waypoint3)
+8
+Atom at(person5, city0)
+Atom at(person5, city1)
+Atom at(person5, city2)
+Atom at(person5, city3)
+Atom at(person5, city4)
+Atom in(person5, plane1)
+Atom in(person5, plane2)
+Atom in(person5, plane3)
 end_variable
 begin_variable
 var5
 -1
-2
-Atom at_rock_sample(waypoint5)
-Atom have_rock_analysis(rover0, waypoint5)
+8
+Atom at(person6, city0)
+Atom at(person6, city1)
+Atom at(person6, city2)
+Atom at(person6, city3)
+Atom at(person6, city4)
+Atom in(person6, plane1)
+Atom in(person6, plane2)
+Atom in(person6, plane3)
 end_variable
 begin_variable
 var6
 -1
-2
-Atom at_soil_sample(waypoint1)
-Atom have_soil_analysis(rover1, waypoint1)
+8
+Atom at(person7, city0)
+Atom at(person7, city1)
+Atom at(person7, city2)
+Atom at(person7, city3)
+Atom at(person7, city4)
+Atom in(person7, plane1)
+Atom in(person7, plane2)
+Atom in(person7, plane3)
 end_variable
 begin_variable
 var7
 -1
-2
-Atom at_soil_sample(waypoint2)
-Atom have_soil_analysis(rover1, waypoint2)
+5
+Atom at(plane1, city0)
+Atom at(plane1, city1)
+Atom at(plane1, city2)
+Atom at(plane1, city3)
+Atom at(plane1, city4)
 end_variable
 begin_variable
 var8
 -1
-2
-Atom at_soil_sample(waypoint3)
-Atom have_soil_analysis(rover1, waypoint3)
+5
+Atom at(plane2, city0)
+Atom at(plane2, city1)
+Atom at(plane2, city2)
+Atom at(plane2, city3)
+Atom at(plane2, city4)
 end_variable
 begin_variable
 var9
 -1
-2
-Atom at_soil_sample(waypoint4)
-Atom have_soil_analysis(rover1, waypoint4)
+5
+Atom at(plane3, city0)
+Atom at(plane3, city1)
+Atom at(plane3, city2)
+Atom at(plane3, city3)
+Atom at(plane3, city4)
 end_variable
 begin_variable
 var10
 -1
-2
-Atom at_soil_sample(waypoint5)
-Atom have_soil_analysis(rover1, waypoint5)
+7
+Atom fuel-level(plane1, fl0)
+Atom fuel-level(plane1, fl1)
+Atom fuel-level(plane1, fl2)
+Atom fuel-level(plane1, fl3)
+Atom fuel-level(plane1, fl4)
+Atom fuel-level(plane1, fl5)
+Atom fuel-level(plane1, fl6)
 end_variable
 begin_variable
 var11
 -1
-2
-Atom calibrated(camera0, rover0)
-<none of those>
+7
+Atom fuel-level(plane2, fl0)
+Atom fuel-level(plane2, fl1)
+Atom fuel-level(plane2, fl2)
+Atom fuel-level(plane2, fl3)
+Atom fuel-level(plane2, fl4)
+Atom fuel-level(plane2, fl5)
+Atom fuel-level(plane2, fl6)
 end_variable
 begin_variable
 var12
 -1
-2
-Atom calibrated(camera1, rover0)
-<none of those>
-end_variable
-begin_variable
-var13
--1
-2
-Atom calibrated(camera2, rover1)
-<none of those>
-end_variable
-begin_variable
-var14
--1
-2
-Atom communicated_image_data(objective0, colour)
-<none of those>
-end_variable
-begin_variable
-var15
--1
-2
-Atom communicated_image_data(objective0, high_res)
-<none of those>
-end_variable
-begin_variable
-var16
--1
-2
-Atom communicated_image_data(objective0, low_res)
-<none of those>
-end_variable
-begin_variable
-var17
--1
-2
-Atom communicated_image_data(objective1, colour)
-<none of those>
-end_variable
-begin_variable
-var18
--1
-2
-Atom communicated_image_data(objective1, high_res)
-<none of those>
-end_variable
-begin_variable
-var19
--1
-2
-Atom communicated_image_data(objective1, low_res)
-<none of those>
-end_variable
-begin_variable
-var20
--1
-2
-Atom communicated_rock_data(waypoint0)
-<none of those>
-end_variable
-begin_variable
-var21
--1
-2
-Atom communicated_rock_data(waypoint2)
-<none of those>
-end_variable
-begin_variable
-var22
--1
-2
-Atom communicated_rock_data(waypoint3)
-<none of those>
-end_variable
-begin_variable
-var23
--1
-2
-Atom communicated_rock_data(waypoint5)
-<none of those>
-end_variable
-begin_variable
-var24
--1
-2
-Atom communicated_soil_data(waypoint1)
-<none of those>
-end_variable
-begin_variable
-var25
--1
-2
-Atom communicated_soil_data(waypoint2)
-<none of those>
-end_variable
-begin_variable
-var26
--1
-2
-Atom communicated_soil_data(waypoint3)
-<none of those>
-end_variable
-begin_variable
-var27
--1
-2
-Atom communicated_soil_data(waypoint4)
-<none of those>
-end_variable
-begin_variable
-var28
--1
-2
-Atom communicated_soil_data(waypoint5)
-<none of those>
-end_variable
-begin_variable
-var29
--1
-2
-Atom empty(rover0store)
-Atom full(rover0store)
-end_variable
-begin_variable
-var30
--1
-2
-Atom empty(rover1store)
-Atom full(rover1store)
-end_variable
-begin_variable
-var31
--1
-2
-Atom have_image(rover0, objective0, colour)
-<none of those>
-end_variable
-begin_variable
-var32
--1
-2
-Atom have_image(rover0, objective0, low_res)
-<none of those>
-end_variable
-begin_variable
-var33
--1
-2
-Atom have_image(rover0, objective1, colour)
-<none of those>
-end_variable
-begin_variable
-var34
--1
-2
-Atom have_image(rover0, objective1, low_res)
-<none of those>
-end_variable
-begin_variable
-var35
--1
-2
-Atom have_image(rover1, objective0, colour)
-<none of those>
-end_variable
-begin_variable
-var36
--1
-2
-Atom have_image(rover1, objective0, high_res)
-<none of those>
-end_variable
-begin_variable
-var37
--1
-2
-Atom have_image(rover1, objective1, colour)
-<none of those>
-end_variable
-begin_variable
-var38
--1
-2
-Atom have_image(rover1, objective1, high_res)
-<none of those>
+7
+Atom fuel-level(plane3, fl0)
+Atom fuel-level(plane3, fl1)
+Atom fuel-level(plane3, fl2)
+Atom fuel-level(plane3, fl3)
+Atom fuel-level(plane3, fl4)
+Atom fuel-level(plane3, fl5)
+Atom fuel-level(plane3, fl6)
 end_variable
 13
 begin_mutex_group
-6
+8
 0 0
 0 1
 0 2
 0 3
 0 4
 0 5
+0 6
+0 7
 end_mutex_group
 begin_mutex_group
-6
+8
 1 0
 1 1
 1 2
 1 3
 1 4
 1 5
+1 6
+1 7
 end_mutex_group
 begin_mutex_group
-2
+8
 2 0
 2 1
+2 2
+2 3
+2 4
+2 5
+2 6
+2 7
 end_mutex_group
 begin_mutex_group
-2
+8
 3 0
 3 1
+3 2
+3 3
+3 4
+3 5
+3 6
+3 7
 end_mutex_group
 begin_mutex_group
-2
+8
 4 0
 4 1
+4 2
+4 3
+4 4
+4 5
+4 6
+4 7
 end_mutex_group
 begin_mutex_group
-2
+8
 5 0
 5 1
+5 2
+5 3
+5 4
+5 5
+5 6
+5 7
 end_mutex_group
 begin_mutex_group
-2
+8
 6 0
 6 1
+6 2
+6 3
+6 4
+6 5
+6 6
+6 7
 end_mutex_group
 begin_mutex_group
-2
+5
 7 0
 7 1
+7 2
+7 3
+7 4
 end_mutex_group
 begin_mutex_group
-2
+5
 8 0
 8 1
+8 2
+8 3
+8 4
 end_mutex_group
 begin_mutex_group
-2
+5
 9 0
 9 1
+9 2
+9 3
+9 4
 end_mutex_group
 begin_mutex_group
-2
+7
 10 0
 10 1
+10 2
+10 3
+10 4
+10 5
+10 6
 end_mutex_group
 begin_mutex_group
-2
-29 0
-29 1
+7
+11 0
+11 1
+11 2
+11 3
+11 4
+11 5
+11 6
 end_mutex_group
 begin_mutex_group
-2
-30 0
-30 1
+7
+12 0
+12 1
+12 2
+12 3
+12 4
+12 5
+12 6
 end_mutex_group
 begin_state
-1
 4
+1
+2
 0
+4
+3
+3
+2
+2
+1
+5
+2
 0
-0
-0
-0
-0
-0
-0
-0
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-0
-0
-1
-1
-1
-1
-1
-1
-1
-1
 end_state
 begin_goal
-10
-14 0
-16 0
-19 0
-20 0
-21 0
-22 0
-24 0
-25 0
-27 0
-28 0
+7
+0 2
+1 0
+2 4
+3 3
+4 1
+5 4
+6 4
 end_goal
-178
+1125
 begin_operator
-calibrate rover0 camera0 objective0 waypoint0
+board person1 plane1 city0
 1
-0 0
-1
-0 11 -1 0
-0
-end_operator
-begin_operator
-calibrate rover0 camera0 objective0 waypoint1
-1
-0 1
-1
-0 11 -1 0
-0
-end_operator
-begin_operator
-calibrate rover0 camera0 objective0 waypoint2
-1
-0 2
-1
-0 11 -1 0
-0
-end_operator
-begin_operator
-calibrate rover0 camera0 objective0 waypoint3
-1
-0 3
-1
-0 11 -1 0
-0
-end_operator
-begin_operator
-calibrate rover0 camera0 objective0 waypoint4
-1
-0 4
-1
-0 11 -1 0
-0
-end_operator
-begin_operator
-calibrate rover0 camera0 objective0 waypoint5
-1
-0 5
-1
-0 11 -1 0
-0
-end_operator
-begin_operator
-calibrate rover0 camera1 objective1 waypoint0
-1
-0 0
-1
-0 12 -1 0
-0
-end_operator
-begin_operator
-calibrate rover0 camera1 objective1 waypoint1
-1
-0 1
-1
-0 12 -1 0
-0
-end_operator
-begin_operator
-calibrate rover1 camera2 objective0 waypoint0
-1
-1 0
-1
-0 13 -1 0
-0
-end_operator
-begin_operator
-calibrate rover1 camera2 objective0 waypoint1
-1
-1 1
-1
-0 13 -1 0
-0
-end_operator
-begin_operator
-calibrate rover1 camera2 objective0 waypoint2
-1
-1 2
-1
-0 13 -1 0
-0
-end_operator
-begin_operator
-calibrate rover1 camera2 objective0 waypoint3
-1
-1 3
-1
-0 13 -1 0
-0
-end_operator
-begin_operator
-calibrate rover1 camera2 objective0 waypoint4
-1
-1 4
-1
-0 13 -1 0
-0
-end_operator
-begin_operator
-calibrate rover1 camera2 objective0 waypoint5
-1
-1 5
-1
-0 13 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover0 general objective0 colour waypoint0 waypoint3
-2
-0 0
-31 0
-1
-0 14 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover0 general objective0 colour waypoint1 waypoint3
-2
-0 1
-31 0
-1
-0 14 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover0 general objective0 colour waypoint2 waypoint3
-2
-0 2
-31 0
-1
-0 14 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover0 general objective0 colour waypoint4 waypoint3
-2
-0 4
-31 0
-1
-0 14 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover0 general objective0 colour waypoint5 waypoint3
-2
-0 5
-31 0
-1
-0 14 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover0 general objective0 low_res waypoint0 waypoint3
-2
-0 0
-32 0
-1
-0 16 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover0 general objective0 low_res waypoint1 waypoint3
-2
-0 1
-32 0
-1
-0 16 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover0 general objective0 low_res waypoint2 waypoint3
-2
-0 2
-32 0
-1
-0 16 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover0 general objective0 low_res waypoint4 waypoint3
-2
-0 4
-32 0
-1
-0 16 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover0 general objective0 low_res waypoint5 waypoint3
-2
-0 5
-32 0
-1
-0 16 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover0 general objective1 colour waypoint0 waypoint3
-2
-0 0
-33 0
-1
-0 17 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover0 general objective1 colour waypoint1 waypoint3
-2
-0 1
-33 0
-1
-0 17 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover0 general objective1 colour waypoint2 waypoint3
-2
-0 2
-33 0
-1
-0 17 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover0 general objective1 colour waypoint4 waypoint3
-2
-0 4
-33 0
-1
-0 17 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover0 general objective1 colour waypoint5 waypoint3
-2
-0 5
-33 0
-1
-0 17 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover0 general objective1 low_res waypoint0 waypoint3
-2
-0 0
-34 0
-1
-0 19 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover0 general objective1 low_res waypoint1 waypoint3
-2
-0 1
-34 0
-1
-0 19 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover0 general objective1 low_res waypoint2 waypoint3
-2
-0 2
-34 0
-1
-0 19 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover0 general objective1 low_res waypoint4 waypoint3
-2
-0 4
-34 0
-1
-0 19 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover0 general objective1 low_res waypoint5 waypoint3
-2
-0 5
-34 0
-1
-0 19 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover1 general objective0 colour waypoint0 waypoint3
-2
-1 0
-35 0
-1
-0 14 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover1 general objective0 colour waypoint1 waypoint3
-2
-1 1
-35 0
-1
-0 14 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover1 general objective0 colour waypoint2 waypoint3
-2
-1 2
-35 0
-1
-0 14 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover1 general objective0 colour waypoint4 waypoint3
-2
-1 4
-35 0
-1
-0 14 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover1 general objective0 colour waypoint5 waypoint3
-2
-1 5
-35 0
-1
-0 14 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover1 general objective0 high_res waypoint0 waypoint3
-2
-1 0
-36 0
-1
-0 15 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover1 general objective0 high_res waypoint1 waypoint3
-2
-1 1
-36 0
-1
-0 15 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover1 general objective0 high_res waypoint2 waypoint3
-2
-1 2
-36 0
-1
-0 15 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover1 general objective0 high_res waypoint4 waypoint3
-2
-1 4
-36 0
-1
-0 15 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover1 general objective0 high_res waypoint5 waypoint3
-2
-1 5
-36 0
-1
-0 15 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover1 general objective1 colour waypoint0 waypoint3
-2
-1 0
-37 0
-1
-0 17 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover1 general objective1 colour waypoint1 waypoint3
-2
-1 1
-37 0
-1
-0 17 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover1 general objective1 colour waypoint2 waypoint3
-2
-1 2
-37 0
-1
-0 17 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover1 general objective1 colour waypoint4 waypoint3
-2
-1 4
-37 0
-1
-0 17 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover1 general objective1 colour waypoint5 waypoint3
-2
-1 5
-37 0
-1
-0 17 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover1 general objective1 high_res waypoint0 waypoint3
-2
-1 0
-38 0
-1
-0 18 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover1 general objective1 high_res waypoint1 waypoint3
-2
-1 1
-38 0
-1
-0 18 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover1 general objective1 high_res waypoint2 waypoint3
-2
-1 2
-38 0
-1
-0 18 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover1 general objective1 high_res waypoint4 waypoint3
-2
-1 4
-38 0
-1
-0 18 -1 0
-0
-end_operator
-begin_operator
-communicate_image_data rover1 general objective1 high_res waypoint5 waypoint3
-2
-1 5
-38 0
-1
-0 18 -1 0
-0
-end_operator
-begin_operator
-communicate_rock_data rover0 general waypoint0 waypoint0 waypoint3
-2
-0 0
-2 1
-1
-0 20 -1 0
-0
-end_operator
-begin_operator
-communicate_rock_data rover0 general waypoint0 waypoint1 waypoint3
-2
-0 1
-2 1
-1
-0 20 -1 0
-0
-end_operator
-begin_operator
-communicate_rock_data rover0 general waypoint0 waypoint2 waypoint3
-2
-0 2
-2 1
-1
-0 20 -1 0
-0
-end_operator
-begin_operator
-communicate_rock_data rover0 general waypoint0 waypoint4 waypoint3
-2
-0 4
-2 1
-1
-0 20 -1 0
-0
-end_operator
-begin_operator
-communicate_rock_data rover0 general waypoint0 waypoint5 waypoint3
-2
-0 5
-2 1
-1
-0 20 -1 0
-0
-end_operator
-begin_operator
-communicate_rock_data rover0 general waypoint2 waypoint0 waypoint3
-2
-0 0
-3 1
-1
-0 21 -1 0
-0
-end_operator
-begin_operator
-communicate_rock_data rover0 general waypoint2 waypoint1 waypoint3
-2
-0 1
-3 1
-1
-0 21 -1 0
-0
-end_operator
-begin_operator
-communicate_rock_data rover0 general waypoint2 waypoint2 waypoint3
-2
-0 2
-3 1
-1
-0 21 -1 0
-0
-end_operator
-begin_operator
-communicate_rock_data rover0 general waypoint2 waypoint4 waypoint3
-2
-0 4
-3 1
-1
-0 21 -1 0
-0
-end_operator
-begin_operator
-communicate_rock_data rover0 general waypoint2 waypoint5 waypoint3
-2
-0 5
-3 1
-1
-0 21 -1 0
-0
-end_operator
-begin_operator
-communicate_rock_data rover0 general waypoint3 waypoint0 waypoint3
-2
-0 0
-4 1
-1
-0 22 -1 0
-0
-end_operator
-begin_operator
-communicate_rock_data rover0 general waypoint3 waypoint1 waypoint3
-2
-0 1
-4 1
-1
-0 22 -1 0
-0
-end_operator
-begin_operator
-communicate_rock_data rover0 general waypoint3 waypoint2 waypoint3
-2
-0 2
-4 1
-1
-0 22 -1 0
-0
-end_operator
-begin_operator
-communicate_rock_data rover0 general waypoint3 waypoint4 waypoint3
-2
-0 4
-4 1
-1
-0 22 -1 0
-0
-end_operator
-begin_operator
-communicate_rock_data rover0 general waypoint3 waypoint5 waypoint3
-2
-0 5
-4 1
-1
-0 22 -1 0
-0
-end_operator
-begin_operator
-communicate_rock_data rover0 general waypoint5 waypoint0 waypoint3
-2
-0 0
-5 1
-1
-0 23 -1 0
-0
-end_operator
-begin_operator
-communicate_rock_data rover0 general waypoint5 waypoint1 waypoint3
-2
-0 1
-5 1
-1
-0 23 -1 0
-0
-end_operator
-begin_operator
-communicate_rock_data rover0 general waypoint5 waypoint2 waypoint3
-2
-0 2
-5 1
-1
-0 23 -1 0
-0
-end_operator
-begin_operator
-communicate_rock_data rover0 general waypoint5 waypoint4 waypoint3
-2
-0 4
-5 1
-1
-0 23 -1 0
-0
-end_operator
-begin_operator
-communicate_rock_data rover0 general waypoint5 waypoint5 waypoint3
-2
-0 5
-5 1
-1
-0 23 -1 0
-0
-end_operator
-begin_operator
-communicate_soil_data rover1 general waypoint1 waypoint0 waypoint3
-2
-1 0
-6 1
-1
-0 24 -1 0
-0
-end_operator
-begin_operator
-communicate_soil_data rover1 general waypoint1 waypoint1 waypoint3
-2
-1 1
-6 1
-1
-0 24 -1 0
-0
-end_operator
-begin_operator
-communicate_soil_data rover1 general waypoint1 waypoint2 waypoint3
-2
-1 2
-6 1
-1
-0 24 -1 0
-0
-end_operator
-begin_operator
-communicate_soil_data rover1 general waypoint1 waypoint4 waypoint3
-2
-1 4
-6 1
-1
-0 24 -1 0
-0
-end_operator
-begin_operator
-communicate_soil_data rover1 general waypoint1 waypoint5 waypoint3
-2
-1 5
-6 1
-1
-0 24 -1 0
-0
-end_operator
-begin_operator
-communicate_soil_data rover1 general waypoint2 waypoint0 waypoint3
-2
-1 0
-7 1
-1
-0 25 -1 0
-0
-end_operator
-begin_operator
-communicate_soil_data rover1 general waypoint2 waypoint1 waypoint3
-2
-1 1
-7 1
-1
-0 25 -1 0
-0
-end_operator
-begin_operator
-communicate_soil_data rover1 general waypoint2 waypoint2 waypoint3
-2
-1 2
-7 1
-1
-0 25 -1 0
-0
-end_operator
-begin_operator
-communicate_soil_data rover1 general waypoint2 waypoint4 waypoint3
-2
-1 4
-7 1
-1
-0 25 -1 0
-0
-end_operator
-begin_operator
-communicate_soil_data rover1 general waypoint2 waypoint5 waypoint3
-2
-1 5
-7 1
-1
-0 25 -1 0
-0
-end_operator
-begin_operator
-communicate_soil_data rover1 general waypoint3 waypoint0 waypoint3
-2
-1 0
-8 1
-1
-0 26 -1 0
-0
-end_operator
-begin_operator
-communicate_soil_data rover1 general waypoint3 waypoint1 waypoint3
-2
-1 1
-8 1
-1
-0 26 -1 0
-0
-end_operator
-begin_operator
-communicate_soil_data rover1 general waypoint3 waypoint2 waypoint3
-2
-1 2
-8 1
-1
-0 26 -1 0
-0
-end_operator
-begin_operator
-communicate_soil_data rover1 general waypoint3 waypoint4 waypoint3
-2
-1 4
-8 1
-1
-0 26 -1 0
-0
-end_operator
-begin_operator
-communicate_soil_data rover1 general waypoint3 waypoint5 waypoint3
-2
-1 5
-8 1
-1
-0 26 -1 0
-0
-end_operator
-begin_operator
-communicate_soil_data rover1 general waypoint4 waypoint0 waypoint3
-2
-1 0
-9 1
-1
-0 27 -1 0
-0
-end_operator
-begin_operator
-communicate_soil_data rover1 general waypoint4 waypoint1 waypoint3
-2
-1 1
-9 1
-1
-0 27 -1 0
-0
-end_operator
-begin_operator
-communicate_soil_data rover1 general waypoint4 waypoint2 waypoint3
-2
-1 2
-9 1
-1
-0 27 -1 0
-0
-end_operator
-begin_operator
-communicate_soil_data rover1 general waypoint4 waypoint4 waypoint3
-2
-1 4
-9 1
-1
-0 27 -1 0
-0
-end_operator
-begin_operator
-communicate_soil_data rover1 general waypoint4 waypoint5 waypoint3
-2
-1 5
-9 1
-1
-0 27 -1 0
-0
-end_operator
-begin_operator
-communicate_soil_data rover1 general waypoint5 waypoint0 waypoint3
-2
-1 0
-10 1
-1
-0 28 -1 0
-0
-end_operator
-begin_operator
-communicate_soil_data rover1 general waypoint5 waypoint1 waypoint3
-2
-1 1
-10 1
-1
-0 28 -1 0
-0
-end_operator
-begin_operator
-communicate_soil_data rover1 general waypoint5 waypoint2 waypoint3
-2
-1 2
-10 1
-1
-0 28 -1 0
-0
-end_operator
-begin_operator
-communicate_soil_data rover1 general waypoint5 waypoint4 waypoint3
-2
-1 4
-10 1
-1
-0 28 -1 0
-0
-end_operator
-begin_operator
-communicate_soil_data rover1 general waypoint5 waypoint5 waypoint3
-2
-1 5
-10 1
-1
-0 28 -1 0
-0
-end_operator
-begin_operator
-drop rover0 rover0store
-0
-1
-0 29 1 0
-0
-end_operator
-begin_operator
-drop rover1 rover1store
-0
-1
-0 30 1 0
-0
-end_operator
-begin_operator
-navigate rover0 waypoint0 waypoint1
-0
-1
-0 0 0 1
-0
-end_operator
-begin_operator
-navigate rover0 waypoint0 waypoint2
-0
-1
-0 0 0 2
-0
-end_operator
-begin_operator
-navigate rover0 waypoint0 waypoint3
-0
-1
-0 0 0 3
-0
-end_operator
-begin_operator
-navigate rover0 waypoint0 waypoint5
-0
+7 0
 1
 0 0 0 5
 0
 end_operator
 begin_operator
-navigate rover0 waypoint1 waypoint0
-0
+board person1 plane1 city1
 1
-0 0 1 0
+7 1
+1
+0 0 1 5
 0
 end_operator
 begin_operator
-navigate rover0 waypoint1 waypoint4
-0
+board person1 plane1 city2
 1
-0 0 1 4
+7 2
+1
+0 0 2 5
 0
 end_operator
 begin_operator
-navigate rover0 waypoint2 waypoint0
-0
+board person1 plane1 city3
 1
-0 0 2 0
+7 3
+1
+0 0 3 5
 0
 end_operator
 begin_operator
-navigate rover0 waypoint3 waypoint0
-0
+board person1 plane1 city4
 1
-0 0 3 0
+7 4
+1
+0 0 4 5
 0
 end_operator
 begin_operator
-navigate rover0 waypoint4 waypoint1
-0
+board person1 plane2 city0
 1
-0 0 4 1
+8 0
+1
+0 0 0 6
 0
 end_operator
 begin_operator
-navigate rover0 waypoint5 waypoint0
-0
+board person1 plane2 city1
 1
-0 0 5 0
+8 1
+1
+0 0 1 6
 0
 end_operator
 begin_operator
-navigate rover1 waypoint0 waypoint1
-0
+board person1 plane2 city2
 1
-0 1 0 1
+8 2
+1
+0 0 2 6
 0
 end_operator
 begin_operator
-navigate rover1 waypoint1 waypoint0
-0
+board person1 plane2 city3
 1
-0 1 1 0
+8 3
+1
+0 0 3 6
 0
 end_operator
 begin_operator
-navigate rover1 waypoint1 waypoint4
-0
+board person1 plane2 city4
 1
-0 1 1 4
+8 4
+1
+0 0 4 6
 0
 end_operator
 begin_operator
-navigate rover1 waypoint2 waypoint5
+board person1 plane3 city0
+1
+9 0
+1
+0 0 0 7
 0
+end_operator
+begin_operator
+board person1 plane3 city1
+1
+9 1
+1
+0 0 1 7
+0
+end_operator
+begin_operator
+board person1 plane3 city2
+1
+9 2
+1
+0 0 2 7
+0
+end_operator
+begin_operator
+board person1 plane3 city3
+1
+9 3
+1
+0 0 3 7
+0
+end_operator
+begin_operator
+board person1 plane3 city4
+1
+9 4
+1
+0 0 4 7
+0
+end_operator
+begin_operator
+board person2 plane1 city0
+1
+7 0
+1
+0 1 0 5
+0
+end_operator
+begin_operator
+board person2 plane1 city1
+1
+7 1
+1
+0 1 1 5
+0
+end_operator
+begin_operator
+board person2 plane1 city2
+1
+7 2
 1
 0 1 2 5
 0
 end_operator
 begin_operator
-navigate rover1 waypoint3 waypoint4
-0
+board person2 plane1 city3
 1
-0 1 3 4
+7 3
+1
+0 1 3 5
 0
 end_operator
 begin_operator
-navigate rover1 waypoint4 waypoint1
-0
+board person2 plane1 city4
 1
-0 1 4 1
-0
-end_operator
-begin_operator
-navigate rover1 waypoint4 waypoint3
-0
-1
-0 1 4 3
-0
-end_operator
-begin_operator
-navigate rover1 waypoint4 waypoint5
-0
+7 4
 1
 0 1 4 5
 0
 end_operator
 begin_operator
-navigate rover1 waypoint5 waypoint2
+board person2 plane2 city0
+1
+8 0
+1
+0 1 0 6
 0
+end_operator
+begin_operator
+board person2 plane2 city1
+1
+8 1
+1
+0 1 1 6
+0
+end_operator
+begin_operator
+board person2 plane2 city2
+1
+8 2
+1
+0 1 2 6
+0
+end_operator
+begin_operator
+board person2 plane2 city3
+1
+8 3
+1
+0 1 3 6
+0
+end_operator
+begin_operator
+board person2 plane2 city4
+1
+8 4
+1
+0 1 4 6
+0
+end_operator
+begin_operator
+board person2 plane3 city0
+1
+9 0
+1
+0 1 0 7
+0
+end_operator
+begin_operator
+board person2 plane3 city1
+1
+9 1
+1
+0 1 1 7
+0
+end_operator
+begin_operator
+board person2 plane3 city2
+1
+9 2
+1
+0 1 2 7
+0
+end_operator
+begin_operator
+board person2 plane3 city3
+1
+9 3
+1
+0 1 3 7
+0
+end_operator
+begin_operator
+board person2 plane3 city4
+1
+9 4
+1
+0 1 4 7
+0
+end_operator
+begin_operator
+board person3 plane1 city0
+1
+7 0
+1
+0 2 0 5
+0
+end_operator
+begin_operator
+board person3 plane1 city1
+1
+7 1
+1
+0 2 1 5
+0
+end_operator
+begin_operator
+board person3 plane1 city2
+1
+7 2
+1
+0 2 2 5
+0
+end_operator
+begin_operator
+board person3 plane1 city3
+1
+7 3
+1
+0 2 3 5
+0
+end_operator
+begin_operator
+board person3 plane1 city4
+1
+7 4
+1
+0 2 4 5
+0
+end_operator
+begin_operator
+board person3 plane2 city0
+1
+8 0
+1
+0 2 0 6
+0
+end_operator
+begin_operator
+board person3 plane2 city1
+1
+8 1
+1
+0 2 1 6
+0
+end_operator
+begin_operator
+board person3 plane2 city2
+1
+8 2
+1
+0 2 2 6
+0
+end_operator
+begin_operator
+board person3 plane2 city3
+1
+8 3
+1
+0 2 3 6
+0
+end_operator
+begin_operator
+board person3 plane2 city4
+1
+8 4
+1
+0 2 4 6
+0
+end_operator
+begin_operator
+board person3 plane3 city0
+1
+9 0
+1
+0 2 0 7
+0
+end_operator
+begin_operator
+board person3 plane3 city1
+1
+9 1
+1
+0 2 1 7
+0
+end_operator
+begin_operator
+board person3 plane3 city2
+1
+9 2
+1
+0 2 2 7
+0
+end_operator
+begin_operator
+board person3 plane3 city3
+1
+9 3
+1
+0 2 3 7
+0
+end_operator
+begin_operator
+board person3 plane3 city4
+1
+9 4
+1
+0 2 4 7
+0
+end_operator
+begin_operator
+board person4 plane1 city0
+1
+7 0
+1
+0 3 0 5
+0
+end_operator
+begin_operator
+board person4 plane1 city1
+1
+7 1
+1
+0 3 1 5
+0
+end_operator
+begin_operator
+board person4 plane1 city2
+1
+7 2
+1
+0 3 2 5
+0
+end_operator
+begin_operator
+board person4 plane1 city3
+1
+7 3
+1
+0 3 3 5
+0
+end_operator
+begin_operator
+board person4 plane1 city4
+1
+7 4
+1
+0 3 4 5
+0
+end_operator
+begin_operator
+board person4 plane2 city0
+1
+8 0
+1
+0 3 0 6
+0
+end_operator
+begin_operator
+board person4 plane2 city1
+1
+8 1
+1
+0 3 1 6
+0
+end_operator
+begin_operator
+board person4 plane2 city2
+1
+8 2
+1
+0 3 2 6
+0
+end_operator
+begin_operator
+board person4 plane2 city3
+1
+8 3
+1
+0 3 3 6
+0
+end_operator
+begin_operator
+board person4 plane2 city4
+1
+8 4
+1
+0 3 4 6
+0
+end_operator
+begin_operator
+board person4 plane3 city0
+1
+9 0
+1
+0 3 0 7
+0
+end_operator
+begin_operator
+board person4 plane3 city1
+1
+9 1
+1
+0 3 1 7
+0
+end_operator
+begin_operator
+board person4 plane3 city2
+1
+9 2
+1
+0 3 2 7
+0
+end_operator
+begin_operator
+board person4 plane3 city3
+1
+9 3
+1
+0 3 3 7
+0
+end_operator
+begin_operator
+board person4 plane3 city4
+1
+9 4
+1
+0 3 4 7
+0
+end_operator
+begin_operator
+board person5 plane1 city0
+1
+7 0
+1
+0 4 0 5
+0
+end_operator
+begin_operator
+board person5 plane1 city1
+1
+7 1
+1
+0 4 1 5
+0
+end_operator
+begin_operator
+board person5 plane1 city2
+1
+7 2
+1
+0 4 2 5
+0
+end_operator
+begin_operator
+board person5 plane1 city3
+1
+7 3
+1
+0 4 3 5
+0
+end_operator
+begin_operator
+board person5 plane1 city4
+1
+7 4
+1
+0 4 4 5
+0
+end_operator
+begin_operator
+board person5 plane2 city0
+1
+8 0
+1
+0 4 0 6
+0
+end_operator
+begin_operator
+board person5 plane2 city1
+1
+8 1
+1
+0 4 1 6
+0
+end_operator
+begin_operator
+board person5 plane2 city2
+1
+8 2
+1
+0 4 2 6
+0
+end_operator
+begin_operator
+board person5 plane2 city3
+1
+8 3
+1
+0 4 3 6
+0
+end_operator
+begin_operator
+board person5 plane2 city4
+1
+8 4
+1
+0 4 4 6
+0
+end_operator
+begin_operator
+board person5 plane3 city0
+1
+9 0
+1
+0 4 0 7
+0
+end_operator
+begin_operator
+board person5 plane3 city1
+1
+9 1
+1
+0 4 1 7
+0
+end_operator
+begin_operator
+board person5 plane3 city2
+1
+9 2
+1
+0 4 2 7
+0
+end_operator
+begin_operator
+board person5 plane3 city3
+1
+9 3
+1
+0 4 3 7
+0
+end_operator
+begin_operator
+board person5 plane3 city4
+1
+9 4
+1
+0 4 4 7
+0
+end_operator
+begin_operator
+board person6 plane1 city0
+1
+7 0
+1
+0 5 0 5
+0
+end_operator
+begin_operator
+board person6 plane1 city1
+1
+7 1
+1
+0 5 1 5
+0
+end_operator
+begin_operator
+board person6 plane1 city2
+1
+7 2
+1
+0 5 2 5
+0
+end_operator
+begin_operator
+board person6 plane1 city3
+1
+7 3
+1
+0 5 3 5
+0
+end_operator
+begin_operator
+board person6 plane1 city4
+1
+7 4
+1
+0 5 4 5
+0
+end_operator
+begin_operator
+board person6 plane2 city0
+1
+8 0
+1
+0 5 0 6
+0
+end_operator
+begin_operator
+board person6 plane2 city1
+1
+8 1
+1
+0 5 1 6
+0
+end_operator
+begin_operator
+board person6 plane2 city2
+1
+8 2
+1
+0 5 2 6
+0
+end_operator
+begin_operator
+board person6 plane2 city3
+1
+8 3
+1
+0 5 3 6
+0
+end_operator
+begin_operator
+board person6 plane2 city4
+1
+8 4
+1
+0 5 4 6
+0
+end_operator
+begin_operator
+board person6 plane3 city0
+1
+9 0
+1
+0 5 0 7
+0
+end_operator
+begin_operator
+board person6 plane3 city1
+1
+9 1
+1
+0 5 1 7
+0
+end_operator
+begin_operator
+board person6 plane3 city2
+1
+9 2
+1
+0 5 2 7
+0
+end_operator
+begin_operator
+board person6 plane3 city3
+1
+9 3
+1
+0 5 3 7
+0
+end_operator
+begin_operator
+board person6 plane3 city4
+1
+9 4
+1
+0 5 4 7
+0
+end_operator
+begin_operator
+board person7 plane1 city0
+1
+7 0
+1
+0 6 0 5
+0
+end_operator
+begin_operator
+board person7 plane1 city1
+1
+7 1
+1
+0 6 1 5
+0
+end_operator
+begin_operator
+board person7 plane1 city2
+1
+7 2
+1
+0 6 2 5
+0
+end_operator
+begin_operator
+board person7 plane1 city3
+1
+7 3
+1
+0 6 3 5
+0
+end_operator
+begin_operator
+board person7 plane1 city4
+1
+7 4
+1
+0 6 4 5
+0
+end_operator
+begin_operator
+board person7 plane2 city0
+1
+8 0
+1
+0 6 0 6
+0
+end_operator
+begin_operator
+board person7 plane2 city1
+1
+8 1
+1
+0 6 1 6
+0
+end_operator
+begin_operator
+board person7 plane2 city2
+1
+8 2
+1
+0 6 2 6
+0
+end_operator
+begin_operator
+board person7 plane2 city3
+1
+8 3
+1
+0 6 3 6
+0
+end_operator
+begin_operator
+board person7 plane2 city4
+1
+8 4
+1
+0 6 4 6
+0
+end_operator
+begin_operator
+board person7 plane3 city0
+1
+9 0
+1
+0 6 0 7
+0
+end_operator
+begin_operator
+board person7 plane3 city1
+1
+9 1
+1
+0 6 1 7
+0
+end_operator
+begin_operator
+board person7 plane3 city2
+1
+9 2
+1
+0 6 2 7
+0
+end_operator
+begin_operator
+board person7 plane3 city3
+1
+9 3
+1
+0 6 3 7
+0
+end_operator
+begin_operator
+board person7 plane3 city4
+1
+9 4
+1
+0 6 4 7
+0
+end_operator
+begin_operator
+debark person1 plane1 city0
+1
+7 0
+1
+0 0 5 0
+0
+end_operator
+begin_operator
+debark person1 plane1 city1
+1
+7 1
+1
+0 0 5 1
+0
+end_operator
+begin_operator
+debark person1 plane1 city2
+1
+7 2
+1
+0 0 5 2
+0
+end_operator
+begin_operator
+debark person1 plane1 city3
+1
+7 3
+1
+0 0 5 3
+0
+end_operator
+begin_operator
+debark person1 plane1 city4
+1
+7 4
+1
+0 0 5 4
+0
+end_operator
+begin_operator
+debark person1 plane2 city0
+1
+8 0
+1
+0 0 6 0
+0
+end_operator
+begin_operator
+debark person1 plane2 city1
+1
+8 1
+1
+0 0 6 1
+0
+end_operator
+begin_operator
+debark person1 plane2 city2
+1
+8 2
+1
+0 0 6 2
+0
+end_operator
+begin_operator
+debark person1 plane2 city3
+1
+8 3
+1
+0 0 6 3
+0
+end_operator
+begin_operator
+debark person1 plane2 city4
+1
+8 4
+1
+0 0 6 4
+0
+end_operator
+begin_operator
+debark person1 plane3 city0
+1
+9 0
+1
+0 0 7 0
+0
+end_operator
+begin_operator
+debark person1 plane3 city1
+1
+9 1
+1
+0 0 7 1
+0
+end_operator
+begin_operator
+debark person1 plane3 city2
+1
+9 2
+1
+0 0 7 2
+0
+end_operator
+begin_operator
+debark person1 plane3 city3
+1
+9 3
+1
+0 0 7 3
+0
+end_operator
+begin_operator
+debark person1 plane3 city4
+1
+9 4
+1
+0 0 7 4
+0
+end_operator
+begin_operator
+debark person2 plane1 city0
+1
+7 0
+1
+0 1 5 0
+0
+end_operator
+begin_operator
+debark person2 plane1 city1
+1
+7 1
+1
+0 1 5 1
+0
+end_operator
+begin_operator
+debark person2 plane1 city2
+1
+7 2
 1
 0 1 5 2
 0
 end_operator
 begin_operator
-navigate rover1 waypoint5 waypoint4
+debark person2 plane1 city3
+1
+7 3
+1
+0 1 5 3
 0
+end_operator
+begin_operator
+debark person2 plane1 city4
+1
+7 4
 1
 0 1 5 4
 0
 end_operator
 begin_operator
-sample_rock rover0 rover0store waypoint0
+debark person2 plane2 city0
 1
-0 0
-2
-0 2 0 1
-0 29 0 1
+8 0
+1
+0 1 6 0
 0
 end_operator
 begin_operator
-sample_rock rover0 rover0store waypoint2
+debark person2 plane2 city1
 1
-0 2
-2
-0 3 0 1
-0 29 0 1
+8 1
+1
+0 1 6 1
 0
 end_operator
 begin_operator
-sample_rock rover0 rover0store waypoint3
+debark person2 plane2 city2
 1
-0 3
-2
-0 4 0 1
-0 29 0 1
+8 2
+1
+0 1 6 2
 0
 end_operator
 begin_operator
-sample_rock rover0 rover0store waypoint5
+debark person2 plane2 city3
 1
-0 5
-2
-0 5 0 1
-0 29 0 1
+8 3
+1
+0 1 6 3
 0
 end_operator
 begin_operator
-sample_soil rover1 rover1store waypoint1
+debark person2 plane2 city4
 1
-1 1
-2
-0 6 0 1
-0 30 0 1
+8 4
+1
+0 1 6 4
 0
 end_operator
 begin_operator
-sample_soil rover1 rover1store waypoint2
+debark person2 plane3 city0
 1
-1 2
+9 0
+1
+0 1 7 0
+0
+end_operator
+begin_operator
+debark person2 plane3 city1
+1
+9 1
+1
+0 1 7 1
+0
+end_operator
+begin_operator
+debark person2 plane3 city2
+1
+9 2
+1
+0 1 7 2
+0
+end_operator
+begin_operator
+debark person2 plane3 city3
+1
+9 3
+1
+0 1 7 3
+0
+end_operator
+begin_operator
+debark person2 plane3 city4
+1
+9 4
+1
+0 1 7 4
+0
+end_operator
+begin_operator
+debark person3 plane1 city0
+1
+7 0
+1
+0 2 5 0
+0
+end_operator
+begin_operator
+debark person3 plane1 city1
+1
+7 1
+1
+0 2 5 1
+0
+end_operator
+begin_operator
+debark person3 plane1 city2
+1
+7 2
+1
+0 2 5 2
+0
+end_operator
+begin_operator
+debark person3 plane1 city3
+1
+7 3
+1
+0 2 5 3
+0
+end_operator
+begin_operator
+debark person3 plane1 city4
+1
+7 4
+1
+0 2 5 4
+0
+end_operator
+begin_operator
+debark person3 plane2 city0
+1
+8 0
+1
+0 2 6 0
+0
+end_operator
+begin_operator
+debark person3 plane2 city1
+1
+8 1
+1
+0 2 6 1
+0
+end_operator
+begin_operator
+debark person3 plane2 city2
+1
+8 2
+1
+0 2 6 2
+0
+end_operator
+begin_operator
+debark person3 plane2 city3
+1
+8 3
+1
+0 2 6 3
+0
+end_operator
+begin_operator
+debark person3 plane2 city4
+1
+8 4
+1
+0 2 6 4
+0
+end_operator
+begin_operator
+debark person3 plane3 city0
+1
+9 0
+1
+0 2 7 0
+0
+end_operator
+begin_operator
+debark person3 plane3 city1
+1
+9 1
+1
+0 2 7 1
+0
+end_operator
+begin_operator
+debark person3 plane3 city2
+1
+9 2
+1
+0 2 7 2
+0
+end_operator
+begin_operator
+debark person3 plane3 city3
+1
+9 3
+1
+0 2 7 3
+0
+end_operator
+begin_operator
+debark person3 plane3 city4
+1
+9 4
+1
+0 2 7 4
+0
+end_operator
+begin_operator
+debark person4 plane1 city0
+1
+7 0
+1
+0 3 5 0
+0
+end_operator
+begin_operator
+debark person4 plane1 city1
+1
+7 1
+1
+0 3 5 1
+0
+end_operator
+begin_operator
+debark person4 plane1 city2
+1
+7 2
+1
+0 3 5 2
+0
+end_operator
+begin_operator
+debark person4 plane1 city3
+1
+7 3
+1
+0 3 5 3
+0
+end_operator
+begin_operator
+debark person4 plane1 city4
+1
+7 4
+1
+0 3 5 4
+0
+end_operator
+begin_operator
+debark person4 plane2 city0
+1
+8 0
+1
+0 3 6 0
+0
+end_operator
+begin_operator
+debark person4 plane2 city1
+1
+8 1
+1
+0 3 6 1
+0
+end_operator
+begin_operator
+debark person4 plane2 city2
+1
+8 2
+1
+0 3 6 2
+0
+end_operator
+begin_operator
+debark person4 plane2 city3
+1
+8 3
+1
+0 3 6 3
+0
+end_operator
+begin_operator
+debark person4 plane2 city4
+1
+8 4
+1
+0 3 6 4
+0
+end_operator
+begin_operator
+debark person4 plane3 city0
+1
+9 0
+1
+0 3 7 0
+0
+end_operator
+begin_operator
+debark person4 plane3 city1
+1
+9 1
+1
+0 3 7 1
+0
+end_operator
+begin_operator
+debark person4 plane3 city2
+1
+9 2
+1
+0 3 7 2
+0
+end_operator
+begin_operator
+debark person4 plane3 city3
+1
+9 3
+1
+0 3 7 3
+0
+end_operator
+begin_operator
+debark person4 plane3 city4
+1
+9 4
+1
+0 3 7 4
+0
+end_operator
+begin_operator
+debark person5 plane1 city0
+1
+7 0
+1
+0 4 5 0
+0
+end_operator
+begin_operator
+debark person5 plane1 city1
+1
+7 1
+1
+0 4 5 1
+0
+end_operator
+begin_operator
+debark person5 plane1 city2
+1
+7 2
+1
+0 4 5 2
+0
+end_operator
+begin_operator
+debark person5 plane1 city3
+1
+7 3
+1
+0 4 5 3
+0
+end_operator
+begin_operator
+debark person5 plane1 city4
+1
+7 4
+1
+0 4 5 4
+0
+end_operator
+begin_operator
+debark person5 plane2 city0
+1
+8 0
+1
+0 4 6 0
+0
+end_operator
+begin_operator
+debark person5 plane2 city1
+1
+8 1
+1
+0 4 6 1
+0
+end_operator
+begin_operator
+debark person5 plane2 city2
+1
+8 2
+1
+0 4 6 2
+0
+end_operator
+begin_operator
+debark person5 plane2 city3
+1
+8 3
+1
+0 4 6 3
+0
+end_operator
+begin_operator
+debark person5 plane2 city4
+1
+8 4
+1
+0 4 6 4
+0
+end_operator
+begin_operator
+debark person5 plane3 city0
+1
+9 0
+1
+0 4 7 0
+0
+end_operator
+begin_operator
+debark person5 plane3 city1
+1
+9 1
+1
+0 4 7 1
+0
+end_operator
+begin_operator
+debark person5 plane3 city2
+1
+9 2
+1
+0 4 7 2
+0
+end_operator
+begin_operator
+debark person5 plane3 city3
+1
+9 3
+1
+0 4 7 3
+0
+end_operator
+begin_operator
+debark person5 plane3 city4
+1
+9 4
+1
+0 4 7 4
+0
+end_operator
+begin_operator
+debark person6 plane1 city0
+1
+7 0
+1
+0 5 5 0
+0
+end_operator
+begin_operator
+debark person6 plane1 city1
+1
+7 1
+1
+0 5 5 1
+0
+end_operator
+begin_operator
+debark person6 plane1 city2
+1
+7 2
+1
+0 5 5 2
+0
+end_operator
+begin_operator
+debark person6 plane1 city3
+1
+7 3
+1
+0 5 5 3
+0
+end_operator
+begin_operator
+debark person6 plane1 city4
+1
+7 4
+1
+0 5 5 4
+0
+end_operator
+begin_operator
+debark person6 plane2 city0
+1
+8 0
+1
+0 5 6 0
+0
+end_operator
+begin_operator
+debark person6 plane2 city1
+1
+8 1
+1
+0 5 6 1
+0
+end_operator
+begin_operator
+debark person6 plane2 city2
+1
+8 2
+1
+0 5 6 2
+0
+end_operator
+begin_operator
+debark person6 plane2 city3
+1
+8 3
+1
+0 5 6 3
+0
+end_operator
+begin_operator
+debark person6 plane2 city4
+1
+8 4
+1
+0 5 6 4
+0
+end_operator
+begin_operator
+debark person6 plane3 city0
+1
+9 0
+1
+0 5 7 0
+0
+end_operator
+begin_operator
+debark person6 plane3 city1
+1
+9 1
+1
+0 5 7 1
+0
+end_operator
+begin_operator
+debark person6 plane3 city2
+1
+9 2
+1
+0 5 7 2
+0
+end_operator
+begin_operator
+debark person6 plane3 city3
+1
+9 3
+1
+0 5 7 3
+0
+end_operator
+begin_operator
+debark person6 plane3 city4
+1
+9 4
+1
+0 5 7 4
+0
+end_operator
+begin_operator
+debark person7 plane1 city0
+1
+7 0
+1
+0 6 5 0
+0
+end_operator
+begin_operator
+debark person7 plane1 city1
+1
+7 1
+1
+0 6 5 1
+0
+end_operator
+begin_operator
+debark person7 plane1 city2
+1
+7 2
+1
+0 6 5 2
+0
+end_operator
+begin_operator
+debark person7 plane1 city3
+1
+7 3
+1
+0 6 5 3
+0
+end_operator
+begin_operator
+debark person7 plane1 city4
+1
+7 4
+1
+0 6 5 4
+0
+end_operator
+begin_operator
+debark person7 plane2 city0
+1
+8 0
+1
+0 6 6 0
+0
+end_operator
+begin_operator
+debark person7 plane2 city1
+1
+8 1
+1
+0 6 6 1
+0
+end_operator
+begin_operator
+debark person7 plane2 city2
+1
+8 2
+1
+0 6 6 2
+0
+end_operator
+begin_operator
+debark person7 plane2 city3
+1
+8 3
+1
+0 6 6 3
+0
+end_operator
+begin_operator
+debark person7 plane2 city4
+1
+8 4
+1
+0 6 6 4
+0
+end_operator
+begin_operator
+debark person7 plane3 city0
+1
+9 0
+1
+0 6 7 0
+0
+end_operator
+begin_operator
+debark person7 plane3 city1
+1
+9 1
+1
+0 6 7 1
+0
+end_operator
+begin_operator
+debark person7 plane3 city2
+1
+9 2
+1
+0 6 7 2
+0
+end_operator
+begin_operator
+debark person7 plane3 city3
+1
+9 3
+1
+0 6 7 3
+0
+end_operator
+begin_operator
+debark person7 plane3 city4
+1
+9 4
+1
+0 6 7 4
+0
+end_operator
+begin_operator
+fly plane1 city0 city0 fl1 fl0
+1
+7 0
+1
+0 10 1 0
+0
+end_operator
+begin_operator
+fly plane1 city0 city0 fl2 fl1
+1
+7 0
+1
+0 10 2 1
+0
+end_operator
+begin_operator
+fly plane1 city0 city0 fl3 fl2
+1
+7 0
+1
+0 10 3 2
+0
+end_operator
+begin_operator
+fly plane1 city0 city0 fl4 fl3
+1
+7 0
+1
+0 10 4 3
+0
+end_operator
+begin_operator
+fly plane1 city0 city0 fl5 fl4
+1
+7 0
+1
+0 10 5 4
+0
+end_operator
+begin_operator
+fly plane1 city0 city0 fl6 fl5
+1
+7 0
+1
+0 10 6 5
+0
+end_operator
+begin_operator
+fly plane1 city0 city1 fl1 fl0
+0
 2
 0 7 0 1
-0 30 0 1
+0 10 1 0
 0
 end_operator
 begin_operator
-sample_soil rover1 rover1store waypoint3
+fly plane1 city0 city1 fl2 fl1
+0
+2
+0 7 0 1
+0 10 2 1
+0
+end_operator
+begin_operator
+fly plane1 city0 city1 fl3 fl2
+0
+2
+0 7 0 1
+0 10 3 2
+0
+end_operator
+begin_operator
+fly plane1 city0 city1 fl4 fl3
+0
+2
+0 7 0 1
+0 10 4 3
+0
+end_operator
+begin_operator
+fly plane1 city0 city1 fl5 fl4
+0
+2
+0 7 0 1
+0 10 5 4
+0
+end_operator
+begin_operator
+fly plane1 city0 city1 fl6 fl5
+0
+2
+0 7 0 1
+0 10 6 5
+0
+end_operator
+begin_operator
+fly plane1 city0 city2 fl1 fl0
+0
+2
+0 7 0 2
+0 10 1 0
+0
+end_operator
+begin_operator
+fly plane1 city0 city2 fl2 fl1
+0
+2
+0 7 0 2
+0 10 2 1
+0
+end_operator
+begin_operator
+fly plane1 city0 city2 fl3 fl2
+0
+2
+0 7 0 2
+0 10 3 2
+0
+end_operator
+begin_operator
+fly plane1 city0 city2 fl4 fl3
+0
+2
+0 7 0 2
+0 10 4 3
+0
+end_operator
+begin_operator
+fly plane1 city0 city2 fl5 fl4
+0
+2
+0 7 0 2
+0 10 5 4
+0
+end_operator
+begin_operator
+fly plane1 city0 city2 fl6 fl5
+0
+2
+0 7 0 2
+0 10 6 5
+0
+end_operator
+begin_operator
+fly plane1 city0 city3 fl1 fl0
+0
+2
+0 7 0 3
+0 10 1 0
+0
+end_operator
+begin_operator
+fly plane1 city0 city3 fl2 fl1
+0
+2
+0 7 0 3
+0 10 2 1
+0
+end_operator
+begin_operator
+fly plane1 city0 city3 fl3 fl2
+0
+2
+0 7 0 3
+0 10 3 2
+0
+end_operator
+begin_operator
+fly plane1 city0 city3 fl4 fl3
+0
+2
+0 7 0 3
+0 10 4 3
+0
+end_operator
+begin_operator
+fly plane1 city0 city3 fl5 fl4
+0
+2
+0 7 0 3
+0 10 5 4
+0
+end_operator
+begin_operator
+fly plane1 city0 city3 fl6 fl5
+0
+2
+0 7 0 3
+0 10 6 5
+0
+end_operator
+begin_operator
+fly plane1 city0 city4 fl1 fl0
+0
+2
+0 7 0 4
+0 10 1 0
+0
+end_operator
+begin_operator
+fly plane1 city0 city4 fl2 fl1
+0
+2
+0 7 0 4
+0 10 2 1
+0
+end_operator
+begin_operator
+fly plane1 city0 city4 fl3 fl2
+0
+2
+0 7 0 4
+0 10 3 2
+0
+end_operator
+begin_operator
+fly plane1 city0 city4 fl4 fl3
+0
+2
+0 7 0 4
+0 10 4 3
+0
+end_operator
+begin_operator
+fly plane1 city0 city4 fl5 fl4
+0
+2
+0 7 0 4
+0 10 5 4
+0
+end_operator
+begin_operator
+fly plane1 city0 city4 fl6 fl5
+0
+2
+0 7 0 4
+0 10 6 5
+0
+end_operator
+begin_operator
+fly plane1 city1 city0 fl1 fl0
+0
+2
+0 7 1 0
+0 10 1 0
+0
+end_operator
+begin_operator
+fly plane1 city1 city0 fl2 fl1
+0
+2
+0 7 1 0
+0 10 2 1
+0
+end_operator
+begin_operator
+fly plane1 city1 city0 fl3 fl2
+0
+2
+0 7 1 0
+0 10 3 2
+0
+end_operator
+begin_operator
+fly plane1 city1 city0 fl4 fl3
+0
+2
+0 7 1 0
+0 10 4 3
+0
+end_operator
+begin_operator
+fly plane1 city1 city0 fl5 fl4
+0
+2
+0 7 1 0
+0 10 5 4
+0
+end_operator
+begin_operator
+fly plane1 city1 city0 fl6 fl5
+0
+2
+0 7 1 0
+0 10 6 5
+0
+end_operator
+begin_operator
+fly plane1 city1 city1 fl1 fl0
 1
-1 3
+7 1
+1
+0 10 1 0
+0
+end_operator
+begin_operator
+fly plane1 city1 city1 fl2 fl1
+1
+7 1
+1
+0 10 2 1
+0
+end_operator
+begin_operator
+fly plane1 city1 city1 fl3 fl2
+1
+7 1
+1
+0 10 3 2
+0
+end_operator
+begin_operator
+fly plane1 city1 city1 fl4 fl3
+1
+7 1
+1
+0 10 4 3
+0
+end_operator
+begin_operator
+fly plane1 city1 city1 fl5 fl4
+1
+7 1
+1
+0 10 5 4
+0
+end_operator
+begin_operator
+fly plane1 city1 city1 fl6 fl5
+1
+7 1
+1
+0 10 6 5
+0
+end_operator
+begin_operator
+fly plane1 city1 city2 fl1 fl0
+0
+2
+0 7 1 2
+0 10 1 0
+0
+end_operator
+begin_operator
+fly plane1 city1 city2 fl2 fl1
+0
+2
+0 7 1 2
+0 10 2 1
+0
+end_operator
+begin_operator
+fly plane1 city1 city2 fl3 fl2
+0
+2
+0 7 1 2
+0 10 3 2
+0
+end_operator
+begin_operator
+fly plane1 city1 city2 fl4 fl3
+0
+2
+0 7 1 2
+0 10 4 3
+0
+end_operator
+begin_operator
+fly plane1 city1 city2 fl5 fl4
+0
+2
+0 7 1 2
+0 10 5 4
+0
+end_operator
+begin_operator
+fly plane1 city1 city2 fl6 fl5
+0
+2
+0 7 1 2
+0 10 6 5
+0
+end_operator
+begin_operator
+fly plane1 city1 city3 fl1 fl0
+0
+2
+0 7 1 3
+0 10 1 0
+0
+end_operator
+begin_operator
+fly plane1 city1 city3 fl2 fl1
+0
+2
+0 7 1 3
+0 10 2 1
+0
+end_operator
+begin_operator
+fly plane1 city1 city3 fl3 fl2
+0
+2
+0 7 1 3
+0 10 3 2
+0
+end_operator
+begin_operator
+fly plane1 city1 city3 fl4 fl3
+0
+2
+0 7 1 3
+0 10 4 3
+0
+end_operator
+begin_operator
+fly plane1 city1 city3 fl5 fl4
+0
+2
+0 7 1 3
+0 10 5 4
+0
+end_operator
+begin_operator
+fly plane1 city1 city3 fl6 fl5
+0
+2
+0 7 1 3
+0 10 6 5
+0
+end_operator
+begin_operator
+fly plane1 city1 city4 fl1 fl0
+0
+2
+0 7 1 4
+0 10 1 0
+0
+end_operator
+begin_operator
+fly plane1 city1 city4 fl2 fl1
+0
+2
+0 7 1 4
+0 10 2 1
+0
+end_operator
+begin_operator
+fly plane1 city1 city4 fl3 fl2
+0
+2
+0 7 1 4
+0 10 3 2
+0
+end_operator
+begin_operator
+fly plane1 city1 city4 fl4 fl3
+0
+2
+0 7 1 4
+0 10 4 3
+0
+end_operator
+begin_operator
+fly plane1 city1 city4 fl5 fl4
+0
+2
+0 7 1 4
+0 10 5 4
+0
+end_operator
+begin_operator
+fly plane1 city1 city4 fl6 fl5
+0
+2
+0 7 1 4
+0 10 6 5
+0
+end_operator
+begin_operator
+fly plane1 city2 city0 fl1 fl0
+0
+2
+0 7 2 0
+0 10 1 0
+0
+end_operator
+begin_operator
+fly plane1 city2 city0 fl2 fl1
+0
+2
+0 7 2 0
+0 10 2 1
+0
+end_operator
+begin_operator
+fly plane1 city2 city0 fl3 fl2
+0
+2
+0 7 2 0
+0 10 3 2
+0
+end_operator
+begin_operator
+fly plane1 city2 city0 fl4 fl3
+0
+2
+0 7 2 0
+0 10 4 3
+0
+end_operator
+begin_operator
+fly plane1 city2 city0 fl5 fl4
+0
+2
+0 7 2 0
+0 10 5 4
+0
+end_operator
+begin_operator
+fly plane1 city2 city0 fl6 fl5
+0
+2
+0 7 2 0
+0 10 6 5
+0
+end_operator
+begin_operator
+fly plane1 city2 city1 fl1 fl0
+0
+2
+0 7 2 1
+0 10 1 0
+0
+end_operator
+begin_operator
+fly plane1 city2 city1 fl2 fl1
+0
+2
+0 7 2 1
+0 10 2 1
+0
+end_operator
+begin_operator
+fly plane1 city2 city1 fl3 fl2
+0
+2
+0 7 2 1
+0 10 3 2
+0
+end_operator
+begin_operator
+fly plane1 city2 city1 fl4 fl3
+0
+2
+0 7 2 1
+0 10 4 3
+0
+end_operator
+begin_operator
+fly plane1 city2 city1 fl5 fl4
+0
+2
+0 7 2 1
+0 10 5 4
+0
+end_operator
+begin_operator
+fly plane1 city2 city1 fl6 fl5
+0
+2
+0 7 2 1
+0 10 6 5
+0
+end_operator
+begin_operator
+fly plane1 city2 city2 fl1 fl0
+1
+7 2
+1
+0 10 1 0
+0
+end_operator
+begin_operator
+fly plane1 city2 city2 fl2 fl1
+1
+7 2
+1
+0 10 2 1
+0
+end_operator
+begin_operator
+fly plane1 city2 city2 fl3 fl2
+1
+7 2
+1
+0 10 3 2
+0
+end_operator
+begin_operator
+fly plane1 city2 city2 fl4 fl3
+1
+7 2
+1
+0 10 4 3
+0
+end_operator
+begin_operator
+fly plane1 city2 city2 fl5 fl4
+1
+7 2
+1
+0 10 5 4
+0
+end_operator
+begin_operator
+fly plane1 city2 city2 fl6 fl5
+1
+7 2
+1
+0 10 6 5
+0
+end_operator
+begin_operator
+fly plane1 city2 city3 fl1 fl0
+0
+2
+0 7 2 3
+0 10 1 0
+0
+end_operator
+begin_operator
+fly plane1 city2 city3 fl2 fl1
+0
+2
+0 7 2 3
+0 10 2 1
+0
+end_operator
+begin_operator
+fly plane1 city2 city3 fl3 fl2
+0
+2
+0 7 2 3
+0 10 3 2
+0
+end_operator
+begin_operator
+fly plane1 city2 city3 fl4 fl3
+0
+2
+0 7 2 3
+0 10 4 3
+0
+end_operator
+begin_operator
+fly plane1 city2 city3 fl5 fl4
+0
+2
+0 7 2 3
+0 10 5 4
+0
+end_operator
+begin_operator
+fly plane1 city2 city3 fl6 fl5
+0
+2
+0 7 2 3
+0 10 6 5
+0
+end_operator
+begin_operator
+fly plane1 city2 city4 fl1 fl0
+0
+2
+0 7 2 4
+0 10 1 0
+0
+end_operator
+begin_operator
+fly plane1 city2 city4 fl2 fl1
+0
+2
+0 7 2 4
+0 10 2 1
+0
+end_operator
+begin_operator
+fly plane1 city2 city4 fl3 fl2
+0
+2
+0 7 2 4
+0 10 3 2
+0
+end_operator
+begin_operator
+fly plane1 city2 city4 fl4 fl3
+0
+2
+0 7 2 4
+0 10 4 3
+0
+end_operator
+begin_operator
+fly plane1 city2 city4 fl5 fl4
+0
+2
+0 7 2 4
+0 10 5 4
+0
+end_operator
+begin_operator
+fly plane1 city2 city4 fl6 fl5
+0
+2
+0 7 2 4
+0 10 6 5
+0
+end_operator
+begin_operator
+fly plane1 city3 city0 fl1 fl0
+0
+2
+0 7 3 0
+0 10 1 0
+0
+end_operator
+begin_operator
+fly plane1 city3 city0 fl2 fl1
+0
+2
+0 7 3 0
+0 10 2 1
+0
+end_operator
+begin_operator
+fly plane1 city3 city0 fl3 fl2
+0
+2
+0 7 3 0
+0 10 3 2
+0
+end_operator
+begin_operator
+fly plane1 city3 city0 fl4 fl3
+0
+2
+0 7 3 0
+0 10 4 3
+0
+end_operator
+begin_operator
+fly plane1 city3 city0 fl5 fl4
+0
+2
+0 7 3 0
+0 10 5 4
+0
+end_operator
+begin_operator
+fly plane1 city3 city0 fl6 fl5
+0
+2
+0 7 3 0
+0 10 6 5
+0
+end_operator
+begin_operator
+fly plane1 city3 city1 fl1 fl0
+0
+2
+0 7 3 1
+0 10 1 0
+0
+end_operator
+begin_operator
+fly plane1 city3 city1 fl2 fl1
+0
+2
+0 7 3 1
+0 10 2 1
+0
+end_operator
+begin_operator
+fly plane1 city3 city1 fl3 fl2
+0
+2
+0 7 3 1
+0 10 3 2
+0
+end_operator
+begin_operator
+fly plane1 city3 city1 fl4 fl3
+0
+2
+0 7 3 1
+0 10 4 3
+0
+end_operator
+begin_operator
+fly plane1 city3 city1 fl5 fl4
+0
+2
+0 7 3 1
+0 10 5 4
+0
+end_operator
+begin_operator
+fly plane1 city3 city1 fl6 fl5
+0
+2
+0 7 3 1
+0 10 6 5
+0
+end_operator
+begin_operator
+fly plane1 city3 city2 fl1 fl0
+0
+2
+0 7 3 2
+0 10 1 0
+0
+end_operator
+begin_operator
+fly plane1 city3 city2 fl2 fl1
+0
+2
+0 7 3 2
+0 10 2 1
+0
+end_operator
+begin_operator
+fly plane1 city3 city2 fl3 fl2
+0
+2
+0 7 3 2
+0 10 3 2
+0
+end_operator
+begin_operator
+fly plane1 city3 city2 fl4 fl3
+0
+2
+0 7 3 2
+0 10 4 3
+0
+end_operator
+begin_operator
+fly plane1 city3 city2 fl5 fl4
+0
+2
+0 7 3 2
+0 10 5 4
+0
+end_operator
+begin_operator
+fly plane1 city3 city2 fl6 fl5
+0
+2
+0 7 3 2
+0 10 6 5
+0
+end_operator
+begin_operator
+fly plane1 city3 city3 fl1 fl0
+1
+7 3
+1
+0 10 1 0
+0
+end_operator
+begin_operator
+fly plane1 city3 city3 fl2 fl1
+1
+7 3
+1
+0 10 2 1
+0
+end_operator
+begin_operator
+fly plane1 city3 city3 fl3 fl2
+1
+7 3
+1
+0 10 3 2
+0
+end_operator
+begin_operator
+fly plane1 city3 city3 fl4 fl3
+1
+7 3
+1
+0 10 4 3
+0
+end_operator
+begin_operator
+fly plane1 city3 city3 fl5 fl4
+1
+7 3
+1
+0 10 5 4
+0
+end_operator
+begin_operator
+fly plane1 city3 city3 fl6 fl5
+1
+7 3
+1
+0 10 6 5
+0
+end_operator
+begin_operator
+fly plane1 city3 city4 fl1 fl0
+0
+2
+0 7 3 4
+0 10 1 0
+0
+end_operator
+begin_operator
+fly plane1 city3 city4 fl2 fl1
+0
+2
+0 7 3 4
+0 10 2 1
+0
+end_operator
+begin_operator
+fly plane1 city3 city4 fl3 fl2
+0
+2
+0 7 3 4
+0 10 3 2
+0
+end_operator
+begin_operator
+fly plane1 city3 city4 fl4 fl3
+0
+2
+0 7 3 4
+0 10 4 3
+0
+end_operator
+begin_operator
+fly plane1 city3 city4 fl5 fl4
+0
+2
+0 7 3 4
+0 10 5 4
+0
+end_operator
+begin_operator
+fly plane1 city3 city4 fl6 fl5
+0
+2
+0 7 3 4
+0 10 6 5
+0
+end_operator
+begin_operator
+fly plane1 city4 city0 fl1 fl0
+0
+2
+0 7 4 0
+0 10 1 0
+0
+end_operator
+begin_operator
+fly plane1 city4 city0 fl2 fl1
+0
+2
+0 7 4 0
+0 10 2 1
+0
+end_operator
+begin_operator
+fly plane1 city4 city0 fl3 fl2
+0
+2
+0 7 4 0
+0 10 3 2
+0
+end_operator
+begin_operator
+fly plane1 city4 city0 fl4 fl3
+0
+2
+0 7 4 0
+0 10 4 3
+0
+end_operator
+begin_operator
+fly plane1 city4 city0 fl5 fl4
+0
+2
+0 7 4 0
+0 10 5 4
+0
+end_operator
+begin_operator
+fly plane1 city4 city0 fl6 fl5
+0
+2
+0 7 4 0
+0 10 6 5
+0
+end_operator
+begin_operator
+fly plane1 city4 city1 fl1 fl0
+0
+2
+0 7 4 1
+0 10 1 0
+0
+end_operator
+begin_operator
+fly plane1 city4 city1 fl2 fl1
+0
+2
+0 7 4 1
+0 10 2 1
+0
+end_operator
+begin_operator
+fly plane1 city4 city1 fl3 fl2
+0
+2
+0 7 4 1
+0 10 3 2
+0
+end_operator
+begin_operator
+fly plane1 city4 city1 fl4 fl3
+0
+2
+0 7 4 1
+0 10 4 3
+0
+end_operator
+begin_operator
+fly plane1 city4 city1 fl5 fl4
+0
+2
+0 7 4 1
+0 10 5 4
+0
+end_operator
+begin_operator
+fly plane1 city4 city1 fl6 fl5
+0
+2
+0 7 4 1
+0 10 6 5
+0
+end_operator
+begin_operator
+fly plane1 city4 city2 fl1 fl0
+0
+2
+0 7 4 2
+0 10 1 0
+0
+end_operator
+begin_operator
+fly plane1 city4 city2 fl2 fl1
+0
+2
+0 7 4 2
+0 10 2 1
+0
+end_operator
+begin_operator
+fly plane1 city4 city2 fl3 fl2
+0
+2
+0 7 4 2
+0 10 3 2
+0
+end_operator
+begin_operator
+fly plane1 city4 city2 fl4 fl3
+0
+2
+0 7 4 2
+0 10 4 3
+0
+end_operator
+begin_operator
+fly plane1 city4 city2 fl5 fl4
+0
+2
+0 7 4 2
+0 10 5 4
+0
+end_operator
+begin_operator
+fly plane1 city4 city2 fl6 fl5
+0
+2
+0 7 4 2
+0 10 6 5
+0
+end_operator
+begin_operator
+fly plane1 city4 city3 fl1 fl0
+0
+2
+0 7 4 3
+0 10 1 0
+0
+end_operator
+begin_operator
+fly plane1 city4 city3 fl2 fl1
+0
+2
+0 7 4 3
+0 10 2 1
+0
+end_operator
+begin_operator
+fly plane1 city4 city3 fl3 fl2
+0
+2
+0 7 4 3
+0 10 3 2
+0
+end_operator
+begin_operator
+fly plane1 city4 city3 fl4 fl3
+0
+2
+0 7 4 3
+0 10 4 3
+0
+end_operator
+begin_operator
+fly plane1 city4 city3 fl5 fl4
+0
+2
+0 7 4 3
+0 10 5 4
+0
+end_operator
+begin_operator
+fly plane1 city4 city3 fl6 fl5
+0
+2
+0 7 4 3
+0 10 6 5
+0
+end_operator
+begin_operator
+fly plane1 city4 city4 fl1 fl0
+1
+7 4
+1
+0 10 1 0
+0
+end_operator
+begin_operator
+fly plane1 city4 city4 fl2 fl1
+1
+7 4
+1
+0 10 2 1
+0
+end_operator
+begin_operator
+fly plane1 city4 city4 fl3 fl2
+1
+7 4
+1
+0 10 3 2
+0
+end_operator
+begin_operator
+fly plane1 city4 city4 fl4 fl3
+1
+7 4
+1
+0 10 4 3
+0
+end_operator
+begin_operator
+fly plane1 city4 city4 fl5 fl4
+1
+7 4
+1
+0 10 5 4
+0
+end_operator
+begin_operator
+fly plane1 city4 city4 fl6 fl5
+1
+7 4
+1
+0 10 6 5
+0
+end_operator
+begin_operator
+fly plane2 city0 city0 fl1 fl0
+1
+8 0
+1
+0 11 1 0
+0
+end_operator
+begin_operator
+fly plane2 city0 city0 fl2 fl1
+1
+8 0
+1
+0 11 2 1
+0
+end_operator
+begin_operator
+fly plane2 city0 city0 fl3 fl2
+1
+8 0
+1
+0 11 3 2
+0
+end_operator
+begin_operator
+fly plane2 city0 city0 fl4 fl3
+1
+8 0
+1
+0 11 4 3
+0
+end_operator
+begin_operator
+fly plane2 city0 city0 fl5 fl4
+1
+8 0
+1
+0 11 5 4
+0
+end_operator
+begin_operator
+fly plane2 city0 city0 fl6 fl5
+1
+8 0
+1
+0 11 6 5
+0
+end_operator
+begin_operator
+fly plane2 city0 city1 fl1 fl0
+0
 2
 0 8 0 1
-0 30 0 1
+0 11 1 0
 0
 end_operator
 begin_operator
-sample_soil rover1 rover1store waypoint4
+fly plane2 city0 city1 fl2 fl1
+0
+2
+0 8 0 1
+0 11 2 1
+0
+end_operator
+begin_operator
+fly plane2 city0 city1 fl3 fl2
+0
+2
+0 8 0 1
+0 11 3 2
+0
+end_operator
+begin_operator
+fly plane2 city0 city1 fl4 fl3
+0
+2
+0 8 0 1
+0 11 4 3
+0
+end_operator
+begin_operator
+fly plane2 city0 city1 fl5 fl4
+0
+2
+0 8 0 1
+0 11 5 4
+0
+end_operator
+begin_operator
+fly plane2 city0 city1 fl6 fl5
+0
+2
+0 8 0 1
+0 11 6 5
+0
+end_operator
+begin_operator
+fly plane2 city0 city2 fl1 fl0
+0
+2
+0 8 0 2
+0 11 1 0
+0
+end_operator
+begin_operator
+fly plane2 city0 city2 fl2 fl1
+0
+2
+0 8 0 2
+0 11 2 1
+0
+end_operator
+begin_operator
+fly plane2 city0 city2 fl3 fl2
+0
+2
+0 8 0 2
+0 11 3 2
+0
+end_operator
+begin_operator
+fly plane2 city0 city2 fl4 fl3
+0
+2
+0 8 0 2
+0 11 4 3
+0
+end_operator
+begin_operator
+fly plane2 city0 city2 fl5 fl4
+0
+2
+0 8 0 2
+0 11 5 4
+0
+end_operator
+begin_operator
+fly plane2 city0 city2 fl6 fl5
+0
+2
+0 8 0 2
+0 11 6 5
+0
+end_operator
+begin_operator
+fly plane2 city0 city3 fl1 fl0
+0
+2
+0 8 0 3
+0 11 1 0
+0
+end_operator
+begin_operator
+fly plane2 city0 city3 fl2 fl1
+0
+2
+0 8 0 3
+0 11 2 1
+0
+end_operator
+begin_operator
+fly plane2 city0 city3 fl3 fl2
+0
+2
+0 8 0 3
+0 11 3 2
+0
+end_operator
+begin_operator
+fly plane2 city0 city3 fl4 fl3
+0
+2
+0 8 0 3
+0 11 4 3
+0
+end_operator
+begin_operator
+fly plane2 city0 city3 fl5 fl4
+0
+2
+0 8 0 3
+0 11 5 4
+0
+end_operator
+begin_operator
+fly plane2 city0 city3 fl6 fl5
+0
+2
+0 8 0 3
+0 11 6 5
+0
+end_operator
+begin_operator
+fly plane2 city0 city4 fl1 fl0
+0
+2
+0 8 0 4
+0 11 1 0
+0
+end_operator
+begin_operator
+fly plane2 city0 city4 fl2 fl1
+0
+2
+0 8 0 4
+0 11 2 1
+0
+end_operator
+begin_operator
+fly plane2 city0 city4 fl3 fl2
+0
+2
+0 8 0 4
+0 11 3 2
+0
+end_operator
+begin_operator
+fly plane2 city0 city4 fl4 fl3
+0
+2
+0 8 0 4
+0 11 4 3
+0
+end_operator
+begin_operator
+fly plane2 city0 city4 fl5 fl4
+0
+2
+0 8 0 4
+0 11 5 4
+0
+end_operator
+begin_operator
+fly plane2 city0 city4 fl6 fl5
+0
+2
+0 8 0 4
+0 11 6 5
+0
+end_operator
+begin_operator
+fly plane2 city1 city0 fl1 fl0
+0
+2
+0 8 1 0
+0 11 1 0
+0
+end_operator
+begin_operator
+fly plane2 city1 city0 fl2 fl1
+0
+2
+0 8 1 0
+0 11 2 1
+0
+end_operator
+begin_operator
+fly plane2 city1 city0 fl3 fl2
+0
+2
+0 8 1 0
+0 11 3 2
+0
+end_operator
+begin_operator
+fly plane2 city1 city0 fl4 fl3
+0
+2
+0 8 1 0
+0 11 4 3
+0
+end_operator
+begin_operator
+fly plane2 city1 city0 fl5 fl4
+0
+2
+0 8 1 0
+0 11 5 4
+0
+end_operator
+begin_operator
+fly plane2 city1 city0 fl6 fl5
+0
+2
+0 8 1 0
+0 11 6 5
+0
+end_operator
+begin_operator
+fly plane2 city1 city1 fl1 fl0
 1
-1 4
+8 1
+1
+0 11 1 0
+0
+end_operator
+begin_operator
+fly plane2 city1 city1 fl2 fl1
+1
+8 1
+1
+0 11 2 1
+0
+end_operator
+begin_operator
+fly plane2 city1 city1 fl3 fl2
+1
+8 1
+1
+0 11 3 2
+0
+end_operator
+begin_operator
+fly plane2 city1 city1 fl4 fl3
+1
+8 1
+1
+0 11 4 3
+0
+end_operator
+begin_operator
+fly plane2 city1 city1 fl5 fl4
+1
+8 1
+1
+0 11 5 4
+0
+end_operator
+begin_operator
+fly plane2 city1 city1 fl6 fl5
+1
+8 1
+1
+0 11 6 5
+0
+end_operator
+begin_operator
+fly plane2 city1 city2 fl1 fl0
+0
+2
+0 8 1 2
+0 11 1 0
+0
+end_operator
+begin_operator
+fly plane2 city1 city2 fl2 fl1
+0
+2
+0 8 1 2
+0 11 2 1
+0
+end_operator
+begin_operator
+fly plane2 city1 city2 fl3 fl2
+0
+2
+0 8 1 2
+0 11 3 2
+0
+end_operator
+begin_operator
+fly plane2 city1 city2 fl4 fl3
+0
+2
+0 8 1 2
+0 11 4 3
+0
+end_operator
+begin_operator
+fly plane2 city1 city2 fl5 fl4
+0
+2
+0 8 1 2
+0 11 5 4
+0
+end_operator
+begin_operator
+fly plane2 city1 city2 fl6 fl5
+0
+2
+0 8 1 2
+0 11 6 5
+0
+end_operator
+begin_operator
+fly plane2 city1 city3 fl1 fl0
+0
+2
+0 8 1 3
+0 11 1 0
+0
+end_operator
+begin_operator
+fly plane2 city1 city3 fl2 fl1
+0
+2
+0 8 1 3
+0 11 2 1
+0
+end_operator
+begin_operator
+fly plane2 city1 city3 fl3 fl2
+0
+2
+0 8 1 3
+0 11 3 2
+0
+end_operator
+begin_operator
+fly plane2 city1 city3 fl4 fl3
+0
+2
+0 8 1 3
+0 11 4 3
+0
+end_operator
+begin_operator
+fly plane2 city1 city3 fl5 fl4
+0
+2
+0 8 1 3
+0 11 5 4
+0
+end_operator
+begin_operator
+fly plane2 city1 city3 fl6 fl5
+0
+2
+0 8 1 3
+0 11 6 5
+0
+end_operator
+begin_operator
+fly plane2 city1 city4 fl1 fl0
+0
+2
+0 8 1 4
+0 11 1 0
+0
+end_operator
+begin_operator
+fly plane2 city1 city4 fl2 fl1
+0
+2
+0 8 1 4
+0 11 2 1
+0
+end_operator
+begin_operator
+fly plane2 city1 city4 fl3 fl2
+0
+2
+0 8 1 4
+0 11 3 2
+0
+end_operator
+begin_operator
+fly plane2 city1 city4 fl4 fl3
+0
+2
+0 8 1 4
+0 11 4 3
+0
+end_operator
+begin_operator
+fly plane2 city1 city4 fl5 fl4
+0
+2
+0 8 1 4
+0 11 5 4
+0
+end_operator
+begin_operator
+fly plane2 city1 city4 fl6 fl5
+0
+2
+0 8 1 4
+0 11 6 5
+0
+end_operator
+begin_operator
+fly plane2 city2 city0 fl1 fl0
+0
+2
+0 8 2 0
+0 11 1 0
+0
+end_operator
+begin_operator
+fly plane2 city2 city0 fl2 fl1
+0
+2
+0 8 2 0
+0 11 2 1
+0
+end_operator
+begin_operator
+fly plane2 city2 city0 fl3 fl2
+0
+2
+0 8 2 0
+0 11 3 2
+0
+end_operator
+begin_operator
+fly plane2 city2 city0 fl4 fl3
+0
+2
+0 8 2 0
+0 11 4 3
+0
+end_operator
+begin_operator
+fly plane2 city2 city0 fl5 fl4
+0
+2
+0 8 2 0
+0 11 5 4
+0
+end_operator
+begin_operator
+fly plane2 city2 city0 fl6 fl5
+0
+2
+0 8 2 0
+0 11 6 5
+0
+end_operator
+begin_operator
+fly plane2 city2 city1 fl1 fl0
+0
+2
+0 8 2 1
+0 11 1 0
+0
+end_operator
+begin_operator
+fly plane2 city2 city1 fl2 fl1
+0
+2
+0 8 2 1
+0 11 2 1
+0
+end_operator
+begin_operator
+fly plane2 city2 city1 fl3 fl2
+0
+2
+0 8 2 1
+0 11 3 2
+0
+end_operator
+begin_operator
+fly plane2 city2 city1 fl4 fl3
+0
+2
+0 8 2 1
+0 11 4 3
+0
+end_operator
+begin_operator
+fly plane2 city2 city1 fl5 fl4
+0
+2
+0 8 2 1
+0 11 5 4
+0
+end_operator
+begin_operator
+fly plane2 city2 city1 fl6 fl5
+0
+2
+0 8 2 1
+0 11 6 5
+0
+end_operator
+begin_operator
+fly plane2 city2 city2 fl1 fl0
+1
+8 2
+1
+0 11 1 0
+0
+end_operator
+begin_operator
+fly plane2 city2 city2 fl2 fl1
+1
+8 2
+1
+0 11 2 1
+0
+end_operator
+begin_operator
+fly plane2 city2 city2 fl3 fl2
+1
+8 2
+1
+0 11 3 2
+0
+end_operator
+begin_operator
+fly plane2 city2 city2 fl4 fl3
+1
+8 2
+1
+0 11 4 3
+0
+end_operator
+begin_operator
+fly plane2 city2 city2 fl5 fl4
+1
+8 2
+1
+0 11 5 4
+0
+end_operator
+begin_operator
+fly plane2 city2 city2 fl6 fl5
+1
+8 2
+1
+0 11 6 5
+0
+end_operator
+begin_operator
+fly plane2 city2 city3 fl1 fl0
+0
+2
+0 8 2 3
+0 11 1 0
+0
+end_operator
+begin_operator
+fly plane2 city2 city3 fl2 fl1
+0
+2
+0 8 2 3
+0 11 2 1
+0
+end_operator
+begin_operator
+fly plane2 city2 city3 fl3 fl2
+0
+2
+0 8 2 3
+0 11 3 2
+0
+end_operator
+begin_operator
+fly plane2 city2 city3 fl4 fl3
+0
+2
+0 8 2 3
+0 11 4 3
+0
+end_operator
+begin_operator
+fly plane2 city2 city3 fl5 fl4
+0
+2
+0 8 2 3
+0 11 5 4
+0
+end_operator
+begin_operator
+fly plane2 city2 city3 fl6 fl5
+0
+2
+0 8 2 3
+0 11 6 5
+0
+end_operator
+begin_operator
+fly plane2 city2 city4 fl1 fl0
+0
+2
+0 8 2 4
+0 11 1 0
+0
+end_operator
+begin_operator
+fly plane2 city2 city4 fl2 fl1
+0
+2
+0 8 2 4
+0 11 2 1
+0
+end_operator
+begin_operator
+fly plane2 city2 city4 fl3 fl2
+0
+2
+0 8 2 4
+0 11 3 2
+0
+end_operator
+begin_operator
+fly plane2 city2 city4 fl4 fl3
+0
+2
+0 8 2 4
+0 11 4 3
+0
+end_operator
+begin_operator
+fly plane2 city2 city4 fl5 fl4
+0
+2
+0 8 2 4
+0 11 5 4
+0
+end_operator
+begin_operator
+fly plane2 city2 city4 fl6 fl5
+0
+2
+0 8 2 4
+0 11 6 5
+0
+end_operator
+begin_operator
+fly plane2 city3 city0 fl1 fl0
+0
+2
+0 8 3 0
+0 11 1 0
+0
+end_operator
+begin_operator
+fly plane2 city3 city0 fl2 fl1
+0
+2
+0 8 3 0
+0 11 2 1
+0
+end_operator
+begin_operator
+fly plane2 city3 city0 fl3 fl2
+0
+2
+0 8 3 0
+0 11 3 2
+0
+end_operator
+begin_operator
+fly plane2 city3 city0 fl4 fl3
+0
+2
+0 8 3 0
+0 11 4 3
+0
+end_operator
+begin_operator
+fly plane2 city3 city0 fl5 fl4
+0
+2
+0 8 3 0
+0 11 5 4
+0
+end_operator
+begin_operator
+fly plane2 city3 city0 fl6 fl5
+0
+2
+0 8 3 0
+0 11 6 5
+0
+end_operator
+begin_operator
+fly plane2 city3 city1 fl1 fl0
+0
+2
+0 8 3 1
+0 11 1 0
+0
+end_operator
+begin_operator
+fly plane2 city3 city1 fl2 fl1
+0
+2
+0 8 3 1
+0 11 2 1
+0
+end_operator
+begin_operator
+fly plane2 city3 city1 fl3 fl2
+0
+2
+0 8 3 1
+0 11 3 2
+0
+end_operator
+begin_operator
+fly plane2 city3 city1 fl4 fl3
+0
+2
+0 8 3 1
+0 11 4 3
+0
+end_operator
+begin_operator
+fly plane2 city3 city1 fl5 fl4
+0
+2
+0 8 3 1
+0 11 5 4
+0
+end_operator
+begin_operator
+fly plane2 city3 city1 fl6 fl5
+0
+2
+0 8 3 1
+0 11 6 5
+0
+end_operator
+begin_operator
+fly plane2 city3 city2 fl1 fl0
+0
+2
+0 8 3 2
+0 11 1 0
+0
+end_operator
+begin_operator
+fly plane2 city3 city2 fl2 fl1
+0
+2
+0 8 3 2
+0 11 2 1
+0
+end_operator
+begin_operator
+fly plane2 city3 city2 fl3 fl2
+0
+2
+0 8 3 2
+0 11 3 2
+0
+end_operator
+begin_operator
+fly plane2 city3 city2 fl4 fl3
+0
+2
+0 8 3 2
+0 11 4 3
+0
+end_operator
+begin_operator
+fly plane2 city3 city2 fl5 fl4
+0
+2
+0 8 3 2
+0 11 5 4
+0
+end_operator
+begin_operator
+fly plane2 city3 city2 fl6 fl5
+0
+2
+0 8 3 2
+0 11 6 5
+0
+end_operator
+begin_operator
+fly plane2 city3 city3 fl1 fl0
+1
+8 3
+1
+0 11 1 0
+0
+end_operator
+begin_operator
+fly plane2 city3 city3 fl2 fl1
+1
+8 3
+1
+0 11 2 1
+0
+end_operator
+begin_operator
+fly plane2 city3 city3 fl3 fl2
+1
+8 3
+1
+0 11 3 2
+0
+end_operator
+begin_operator
+fly plane2 city3 city3 fl4 fl3
+1
+8 3
+1
+0 11 4 3
+0
+end_operator
+begin_operator
+fly plane2 city3 city3 fl5 fl4
+1
+8 3
+1
+0 11 5 4
+0
+end_operator
+begin_operator
+fly plane2 city3 city3 fl6 fl5
+1
+8 3
+1
+0 11 6 5
+0
+end_operator
+begin_operator
+fly plane2 city3 city4 fl1 fl0
+0
+2
+0 8 3 4
+0 11 1 0
+0
+end_operator
+begin_operator
+fly plane2 city3 city4 fl2 fl1
+0
+2
+0 8 3 4
+0 11 2 1
+0
+end_operator
+begin_operator
+fly plane2 city3 city4 fl3 fl2
+0
+2
+0 8 3 4
+0 11 3 2
+0
+end_operator
+begin_operator
+fly plane2 city3 city4 fl4 fl3
+0
+2
+0 8 3 4
+0 11 4 3
+0
+end_operator
+begin_operator
+fly plane2 city3 city4 fl5 fl4
+0
+2
+0 8 3 4
+0 11 5 4
+0
+end_operator
+begin_operator
+fly plane2 city3 city4 fl6 fl5
+0
+2
+0 8 3 4
+0 11 6 5
+0
+end_operator
+begin_operator
+fly plane2 city4 city0 fl1 fl0
+0
+2
+0 8 4 0
+0 11 1 0
+0
+end_operator
+begin_operator
+fly plane2 city4 city0 fl2 fl1
+0
+2
+0 8 4 0
+0 11 2 1
+0
+end_operator
+begin_operator
+fly plane2 city4 city0 fl3 fl2
+0
+2
+0 8 4 0
+0 11 3 2
+0
+end_operator
+begin_operator
+fly plane2 city4 city0 fl4 fl3
+0
+2
+0 8 4 0
+0 11 4 3
+0
+end_operator
+begin_operator
+fly plane2 city4 city0 fl5 fl4
+0
+2
+0 8 4 0
+0 11 5 4
+0
+end_operator
+begin_operator
+fly plane2 city4 city0 fl6 fl5
+0
+2
+0 8 4 0
+0 11 6 5
+0
+end_operator
+begin_operator
+fly plane2 city4 city1 fl1 fl0
+0
+2
+0 8 4 1
+0 11 1 0
+0
+end_operator
+begin_operator
+fly plane2 city4 city1 fl2 fl1
+0
+2
+0 8 4 1
+0 11 2 1
+0
+end_operator
+begin_operator
+fly plane2 city4 city1 fl3 fl2
+0
+2
+0 8 4 1
+0 11 3 2
+0
+end_operator
+begin_operator
+fly plane2 city4 city1 fl4 fl3
+0
+2
+0 8 4 1
+0 11 4 3
+0
+end_operator
+begin_operator
+fly plane2 city4 city1 fl5 fl4
+0
+2
+0 8 4 1
+0 11 5 4
+0
+end_operator
+begin_operator
+fly plane2 city4 city1 fl6 fl5
+0
+2
+0 8 4 1
+0 11 6 5
+0
+end_operator
+begin_operator
+fly plane2 city4 city2 fl1 fl0
+0
+2
+0 8 4 2
+0 11 1 0
+0
+end_operator
+begin_operator
+fly plane2 city4 city2 fl2 fl1
+0
+2
+0 8 4 2
+0 11 2 1
+0
+end_operator
+begin_operator
+fly plane2 city4 city2 fl3 fl2
+0
+2
+0 8 4 2
+0 11 3 2
+0
+end_operator
+begin_operator
+fly plane2 city4 city2 fl4 fl3
+0
+2
+0 8 4 2
+0 11 4 3
+0
+end_operator
+begin_operator
+fly plane2 city4 city2 fl5 fl4
+0
+2
+0 8 4 2
+0 11 5 4
+0
+end_operator
+begin_operator
+fly plane2 city4 city2 fl6 fl5
+0
+2
+0 8 4 2
+0 11 6 5
+0
+end_operator
+begin_operator
+fly plane2 city4 city3 fl1 fl0
+0
+2
+0 8 4 3
+0 11 1 0
+0
+end_operator
+begin_operator
+fly plane2 city4 city3 fl2 fl1
+0
+2
+0 8 4 3
+0 11 2 1
+0
+end_operator
+begin_operator
+fly plane2 city4 city3 fl3 fl2
+0
+2
+0 8 4 3
+0 11 3 2
+0
+end_operator
+begin_operator
+fly plane2 city4 city3 fl4 fl3
+0
+2
+0 8 4 3
+0 11 4 3
+0
+end_operator
+begin_operator
+fly plane2 city4 city3 fl5 fl4
+0
+2
+0 8 4 3
+0 11 5 4
+0
+end_operator
+begin_operator
+fly plane2 city4 city3 fl6 fl5
+0
+2
+0 8 4 3
+0 11 6 5
+0
+end_operator
+begin_operator
+fly plane2 city4 city4 fl1 fl0
+1
+8 4
+1
+0 11 1 0
+0
+end_operator
+begin_operator
+fly plane2 city4 city4 fl2 fl1
+1
+8 4
+1
+0 11 2 1
+0
+end_operator
+begin_operator
+fly plane2 city4 city4 fl3 fl2
+1
+8 4
+1
+0 11 3 2
+0
+end_operator
+begin_operator
+fly plane2 city4 city4 fl4 fl3
+1
+8 4
+1
+0 11 4 3
+0
+end_operator
+begin_operator
+fly plane2 city4 city4 fl5 fl4
+1
+8 4
+1
+0 11 5 4
+0
+end_operator
+begin_operator
+fly plane2 city4 city4 fl6 fl5
+1
+8 4
+1
+0 11 6 5
+0
+end_operator
+begin_operator
+fly plane3 city0 city0 fl1 fl0
+1
+9 0
+1
+0 12 1 0
+0
+end_operator
+begin_operator
+fly plane3 city0 city0 fl2 fl1
+1
+9 0
+1
+0 12 2 1
+0
+end_operator
+begin_operator
+fly plane3 city0 city0 fl3 fl2
+1
+9 0
+1
+0 12 3 2
+0
+end_operator
+begin_operator
+fly plane3 city0 city0 fl4 fl3
+1
+9 0
+1
+0 12 4 3
+0
+end_operator
+begin_operator
+fly plane3 city0 city0 fl5 fl4
+1
+9 0
+1
+0 12 5 4
+0
+end_operator
+begin_operator
+fly plane3 city0 city0 fl6 fl5
+1
+9 0
+1
+0 12 6 5
+0
+end_operator
+begin_operator
+fly plane3 city0 city1 fl1 fl0
+0
 2
 0 9 0 1
-0 30 0 1
+0 12 1 0
 0
 end_operator
 begin_operator
-sample_soil rover1 rover1store waypoint5
-1
-1 5
+fly plane3 city0 city1 fl2 fl1
+0
 2
+0 9 0 1
+0 12 2 1
+0
+end_operator
+begin_operator
+fly plane3 city0 city1 fl3 fl2
+0
+2
+0 9 0 1
+0 12 3 2
+0
+end_operator
+begin_operator
+fly plane3 city0 city1 fl4 fl3
+0
+2
+0 9 0 1
+0 12 4 3
+0
+end_operator
+begin_operator
+fly plane3 city0 city1 fl5 fl4
+0
+2
+0 9 0 1
+0 12 5 4
+0
+end_operator
+begin_operator
+fly plane3 city0 city1 fl6 fl5
+0
+2
+0 9 0 1
+0 12 6 5
+0
+end_operator
+begin_operator
+fly plane3 city0 city2 fl1 fl0
+0
+2
+0 9 0 2
+0 12 1 0
+0
+end_operator
+begin_operator
+fly plane3 city0 city2 fl2 fl1
+0
+2
+0 9 0 2
+0 12 2 1
+0
+end_operator
+begin_operator
+fly plane3 city0 city2 fl3 fl2
+0
+2
+0 9 0 2
+0 12 3 2
+0
+end_operator
+begin_operator
+fly plane3 city0 city2 fl4 fl3
+0
+2
+0 9 0 2
+0 12 4 3
+0
+end_operator
+begin_operator
+fly plane3 city0 city2 fl5 fl4
+0
+2
+0 9 0 2
+0 12 5 4
+0
+end_operator
+begin_operator
+fly plane3 city0 city2 fl6 fl5
+0
+2
+0 9 0 2
+0 12 6 5
+0
+end_operator
+begin_operator
+fly plane3 city0 city3 fl1 fl0
+0
+2
+0 9 0 3
+0 12 1 0
+0
+end_operator
+begin_operator
+fly plane3 city0 city3 fl2 fl1
+0
+2
+0 9 0 3
+0 12 2 1
+0
+end_operator
+begin_operator
+fly plane3 city0 city3 fl3 fl2
+0
+2
+0 9 0 3
+0 12 3 2
+0
+end_operator
+begin_operator
+fly plane3 city0 city3 fl4 fl3
+0
+2
+0 9 0 3
+0 12 4 3
+0
+end_operator
+begin_operator
+fly plane3 city0 city3 fl5 fl4
+0
+2
+0 9 0 3
+0 12 5 4
+0
+end_operator
+begin_operator
+fly plane3 city0 city3 fl6 fl5
+0
+2
+0 9 0 3
+0 12 6 5
+0
+end_operator
+begin_operator
+fly plane3 city0 city4 fl1 fl0
+0
+2
+0 9 0 4
+0 12 1 0
+0
+end_operator
+begin_operator
+fly plane3 city0 city4 fl2 fl1
+0
+2
+0 9 0 4
+0 12 2 1
+0
+end_operator
+begin_operator
+fly plane3 city0 city4 fl3 fl2
+0
+2
+0 9 0 4
+0 12 3 2
+0
+end_operator
+begin_operator
+fly plane3 city0 city4 fl4 fl3
+0
+2
+0 9 0 4
+0 12 4 3
+0
+end_operator
+begin_operator
+fly plane3 city0 city4 fl5 fl4
+0
+2
+0 9 0 4
+0 12 5 4
+0
+end_operator
+begin_operator
+fly plane3 city0 city4 fl6 fl5
+0
+2
+0 9 0 4
+0 12 6 5
+0
+end_operator
+begin_operator
+fly plane3 city1 city0 fl1 fl0
+0
+2
+0 9 1 0
+0 12 1 0
+0
+end_operator
+begin_operator
+fly plane3 city1 city0 fl2 fl1
+0
+2
+0 9 1 0
+0 12 2 1
+0
+end_operator
+begin_operator
+fly plane3 city1 city0 fl3 fl2
+0
+2
+0 9 1 0
+0 12 3 2
+0
+end_operator
+begin_operator
+fly plane3 city1 city0 fl4 fl3
+0
+2
+0 9 1 0
+0 12 4 3
+0
+end_operator
+begin_operator
+fly plane3 city1 city0 fl5 fl4
+0
+2
+0 9 1 0
+0 12 5 4
+0
+end_operator
+begin_operator
+fly plane3 city1 city0 fl6 fl5
+0
+2
+0 9 1 0
+0 12 6 5
+0
+end_operator
+begin_operator
+fly plane3 city1 city1 fl1 fl0
+1
+9 1
+1
+0 12 1 0
+0
+end_operator
+begin_operator
+fly plane3 city1 city1 fl2 fl1
+1
+9 1
+1
+0 12 2 1
+0
+end_operator
+begin_operator
+fly plane3 city1 city1 fl3 fl2
+1
+9 1
+1
+0 12 3 2
+0
+end_operator
+begin_operator
+fly plane3 city1 city1 fl4 fl3
+1
+9 1
+1
+0 12 4 3
+0
+end_operator
+begin_operator
+fly plane3 city1 city1 fl5 fl4
+1
+9 1
+1
+0 12 5 4
+0
+end_operator
+begin_operator
+fly plane3 city1 city1 fl6 fl5
+1
+9 1
+1
+0 12 6 5
+0
+end_operator
+begin_operator
+fly plane3 city1 city2 fl1 fl0
+0
+2
+0 9 1 2
+0 12 1 0
+0
+end_operator
+begin_operator
+fly plane3 city1 city2 fl2 fl1
+0
+2
+0 9 1 2
+0 12 2 1
+0
+end_operator
+begin_operator
+fly plane3 city1 city2 fl3 fl2
+0
+2
+0 9 1 2
+0 12 3 2
+0
+end_operator
+begin_operator
+fly plane3 city1 city2 fl4 fl3
+0
+2
+0 9 1 2
+0 12 4 3
+0
+end_operator
+begin_operator
+fly plane3 city1 city2 fl5 fl4
+0
+2
+0 9 1 2
+0 12 5 4
+0
+end_operator
+begin_operator
+fly plane3 city1 city2 fl6 fl5
+0
+2
+0 9 1 2
+0 12 6 5
+0
+end_operator
+begin_operator
+fly plane3 city1 city3 fl1 fl0
+0
+2
+0 9 1 3
+0 12 1 0
+0
+end_operator
+begin_operator
+fly plane3 city1 city3 fl2 fl1
+0
+2
+0 9 1 3
+0 12 2 1
+0
+end_operator
+begin_operator
+fly plane3 city1 city3 fl3 fl2
+0
+2
+0 9 1 3
+0 12 3 2
+0
+end_operator
+begin_operator
+fly plane3 city1 city3 fl4 fl3
+0
+2
+0 9 1 3
+0 12 4 3
+0
+end_operator
+begin_operator
+fly plane3 city1 city3 fl5 fl4
+0
+2
+0 9 1 3
+0 12 5 4
+0
+end_operator
+begin_operator
+fly plane3 city1 city3 fl6 fl5
+0
+2
+0 9 1 3
+0 12 6 5
+0
+end_operator
+begin_operator
+fly plane3 city1 city4 fl1 fl0
+0
+2
+0 9 1 4
+0 12 1 0
+0
+end_operator
+begin_operator
+fly plane3 city1 city4 fl2 fl1
+0
+2
+0 9 1 4
+0 12 2 1
+0
+end_operator
+begin_operator
+fly plane3 city1 city4 fl3 fl2
+0
+2
+0 9 1 4
+0 12 3 2
+0
+end_operator
+begin_operator
+fly plane3 city1 city4 fl4 fl3
+0
+2
+0 9 1 4
+0 12 4 3
+0
+end_operator
+begin_operator
+fly plane3 city1 city4 fl5 fl4
+0
+2
+0 9 1 4
+0 12 5 4
+0
+end_operator
+begin_operator
+fly plane3 city1 city4 fl6 fl5
+0
+2
+0 9 1 4
+0 12 6 5
+0
+end_operator
+begin_operator
+fly plane3 city2 city0 fl1 fl0
+0
+2
+0 9 2 0
+0 12 1 0
+0
+end_operator
+begin_operator
+fly plane3 city2 city0 fl2 fl1
+0
+2
+0 9 2 0
+0 12 2 1
+0
+end_operator
+begin_operator
+fly plane3 city2 city0 fl3 fl2
+0
+2
+0 9 2 0
+0 12 3 2
+0
+end_operator
+begin_operator
+fly plane3 city2 city0 fl4 fl3
+0
+2
+0 9 2 0
+0 12 4 3
+0
+end_operator
+begin_operator
+fly plane3 city2 city0 fl5 fl4
+0
+2
+0 9 2 0
+0 12 5 4
+0
+end_operator
+begin_operator
+fly plane3 city2 city0 fl6 fl5
+0
+2
+0 9 2 0
+0 12 6 5
+0
+end_operator
+begin_operator
+fly plane3 city2 city1 fl1 fl0
+0
+2
+0 9 2 1
+0 12 1 0
+0
+end_operator
+begin_operator
+fly plane3 city2 city1 fl2 fl1
+0
+2
+0 9 2 1
+0 12 2 1
+0
+end_operator
+begin_operator
+fly plane3 city2 city1 fl3 fl2
+0
+2
+0 9 2 1
+0 12 3 2
+0
+end_operator
+begin_operator
+fly plane3 city2 city1 fl4 fl3
+0
+2
+0 9 2 1
+0 12 4 3
+0
+end_operator
+begin_operator
+fly plane3 city2 city1 fl5 fl4
+0
+2
+0 9 2 1
+0 12 5 4
+0
+end_operator
+begin_operator
+fly plane3 city2 city1 fl6 fl5
+0
+2
+0 9 2 1
+0 12 6 5
+0
+end_operator
+begin_operator
+fly plane3 city2 city2 fl1 fl0
+1
+9 2
+1
+0 12 1 0
+0
+end_operator
+begin_operator
+fly plane3 city2 city2 fl2 fl1
+1
+9 2
+1
+0 12 2 1
+0
+end_operator
+begin_operator
+fly plane3 city2 city2 fl3 fl2
+1
+9 2
+1
+0 12 3 2
+0
+end_operator
+begin_operator
+fly plane3 city2 city2 fl4 fl3
+1
+9 2
+1
+0 12 4 3
+0
+end_operator
+begin_operator
+fly plane3 city2 city2 fl5 fl4
+1
+9 2
+1
+0 12 5 4
+0
+end_operator
+begin_operator
+fly plane3 city2 city2 fl6 fl5
+1
+9 2
+1
+0 12 6 5
+0
+end_operator
+begin_operator
+fly plane3 city2 city3 fl1 fl0
+0
+2
+0 9 2 3
+0 12 1 0
+0
+end_operator
+begin_operator
+fly plane3 city2 city3 fl2 fl1
+0
+2
+0 9 2 3
+0 12 2 1
+0
+end_operator
+begin_operator
+fly plane3 city2 city3 fl3 fl2
+0
+2
+0 9 2 3
+0 12 3 2
+0
+end_operator
+begin_operator
+fly plane3 city2 city3 fl4 fl3
+0
+2
+0 9 2 3
+0 12 4 3
+0
+end_operator
+begin_operator
+fly plane3 city2 city3 fl5 fl4
+0
+2
+0 9 2 3
+0 12 5 4
+0
+end_operator
+begin_operator
+fly plane3 city2 city3 fl6 fl5
+0
+2
+0 9 2 3
+0 12 6 5
+0
+end_operator
+begin_operator
+fly plane3 city2 city4 fl1 fl0
+0
+2
+0 9 2 4
+0 12 1 0
+0
+end_operator
+begin_operator
+fly plane3 city2 city4 fl2 fl1
+0
+2
+0 9 2 4
+0 12 2 1
+0
+end_operator
+begin_operator
+fly plane3 city2 city4 fl3 fl2
+0
+2
+0 9 2 4
+0 12 3 2
+0
+end_operator
+begin_operator
+fly plane3 city2 city4 fl4 fl3
+0
+2
+0 9 2 4
+0 12 4 3
+0
+end_operator
+begin_operator
+fly plane3 city2 city4 fl5 fl4
+0
+2
+0 9 2 4
+0 12 5 4
+0
+end_operator
+begin_operator
+fly plane3 city2 city4 fl6 fl5
+0
+2
+0 9 2 4
+0 12 6 5
+0
+end_operator
+begin_operator
+fly plane3 city3 city0 fl1 fl0
+0
+2
+0 9 3 0
+0 12 1 0
+0
+end_operator
+begin_operator
+fly plane3 city3 city0 fl2 fl1
+0
+2
+0 9 3 0
+0 12 2 1
+0
+end_operator
+begin_operator
+fly plane3 city3 city0 fl3 fl2
+0
+2
+0 9 3 0
+0 12 3 2
+0
+end_operator
+begin_operator
+fly plane3 city3 city0 fl4 fl3
+0
+2
+0 9 3 0
+0 12 4 3
+0
+end_operator
+begin_operator
+fly plane3 city3 city0 fl5 fl4
+0
+2
+0 9 3 0
+0 12 5 4
+0
+end_operator
+begin_operator
+fly plane3 city3 city0 fl6 fl5
+0
+2
+0 9 3 0
+0 12 6 5
+0
+end_operator
+begin_operator
+fly plane3 city3 city1 fl1 fl0
+0
+2
+0 9 3 1
+0 12 1 0
+0
+end_operator
+begin_operator
+fly plane3 city3 city1 fl2 fl1
+0
+2
+0 9 3 1
+0 12 2 1
+0
+end_operator
+begin_operator
+fly plane3 city3 city1 fl3 fl2
+0
+2
+0 9 3 1
+0 12 3 2
+0
+end_operator
+begin_operator
+fly plane3 city3 city1 fl4 fl3
+0
+2
+0 9 3 1
+0 12 4 3
+0
+end_operator
+begin_operator
+fly plane3 city3 city1 fl5 fl4
+0
+2
+0 9 3 1
+0 12 5 4
+0
+end_operator
+begin_operator
+fly plane3 city3 city1 fl6 fl5
+0
+2
+0 9 3 1
+0 12 6 5
+0
+end_operator
+begin_operator
+fly plane3 city3 city2 fl1 fl0
+0
+2
+0 9 3 2
+0 12 1 0
+0
+end_operator
+begin_operator
+fly plane3 city3 city2 fl2 fl1
+0
+2
+0 9 3 2
+0 12 2 1
+0
+end_operator
+begin_operator
+fly plane3 city3 city2 fl3 fl2
+0
+2
+0 9 3 2
+0 12 3 2
+0
+end_operator
+begin_operator
+fly plane3 city3 city2 fl4 fl3
+0
+2
+0 9 3 2
+0 12 4 3
+0
+end_operator
+begin_operator
+fly plane3 city3 city2 fl5 fl4
+0
+2
+0 9 3 2
+0 12 5 4
+0
+end_operator
+begin_operator
+fly plane3 city3 city2 fl6 fl5
+0
+2
+0 9 3 2
+0 12 6 5
+0
+end_operator
+begin_operator
+fly plane3 city3 city3 fl1 fl0
+1
+9 3
+1
+0 12 1 0
+0
+end_operator
+begin_operator
+fly plane3 city3 city3 fl2 fl1
+1
+9 3
+1
+0 12 2 1
+0
+end_operator
+begin_operator
+fly plane3 city3 city3 fl3 fl2
+1
+9 3
+1
+0 12 3 2
+0
+end_operator
+begin_operator
+fly plane3 city3 city3 fl4 fl3
+1
+9 3
+1
+0 12 4 3
+0
+end_operator
+begin_operator
+fly plane3 city3 city3 fl5 fl4
+1
+9 3
+1
+0 12 5 4
+0
+end_operator
+begin_operator
+fly plane3 city3 city3 fl6 fl5
+1
+9 3
+1
+0 12 6 5
+0
+end_operator
+begin_operator
+fly plane3 city3 city4 fl1 fl0
+0
+2
+0 9 3 4
+0 12 1 0
+0
+end_operator
+begin_operator
+fly plane3 city3 city4 fl2 fl1
+0
+2
+0 9 3 4
+0 12 2 1
+0
+end_operator
+begin_operator
+fly plane3 city3 city4 fl3 fl2
+0
+2
+0 9 3 4
+0 12 3 2
+0
+end_operator
+begin_operator
+fly plane3 city3 city4 fl4 fl3
+0
+2
+0 9 3 4
+0 12 4 3
+0
+end_operator
+begin_operator
+fly plane3 city3 city4 fl5 fl4
+0
+2
+0 9 3 4
+0 12 5 4
+0
+end_operator
+begin_operator
+fly plane3 city3 city4 fl6 fl5
+0
+2
+0 9 3 4
+0 12 6 5
+0
+end_operator
+begin_operator
+fly plane3 city4 city0 fl1 fl0
+0
+2
+0 9 4 0
+0 12 1 0
+0
+end_operator
+begin_operator
+fly plane3 city4 city0 fl2 fl1
+0
+2
+0 9 4 0
+0 12 2 1
+0
+end_operator
+begin_operator
+fly plane3 city4 city0 fl3 fl2
+0
+2
+0 9 4 0
+0 12 3 2
+0
+end_operator
+begin_operator
+fly plane3 city4 city0 fl4 fl3
+0
+2
+0 9 4 0
+0 12 4 3
+0
+end_operator
+begin_operator
+fly plane3 city4 city0 fl5 fl4
+0
+2
+0 9 4 0
+0 12 5 4
+0
+end_operator
+begin_operator
+fly plane3 city4 city0 fl6 fl5
+0
+2
+0 9 4 0
+0 12 6 5
+0
+end_operator
+begin_operator
+fly plane3 city4 city1 fl1 fl0
+0
+2
+0 9 4 1
+0 12 1 0
+0
+end_operator
+begin_operator
+fly plane3 city4 city1 fl2 fl1
+0
+2
+0 9 4 1
+0 12 2 1
+0
+end_operator
+begin_operator
+fly plane3 city4 city1 fl3 fl2
+0
+2
+0 9 4 1
+0 12 3 2
+0
+end_operator
+begin_operator
+fly plane3 city4 city1 fl4 fl3
+0
+2
+0 9 4 1
+0 12 4 3
+0
+end_operator
+begin_operator
+fly plane3 city4 city1 fl5 fl4
+0
+2
+0 9 4 1
+0 12 5 4
+0
+end_operator
+begin_operator
+fly plane3 city4 city1 fl6 fl5
+0
+2
+0 9 4 1
+0 12 6 5
+0
+end_operator
+begin_operator
+fly plane3 city4 city2 fl1 fl0
+0
+2
+0 9 4 2
+0 12 1 0
+0
+end_operator
+begin_operator
+fly plane3 city4 city2 fl2 fl1
+0
+2
+0 9 4 2
+0 12 2 1
+0
+end_operator
+begin_operator
+fly plane3 city4 city2 fl3 fl2
+0
+2
+0 9 4 2
+0 12 3 2
+0
+end_operator
+begin_operator
+fly plane3 city4 city2 fl4 fl3
+0
+2
+0 9 4 2
+0 12 4 3
+0
+end_operator
+begin_operator
+fly plane3 city4 city2 fl5 fl4
+0
+2
+0 9 4 2
+0 12 5 4
+0
+end_operator
+begin_operator
+fly plane3 city4 city2 fl6 fl5
+0
+2
+0 9 4 2
+0 12 6 5
+0
+end_operator
+begin_operator
+fly plane3 city4 city3 fl1 fl0
+0
+2
+0 9 4 3
+0 12 1 0
+0
+end_operator
+begin_operator
+fly plane3 city4 city3 fl2 fl1
+0
+2
+0 9 4 3
+0 12 2 1
+0
+end_operator
+begin_operator
+fly plane3 city4 city3 fl3 fl2
+0
+2
+0 9 4 3
+0 12 3 2
+0
+end_operator
+begin_operator
+fly plane3 city4 city3 fl4 fl3
+0
+2
+0 9 4 3
+0 12 4 3
+0
+end_operator
+begin_operator
+fly plane3 city4 city3 fl5 fl4
+0
+2
+0 9 4 3
+0 12 5 4
+0
+end_operator
+begin_operator
+fly plane3 city4 city3 fl6 fl5
+0
+2
+0 9 4 3
+0 12 6 5
+0
+end_operator
+begin_operator
+fly plane3 city4 city4 fl1 fl0
+1
+9 4
+1
+0 12 1 0
+0
+end_operator
+begin_operator
+fly plane3 city4 city4 fl2 fl1
+1
+9 4
+1
+0 12 2 1
+0
+end_operator
+begin_operator
+fly plane3 city4 city4 fl3 fl2
+1
+9 4
+1
+0 12 3 2
+0
+end_operator
+begin_operator
+fly plane3 city4 city4 fl4 fl3
+1
+9 4
+1
+0 12 4 3
+0
+end_operator
+begin_operator
+fly plane3 city4 city4 fl5 fl4
+1
+9 4
+1
+0 12 5 4
+0
+end_operator
+begin_operator
+fly plane3 city4 city4 fl6 fl5
+1
+9 4
+1
+0 12 6 5
+0
+end_operator
+begin_operator
+refuel plane1 city0 fl0 fl1
+1
+7 0
+1
 0 10 0 1
-0 30 0 1
 0
 end_operator
 begin_operator
-take_image rover0 waypoint0 objective0 camera0 colour
+refuel plane1 city0 fl1 fl2
 1
-0 0
-2
+7 0
+1
+0 10 1 2
+0
+end_operator
+begin_operator
+refuel plane1 city0 fl2 fl3
+1
+7 0
+1
+0 10 2 3
+0
+end_operator
+begin_operator
+refuel plane1 city0 fl3 fl4
+1
+7 0
+1
+0 10 3 4
+0
+end_operator
+begin_operator
+refuel plane1 city0 fl4 fl5
+1
+7 0
+1
+0 10 4 5
+0
+end_operator
+begin_operator
+refuel plane1 city0 fl5 fl6
+1
+7 0
+1
+0 10 5 6
+0
+end_operator
+begin_operator
+refuel plane1 city1 fl0 fl1
+1
+7 1
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+refuel plane1 city1 fl1 fl2
+1
+7 1
+1
+0 10 1 2
+0
+end_operator
+begin_operator
+refuel plane1 city1 fl2 fl3
+1
+7 1
+1
+0 10 2 3
+0
+end_operator
+begin_operator
+refuel plane1 city1 fl3 fl4
+1
+7 1
+1
+0 10 3 4
+0
+end_operator
+begin_operator
+refuel plane1 city1 fl4 fl5
+1
+7 1
+1
+0 10 4 5
+0
+end_operator
+begin_operator
+refuel plane1 city1 fl5 fl6
+1
+7 1
+1
+0 10 5 6
+0
+end_operator
+begin_operator
+refuel plane1 city2 fl0 fl1
+1
+7 2
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+refuel plane1 city2 fl1 fl2
+1
+7 2
+1
+0 10 1 2
+0
+end_operator
+begin_operator
+refuel plane1 city2 fl2 fl3
+1
+7 2
+1
+0 10 2 3
+0
+end_operator
+begin_operator
+refuel plane1 city2 fl3 fl4
+1
+7 2
+1
+0 10 3 4
+0
+end_operator
+begin_operator
+refuel plane1 city2 fl4 fl5
+1
+7 2
+1
+0 10 4 5
+0
+end_operator
+begin_operator
+refuel plane1 city2 fl5 fl6
+1
+7 2
+1
+0 10 5 6
+0
+end_operator
+begin_operator
+refuel plane1 city3 fl0 fl1
+1
+7 3
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+refuel plane1 city3 fl1 fl2
+1
+7 3
+1
+0 10 1 2
+0
+end_operator
+begin_operator
+refuel plane1 city3 fl2 fl3
+1
+7 3
+1
+0 10 2 3
+0
+end_operator
+begin_operator
+refuel plane1 city3 fl3 fl4
+1
+7 3
+1
+0 10 3 4
+0
+end_operator
+begin_operator
+refuel plane1 city3 fl4 fl5
+1
+7 3
+1
+0 10 4 5
+0
+end_operator
+begin_operator
+refuel plane1 city3 fl5 fl6
+1
+7 3
+1
+0 10 5 6
+0
+end_operator
+begin_operator
+refuel plane1 city4 fl0 fl1
+1
+7 4
+1
+0 10 0 1
+0
+end_operator
+begin_operator
+refuel plane1 city4 fl1 fl2
+1
+7 4
+1
+0 10 1 2
+0
+end_operator
+begin_operator
+refuel plane1 city4 fl2 fl3
+1
+7 4
+1
+0 10 2 3
+0
+end_operator
+begin_operator
+refuel plane1 city4 fl3 fl4
+1
+7 4
+1
+0 10 3 4
+0
+end_operator
+begin_operator
+refuel plane1 city4 fl4 fl5
+1
+7 4
+1
+0 10 4 5
+0
+end_operator
+begin_operator
+refuel plane1 city4 fl5 fl6
+1
+7 4
+1
+0 10 5 6
+0
+end_operator
+begin_operator
+refuel plane2 city0 fl0 fl1
+1
+8 0
+1
 0 11 0 1
-0 31 -1 0
 0
 end_operator
 begin_operator
-take_image rover0 waypoint0 objective0 camera0 low_res
+refuel plane2 city0 fl1 fl2
 1
-0 0
-2
+8 0
+1
+0 11 1 2
+0
+end_operator
+begin_operator
+refuel plane2 city0 fl2 fl3
+1
+8 0
+1
+0 11 2 3
+0
+end_operator
+begin_operator
+refuel plane2 city0 fl3 fl4
+1
+8 0
+1
+0 11 3 4
+0
+end_operator
+begin_operator
+refuel plane2 city0 fl4 fl5
+1
+8 0
+1
+0 11 4 5
+0
+end_operator
+begin_operator
+refuel plane2 city0 fl5 fl6
+1
+8 0
+1
+0 11 5 6
+0
+end_operator
+begin_operator
+refuel plane2 city1 fl0 fl1
+1
+8 1
+1
 0 11 0 1
-0 32 -1 0
 0
 end_operator
 begin_operator
-take_image rover0 waypoint0 objective0 camera1 colour
+refuel plane2 city1 fl1 fl2
 1
-0 0
-2
-0 12 0 1
-0 31 -1 0
+8 1
+1
+0 11 1 2
 0
 end_operator
 begin_operator
-take_image rover0 waypoint0 objective0 camera1 low_res
+refuel plane2 city1 fl2 fl3
 1
-0 0
-2
-0 12 0 1
-0 32 -1 0
+8 1
+1
+0 11 2 3
 0
 end_operator
 begin_operator
-take_image rover0 waypoint0 objective1 camera0 colour
+refuel plane2 city1 fl3 fl4
 1
-0 0
-2
+8 1
+1
+0 11 3 4
+0
+end_operator
+begin_operator
+refuel plane2 city1 fl4 fl5
+1
+8 1
+1
+0 11 4 5
+0
+end_operator
+begin_operator
+refuel plane2 city1 fl5 fl6
+1
+8 1
+1
+0 11 5 6
+0
+end_operator
+begin_operator
+refuel plane2 city2 fl0 fl1
+1
+8 2
+1
 0 11 0 1
-0 33 -1 0
 0
 end_operator
 begin_operator
-take_image rover0 waypoint0 objective1 camera0 low_res
+refuel plane2 city2 fl1 fl2
 1
-0 0
-2
+8 2
+1
+0 11 1 2
+0
+end_operator
+begin_operator
+refuel plane2 city2 fl2 fl3
+1
+8 2
+1
+0 11 2 3
+0
+end_operator
+begin_operator
+refuel plane2 city2 fl3 fl4
+1
+8 2
+1
+0 11 3 4
+0
+end_operator
+begin_operator
+refuel plane2 city2 fl4 fl5
+1
+8 2
+1
+0 11 4 5
+0
+end_operator
+begin_operator
+refuel plane2 city2 fl5 fl6
+1
+8 2
+1
+0 11 5 6
+0
+end_operator
+begin_operator
+refuel plane2 city3 fl0 fl1
+1
+8 3
+1
 0 11 0 1
-0 34 -1 0
 0
 end_operator
 begin_operator
-take_image rover0 waypoint0 objective1 camera1 colour
+refuel plane2 city3 fl1 fl2
 1
-0 0
-2
-0 12 0 1
-0 33 -1 0
+8 3
+1
+0 11 1 2
 0
 end_operator
 begin_operator
-take_image rover0 waypoint0 objective1 camera1 low_res
+refuel plane2 city3 fl2 fl3
 1
-0 0
-2
-0 12 0 1
-0 34 -1 0
+8 3
+1
+0 11 2 3
 0
 end_operator
 begin_operator
-take_image rover0 waypoint1 objective0 camera0 colour
+refuel plane2 city3 fl3 fl4
 1
-0 1
-2
+8 3
+1
+0 11 3 4
+0
+end_operator
+begin_operator
+refuel plane2 city3 fl4 fl5
+1
+8 3
+1
+0 11 4 5
+0
+end_operator
+begin_operator
+refuel plane2 city3 fl5 fl6
+1
+8 3
+1
+0 11 5 6
+0
+end_operator
+begin_operator
+refuel plane2 city4 fl0 fl1
+1
+8 4
+1
 0 11 0 1
-0 31 -1 0
 0
 end_operator
 begin_operator
-take_image rover0 waypoint1 objective0 camera0 low_res
+refuel plane2 city4 fl1 fl2
 1
-0 1
-2
-0 11 0 1
-0 32 -1 0
+8 4
+1
+0 11 1 2
 0
 end_operator
 begin_operator
-take_image rover0 waypoint1 objective0 camera1 colour
+refuel plane2 city4 fl2 fl3
 1
-0 1
-2
+8 4
+1
+0 11 2 3
+0
+end_operator
+begin_operator
+refuel plane2 city4 fl3 fl4
+1
+8 4
+1
+0 11 3 4
+0
+end_operator
+begin_operator
+refuel plane2 city4 fl4 fl5
+1
+8 4
+1
+0 11 4 5
+0
+end_operator
+begin_operator
+refuel plane2 city4 fl5 fl6
+1
+8 4
+1
+0 11 5 6
+0
+end_operator
+begin_operator
+refuel plane3 city0 fl0 fl1
+1
+9 0
+1
 0 12 0 1
-0 31 -1 0
 0
 end_operator
 begin_operator
-take_image rover0 waypoint1 objective0 camera1 low_res
+refuel plane3 city0 fl1 fl2
 1
-0 1
-2
+9 0
+1
+0 12 1 2
+0
+end_operator
+begin_operator
+refuel plane3 city0 fl2 fl3
+1
+9 0
+1
+0 12 2 3
+0
+end_operator
+begin_operator
+refuel plane3 city0 fl3 fl4
+1
+9 0
+1
+0 12 3 4
+0
+end_operator
+begin_operator
+refuel plane3 city0 fl4 fl5
+1
+9 0
+1
+0 12 4 5
+0
+end_operator
+begin_operator
+refuel plane3 city0 fl5 fl6
+1
+9 0
+1
+0 12 5 6
+0
+end_operator
+begin_operator
+refuel plane3 city1 fl0 fl1
+1
+9 1
+1
 0 12 0 1
-0 32 -1 0
 0
 end_operator
 begin_operator
-take_image rover0 waypoint1 objective1 camera0 colour
+refuel plane3 city1 fl1 fl2
 1
-0 1
-2
-0 11 0 1
-0 33 -1 0
+9 1
+1
+0 12 1 2
 0
 end_operator
 begin_operator
-take_image rover0 waypoint1 objective1 camera0 low_res
+refuel plane3 city1 fl2 fl3
 1
-0 1
-2
-0 11 0 1
-0 34 -1 0
+9 1
+1
+0 12 2 3
 0
 end_operator
 begin_operator
-take_image rover0 waypoint1 objective1 camera1 colour
+refuel plane3 city1 fl3 fl4
 1
-0 1
-2
+9 1
+1
+0 12 3 4
+0
+end_operator
+begin_operator
+refuel plane3 city1 fl4 fl5
+1
+9 1
+1
+0 12 4 5
+0
+end_operator
+begin_operator
+refuel plane3 city1 fl5 fl6
+1
+9 1
+1
+0 12 5 6
+0
+end_operator
+begin_operator
+refuel plane3 city2 fl0 fl1
+1
+9 2
+1
 0 12 0 1
-0 33 -1 0
 0
 end_operator
 begin_operator
-take_image rover0 waypoint1 objective1 camera1 low_res
+refuel plane3 city2 fl1 fl2
 1
-0 1
-2
+9 2
+1
+0 12 1 2
+0
+end_operator
+begin_operator
+refuel plane3 city2 fl2 fl3
+1
+9 2
+1
+0 12 2 3
+0
+end_operator
+begin_operator
+refuel plane3 city2 fl3 fl4
+1
+9 2
+1
+0 12 3 4
+0
+end_operator
+begin_operator
+refuel plane3 city2 fl4 fl5
+1
+9 2
+1
+0 12 4 5
+0
+end_operator
+begin_operator
+refuel plane3 city2 fl5 fl6
+1
+9 2
+1
+0 12 5 6
+0
+end_operator
+begin_operator
+refuel plane3 city3 fl0 fl1
+1
+9 3
+1
 0 12 0 1
-0 34 -1 0
 0
 end_operator
 begin_operator
-take_image rover0 waypoint2 objective0 camera0 colour
+refuel plane3 city3 fl1 fl2
 1
-0 2
-2
-0 11 0 1
-0 31 -1 0
+9 3
+1
+0 12 1 2
 0
 end_operator
 begin_operator
-take_image rover0 waypoint2 objective0 camera0 low_res
+refuel plane3 city3 fl2 fl3
 1
-0 2
-2
-0 11 0 1
-0 32 -1 0
+9 3
+1
+0 12 2 3
 0
 end_operator
 begin_operator
-take_image rover0 waypoint2 objective0 camera1 colour
+refuel plane3 city3 fl3 fl4
 1
-0 2
-2
+9 3
+1
+0 12 3 4
+0
+end_operator
+begin_operator
+refuel plane3 city3 fl4 fl5
+1
+9 3
+1
+0 12 4 5
+0
+end_operator
+begin_operator
+refuel plane3 city3 fl5 fl6
+1
+9 3
+1
+0 12 5 6
+0
+end_operator
+begin_operator
+refuel plane3 city4 fl0 fl1
+1
+9 4
+1
 0 12 0 1
-0 31 -1 0
 0
 end_operator
 begin_operator
-take_image rover0 waypoint2 objective0 camera1 low_res
+refuel plane3 city4 fl1 fl2
 1
-0 2
-2
-0 12 0 1
-0 32 -1 0
+9 4
+1
+0 12 1 2
 0
 end_operator
 begin_operator
-take_image rover0 waypoint3 objective0 camera0 colour
+refuel plane3 city4 fl2 fl3
 1
-0 3
-2
-0 11 0 1
-0 31 -1 0
+9 4
+1
+0 12 2 3
 0
 end_operator
 begin_operator
-take_image rover0 waypoint3 objective0 camera0 low_res
+refuel plane3 city4 fl3 fl4
 1
-0 3
-2
-0 11 0 1
-0 32 -1 0
+9 4
+1
+0 12 3 4
 0
 end_operator
 begin_operator
-take_image rover0 waypoint3 objective0 camera1 colour
+refuel plane3 city4 fl4 fl5
 1
-0 3
-2
-0 12 0 1
-0 31 -1 0
+9 4
+1
+0 12 4 5
 0
 end_operator
 begin_operator
-take_image rover0 waypoint3 objective0 camera1 low_res
+refuel plane3 city4 fl5 fl6
 1
-0 3
-2
-0 12 0 1
-0 32 -1 0
+9 4
+1
+0 12 5 6
 0
 end_operator
 begin_operator
-take_image rover0 waypoint4 objective0 camera0 colour
+zoom plane1 city0 city0 fl2 fl1 fl0
 1
-0 4
-2
-0 11 0 1
-0 31 -1 0
+7 0
+1
+0 10 2 0
 0
 end_operator
 begin_operator
-take_image rover0 waypoint4 objective0 camera0 low_res
+zoom plane1 city0 city0 fl3 fl2 fl1
 1
-0 4
-2
-0 11 0 1
-0 32 -1 0
+7 0
+1
+0 10 3 1
 0
 end_operator
 begin_operator
-take_image rover0 waypoint4 objective0 camera1 colour
+zoom plane1 city0 city0 fl4 fl3 fl2
 1
-0 4
-2
-0 12 0 1
-0 31 -1 0
+7 0
+1
+0 10 4 2
 0
 end_operator
 begin_operator
-take_image rover0 waypoint4 objective0 camera1 low_res
+zoom plane1 city0 city0 fl5 fl4 fl3
 1
-0 4
-2
-0 12 0 1
-0 32 -1 0
+7 0
+1
+0 10 5 3
 0
 end_operator
 begin_operator
-take_image rover0 waypoint5 objective0 camera0 colour
+zoom plane1 city0 city0 fl6 fl5 fl4
 1
-0 5
-2
-0 11 0 1
-0 31 -1 0
+7 0
+1
+0 10 6 4
 0
 end_operator
 begin_operator
-take_image rover0 waypoint5 objective0 camera0 low_res
-1
-0 5
+zoom plane1 city0 city1 fl2 fl1 fl0
+0
 2
-0 11 0 1
-0 32 -1 0
+0 7 0 1
+0 10 2 0
 0
 end_operator
 begin_operator
-take_image rover0 waypoint5 objective0 camera1 colour
-1
-0 5
+zoom plane1 city0 city1 fl3 fl2 fl1
+0
 2
-0 12 0 1
-0 31 -1 0
+0 7 0 1
+0 10 3 1
 0
 end_operator
 begin_operator
-take_image rover0 waypoint5 objective0 camera1 low_res
-1
-0 5
+zoom plane1 city0 city1 fl4 fl3 fl2
+0
 2
-0 12 0 1
-0 32 -1 0
+0 7 0 1
+0 10 4 2
 0
 end_operator
 begin_operator
-take_image rover1 waypoint0 objective0 camera2 colour
-1
-1 0
+zoom plane1 city0 city1 fl5 fl4 fl3
+0
 2
-0 13 0 1
-0 35 -1 0
+0 7 0 1
+0 10 5 3
 0
 end_operator
 begin_operator
-take_image rover1 waypoint0 objective0 camera2 high_res
-1
-1 0
+zoom plane1 city0 city1 fl6 fl5 fl4
+0
 2
-0 13 0 1
-0 36 -1 0
+0 7 0 1
+0 10 6 4
 0
 end_operator
 begin_operator
-take_image rover1 waypoint0 objective1 camera2 colour
-1
-1 0
+zoom plane1 city0 city2 fl2 fl1 fl0
+0
 2
-0 13 0 1
-0 37 -1 0
+0 7 0 2
+0 10 2 0
 0
 end_operator
 begin_operator
-take_image rover1 waypoint0 objective1 camera2 high_res
-1
-1 0
+zoom plane1 city0 city2 fl3 fl2 fl1
+0
 2
-0 13 0 1
-0 38 -1 0
+0 7 0 2
+0 10 3 1
 0
 end_operator
 begin_operator
-take_image rover1 waypoint1 objective0 camera2 colour
-1
-1 1
+zoom plane1 city0 city2 fl4 fl3 fl2
+0
 2
-0 13 0 1
-0 35 -1 0
+0 7 0 2
+0 10 4 2
 0
 end_operator
 begin_operator
-take_image rover1 waypoint1 objective0 camera2 high_res
-1
-1 1
+zoom plane1 city0 city2 fl5 fl4 fl3
+0
 2
-0 13 0 1
-0 36 -1 0
+0 7 0 2
+0 10 5 3
 0
 end_operator
 begin_operator
-take_image rover1 waypoint1 objective1 camera2 colour
-1
-1 1
+zoom plane1 city0 city2 fl6 fl5 fl4
+0
 2
-0 13 0 1
-0 37 -1 0
+0 7 0 2
+0 10 6 4
 0
 end_operator
 begin_operator
-take_image rover1 waypoint1 objective1 camera2 high_res
-1
-1 1
+zoom plane1 city0 city3 fl2 fl1 fl0
+0
 2
-0 13 0 1
-0 38 -1 0
+0 7 0 3
+0 10 2 0
 0
 end_operator
 begin_operator
-take_image rover1 waypoint2 objective0 camera2 colour
-1
-1 2
+zoom plane1 city0 city3 fl3 fl2 fl1
+0
 2
-0 13 0 1
-0 35 -1 0
+0 7 0 3
+0 10 3 1
 0
 end_operator
 begin_operator
-take_image rover1 waypoint2 objective0 camera2 high_res
-1
-1 2
+zoom plane1 city0 city3 fl4 fl3 fl2
+0
 2
-0 13 0 1
-0 36 -1 0
+0 7 0 3
+0 10 4 2
 0
 end_operator
 begin_operator
-take_image rover1 waypoint3 objective0 camera2 colour
-1
-1 3
+zoom plane1 city0 city3 fl5 fl4 fl3
+0
 2
-0 13 0 1
-0 35 -1 0
+0 7 0 3
+0 10 5 3
 0
 end_operator
 begin_operator
-take_image rover1 waypoint3 objective0 camera2 high_res
-1
-1 3
+zoom plane1 city0 city3 fl6 fl5 fl4
+0
 2
-0 13 0 1
-0 36 -1 0
+0 7 0 3
+0 10 6 4
 0
 end_operator
 begin_operator
-take_image rover1 waypoint4 objective0 camera2 colour
-1
-1 4
+zoom plane1 city0 city4 fl2 fl1 fl0
+0
 2
-0 13 0 1
-0 35 -1 0
+0 7 0 4
+0 10 2 0
 0
 end_operator
 begin_operator
-take_image rover1 waypoint4 objective0 camera2 high_res
-1
-1 4
+zoom plane1 city0 city4 fl3 fl2 fl1
+0
 2
-0 13 0 1
-0 36 -1 0
+0 7 0 4
+0 10 3 1
 0
 end_operator
 begin_operator
-take_image rover1 waypoint5 objective0 camera2 colour
-1
-1 5
+zoom plane1 city0 city4 fl4 fl3 fl2
+0
 2
-0 13 0 1
-0 35 -1 0
+0 7 0 4
+0 10 4 2
 0
 end_operator
 begin_operator
-take_image rover1 waypoint5 objective0 camera2 high_res
-1
-1 5
+zoom plane1 city0 city4 fl5 fl4 fl3
+0
 2
-0 13 0 1
-0 36 -1 0
+0 7 0 4
+0 10 5 3
+0
+end_operator
+begin_operator
+zoom plane1 city0 city4 fl6 fl5 fl4
+0
+2
+0 7 0 4
+0 10 6 4
+0
+end_operator
+begin_operator
+zoom plane1 city1 city0 fl2 fl1 fl0
+0
+2
+0 7 1 0
+0 10 2 0
+0
+end_operator
+begin_operator
+zoom plane1 city1 city0 fl3 fl2 fl1
+0
+2
+0 7 1 0
+0 10 3 1
+0
+end_operator
+begin_operator
+zoom plane1 city1 city0 fl4 fl3 fl2
+0
+2
+0 7 1 0
+0 10 4 2
+0
+end_operator
+begin_operator
+zoom plane1 city1 city0 fl5 fl4 fl3
+0
+2
+0 7 1 0
+0 10 5 3
+0
+end_operator
+begin_operator
+zoom plane1 city1 city0 fl6 fl5 fl4
+0
+2
+0 7 1 0
+0 10 6 4
+0
+end_operator
+begin_operator
+zoom plane1 city1 city1 fl2 fl1 fl0
+1
+7 1
+1
+0 10 2 0
+0
+end_operator
+begin_operator
+zoom plane1 city1 city1 fl3 fl2 fl1
+1
+7 1
+1
+0 10 3 1
+0
+end_operator
+begin_operator
+zoom plane1 city1 city1 fl4 fl3 fl2
+1
+7 1
+1
+0 10 4 2
+0
+end_operator
+begin_operator
+zoom plane1 city1 city1 fl5 fl4 fl3
+1
+7 1
+1
+0 10 5 3
+0
+end_operator
+begin_operator
+zoom plane1 city1 city1 fl6 fl5 fl4
+1
+7 1
+1
+0 10 6 4
+0
+end_operator
+begin_operator
+zoom plane1 city1 city2 fl2 fl1 fl0
+0
+2
+0 7 1 2
+0 10 2 0
+0
+end_operator
+begin_operator
+zoom plane1 city1 city2 fl3 fl2 fl1
+0
+2
+0 7 1 2
+0 10 3 1
+0
+end_operator
+begin_operator
+zoom plane1 city1 city2 fl4 fl3 fl2
+0
+2
+0 7 1 2
+0 10 4 2
+0
+end_operator
+begin_operator
+zoom plane1 city1 city2 fl5 fl4 fl3
+0
+2
+0 7 1 2
+0 10 5 3
+0
+end_operator
+begin_operator
+zoom plane1 city1 city2 fl6 fl5 fl4
+0
+2
+0 7 1 2
+0 10 6 4
+0
+end_operator
+begin_operator
+zoom plane1 city1 city3 fl2 fl1 fl0
+0
+2
+0 7 1 3
+0 10 2 0
+0
+end_operator
+begin_operator
+zoom plane1 city1 city3 fl3 fl2 fl1
+0
+2
+0 7 1 3
+0 10 3 1
+0
+end_operator
+begin_operator
+zoom plane1 city1 city3 fl4 fl3 fl2
+0
+2
+0 7 1 3
+0 10 4 2
+0
+end_operator
+begin_operator
+zoom plane1 city1 city3 fl5 fl4 fl3
+0
+2
+0 7 1 3
+0 10 5 3
+0
+end_operator
+begin_operator
+zoom plane1 city1 city3 fl6 fl5 fl4
+0
+2
+0 7 1 3
+0 10 6 4
+0
+end_operator
+begin_operator
+zoom plane1 city1 city4 fl2 fl1 fl0
+0
+2
+0 7 1 4
+0 10 2 0
+0
+end_operator
+begin_operator
+zoom plane1 city1 city4 fl3 fl2 fl1
+0
+2
+0 7 1 4
+0 10 3 1
+0
+end_operator
+begin_operator
+zoom plane1 city1 city4 fl4 fl3 fl2
+0
+2
+0 7 1 4
+0 10 4 2
+0
+end_operator
+begin_operator
+zoom plane1 city1 city4 fl5 fl4 fl3
+0
+2
+0 7 1 4
+0 10 5 3
+0
+end_operator
+begin_operator
+zoom plane1 city1 city4 fl6 fl5 fl4
+0
+2
+0 7 1 4
+0 10 6 4
+0
+end_operator
+begin_operator
+zoom plane1 city2 city0 fl2 fl1 fl0
+0
+2
+0 7 2 0
+0 10 2 0
+0
+end_operator
+begin_operator
+zoom plane1 city2 city0 fl3 fl2 fl1
+0
+2
+0 7 2 0
+0 10 3 1
+0
+end_operator
+begin_operator
+zoom plane1 city2 city0 fl4 fl3 fl2
+0
+2
+0 7 2 0
+0 10 4 2
+0
+end_operator
+begin_operator
+zoom plane1 city2 city0 fl5 fl4 fl3
+0
+2
+0 7 2 0
+0 10 5 3
+0
+end_operator
+begin_operator
+zoom plane1 city2 city0 fl6 fl5 fl4
+0
+2
+0 7 2 0
+0 10 6 4
+0
+end_operator
+begin_operator
+zoom plane1 city2 city1 fl2 fl1 fl0
+0
+2
+0 7 2 1
+0 10 2 0
+0
+end_operator
+begin_operator
+zoom plane1 city2 city1 fl3 fl2 fl1
+0
+2
+0 7 2 1
+0 10 3 1
+0
+end_operator
+begin_operator
+zoom plane1 city2 city1 fl4 fl3 fl2
+0
+2
+0 7 2 1
+0 10 4 2
+0
+end_operator
+begin_operator
+zoom plane1 city2 city1 fl5 fl4 fl3
+0
+2
+0 7 2 1
+0 10 5 3
+0
+end_operator
+begin_operator
+zoom plane1 city2 city1 fl6 fl5 fl4
+0
+2
+0 7 2 1
+0 10 6 4
+0
+end_operator
+begin_operator
+zoom plane1 city2 city2 fl2 fl1 fl0
+1
+7 2
+1
+0 10 2 0
+0
+end_operator
+begin_operator
+zoom plane1 city2 city2 fl3 fl2 fl1
+1
+7 2
+1
+0 10 3 1
+0
+end_operator
+begin_operator
+zoom plane1 city2 city2 fl4 fl3 fl2
+1
+7 2
+1
+0 10 4 2
+0
+end_operator
+begin_operator
+zoom plane1 city2 city2 fl5 fl4 fl3
+1
+7 2
+1
+0 10 5 3
+0
+end_operator
+begin_operator
+zoom plane1 city2 city2 fl6 fl5 fl4
+1
+7 2
+1
+0 10 6 4
+0
+end_operator
+begin_operator
+zoom plane1 city2 city3 fl2 fl1 fl0
+0
+2
+0 7 2 3
+0 10 2 0
+0
+end_operator
+begin_operator
+zoom plane1 city2 city3 fl3 fl2 fl1
+0
+2
+0 7 2 3
+0 10 3 1
+0
+end_operator
+begin_operator
+zoom plane1 city2 city3 fl4 fl3 fl2
+0
+2
+0 7 2 3
+0 10 4 2
+0
+end_operator
+begin_operator
+zoom plane1 city2 city3 fl5 fl4 fl3
+0
+2
+0 7 2 3
+0 10 5 3
+0
+end_operator
+begin_operator
+zoom plane1 city2 city3 fl6 fl5 fl4
+0
+2
+0 7 2 3
+0 10 6 4
+0
+end_operator
+begin_operator
+zoom plane1 city2 city4 fl2 fl1 fl0
+0
+2
+0 7 2 4
+0 10 2 0
+0
+end_operator
+begin_operator
+zoom plane1 city2 city4 fl3 fl2 fl1
+0
+2
+0 7 2 4
+0 10 3 1
+0
+end_operator
+begin_operator
+zoom plane1 city2 city4 fl4 fl3 fl2
+0
+2
+0 7 2 4
+0 10 4 2
+0
+end_operator
+begin_operator
+zoom plane1 city2 city4 fl5 fl4 fl3
+0
+2
+0 7 2 4
+0 10 5 3
+0
+end_operator
+begin_operator
+zoom plane1 city2 city4 fl6 fl5 fl4
+0
+2
+0 7 2 4
+0 10 6 4
+0
+end_operator
+begin_operator
+zoom plane1 city3 city0 fl2 fl1 fl0
+0
+2
+0 7 3 0
+0 10 2 0
+0
+end_operator
+begin_operator
+zoom plane1 city3 city0 fl3 fl2 fl1
+0
+2
+0 7 3 0
+0 10 3 1
+0
+end_operator
+begin_operator
+zoom plane1 city3 city0 fl4 fl3 fl2
+0
+2
+0 7 3 0
+0 10 4 2
+0
+end_operator
+begin_operator
+zoom plane1 city3 city0 fl5 fl4 fl3
+0
+2
+0 7 3 0
+0 10 5 3
+0
+end_operator
+begin_operator
+zoom plane1 city3 city0 fl6 fl5 fl4
+0
+2
+0 7 3 0
+0 10 6 4
+0
+end_operator
+begin_operator
+zoom plane1 city3 city1 fl2 fl1 fl0
+0
+2
+0 7 3 1
+0 10 2 0
+0
+end_operator
+begin_operator
+zoom plane1 city3 city1 fl3 fl2 fl1
+0
+2
+0 7 3 1
+0 10 3 1
+0
+end_operator
+begin_operator
+zoom plane1 city3 city1 fl4 fl3 fl2
+0
+2
+0 7 3 1
+0 10 4 2
+0
+end_operator
+begin_operator
+zoom plane1 city3 city1 fl5 fl4 fl3
+0
+2
+0 7 3 1
+0 10 5 3
+0
+end_operator
+begin_operator
+zoom plane1 city3 city1 fl6 fl5 fl4
+0
+2
+0 7 3 1
+0 10 6 4
+0
+end_operator
+begin_operator
+zoom plane1 city3 city2 fl2 fl1 fl0
+0
+2
+0 7 3 2
+0 10 2 0
+0
+end_operator
+begin_operator
+zoom plane1 city3 city2 fl3 fl2 fl1
+0
+2
+0 7 3 2
+0 10 3 1
+0
+end_operator
+begin_operator
+zoom plane1 city3 city2 fl4 fl3 fl2
+0
+2
+0 7 3 2
+0 10 4 2
+0
+end_operator
+begin_operator
+zoom plane1 city3 city2 fl5 fl4 fl3
+0
+2
+0 7 3 2
+0 10 5 3
+0
+end_operator
+begin_operator
+zoom plane1 city3 city2 fl6 fl5 fl4
+0
+2
+0 7 3 2
+0 10 6 4
+0
+end_operator
+begin_operator
+zoom plane1 city3 city3 fl2 fl1 fl0
+1
+7 3
+1
+0 10 2 0
+0
+end_operator
+begin_operator
+zoom plane1 city3 city3 fl3 fl2 fl1
+1
+7 3
+1
+0 10 3 1
+0
+end_operator
+begin_operator
+zoom plane1 city3 city3 fl4 fl3 fl2
+1
+7 3
+1
+0 10 4 2
+0
+end_operator
+begin_operator
+zoom plane1 city3 city3 fl5 fl4 fl3
+1
+7 3
+1
+0 10 5 3
+0
+end_operator
+begin_operator
+zoom plane1 city3 city3 fl6 fl5 fl4
+1
+7 3
+1
+0 10 6 4
+0
+end_operator
+begin_operator
+zoom plane1 city3 city4 fl2 fl1 fl0
+0
+2
+0 7 3 4
+0 10 2 0
+0
+end_operator
+begin_operator
+zoom plane1 city3 city4 fl3 fl2 fl1
+0
+2
+0 7 3 4
+0 10 3 1
+0
+end_operator
+begin_operator
+zoom plane1 city3 city4 fl4 fl3 fl2
+0
+2
+0 7 3 4
+0 10 4 2
+0
+end_operator
+begin_operator
+zoom plane1 city3 city4 fl5 fl4 fl3
+0
+2
+0 7 3 4
+0 10 5 3
+0
+end_operator
+begin_operator
+zoom plane1 city3 city4 fl6 fl5 fl4
+0
+2
+0 7 3 4
+0 10 6 4
+0
+end_operator
+begin_operator
+zoom plane1 city4 city0 fl2 fl1 fl0
+0
+2
+0 7 4 0
+0 10 2 0
+0
+end_operator
+begin_operator
+zoom plane1 city4 city0 fl3 fl2 fl1
+0
+2
+0 7 4 0
+0 10 3 1
+0
+end_operator
+begin_operator
+zoom plane1 city4 city0 fl4 fl3 fl2
+0
+2
+0 7 4 0
+0 10 4 2
+0
+end_operator
+begin_operator
+zoom plane1 city4 city0 fl5 fl4 fl3
+0
+2
+0 7 4 0
+0 10 5 3
+0
+end_operator
+begin_operator
+zoom plane1 city4 city0 fl6 fl5 fl4
+0
+2
+0 7 4 0
+0 10 6 4
+0
+end_operator
+begin_operator
+zoom plane1 city4 city1 fl2 fl1 fl0
+0
+2
+0 7 4 1
+0 10 2 0
+0
+end_operator
+begin_operator
+zoom plane1 city4 city1 fl3 fl2 fl1
+0
+2
+0 7 4 1
+0 10 3 1
+0
+end_operator
+begin_operator
+zoom plane1 city4 city1 fl4 fl3 fl2
+0
+2
+0 7 4 1
+0 10 4 2
+0
+end_operator
+begin_operator
+zoom plane1 city4 city1 fl5 fl4 fl3
+0
+2
+0 7 4 1
+0 10 5 3
+0
+end_operator
+begin_operator
+zoom plane1 city4 city1 fl6 fl5 fl4
+0
+2
+0 7 4 1
+0 10 6 4
+0
+end_operator
+begin_operator
+zoom plane1 city4 city2 fl2 fl1 fl0
+0
+2
+0 7 4 2
+0 10 2 0
+0
+end_operator
+begin_operator
+zoom plane1 city4 city2 fl3 fl2 fl1
+0
+2
+0 7 4 2
+0 10 3 1
+0
+end_operator
+begin_operator
+zoom plane1 city4 city2 fl4 fl3 fl2
+0
+2
+0 7 4 2
+0 10 4 2
+0
+end_operator
+begin_operator
+zoom plane1 city4 city2 fl5 fl4 fl3
+0
+2
+0 7 4 2
+0 10 5 3
+0
+end_operator
+begin_operator
+zoom plane1 city4 city2 fl6 fl5 fl4
+0
+2
+0 7 4 2
+0 10 6 4
+0
+end_operator
+begin_operator
+zoom plane1 city4 city3 fl2 fl1 fl0
+0
+2
+0 7 4 3
+0 10 2 0
+0
+end_operator
+begin_operator
+zoom plane1 city4 city3 fl3 fl2 fl1
+0
+2
+0 7 4 3
+0 10 3 1
+0
+end_operator
+begin_operator
+zoom plane1 city4 city3 fl4 fl3 fl2
+0
+2
+0 7 4 3
+0 10 4 2
+0
+end_operator
+begin_operator
+zoom plane1 city4 city3 fl5 fl4 fl3
+0
+2
+0 7 4 3
+0 10 5 3
+0
+end_operator
+begin_operator
+zoom plane1 city4 city3 fl6 fl5 fl4
+0
+2
+0 7 4 3
+0 10 6 4
+0
+end_operator
+begin_operator
+zoom plane1 city4 city4 fl2 fl1 fl0
+1
+7 4
+1
+0 10 2 0
+0
+end_operator
+begin_operator
+zoom plane1 city4 city4 fl3 fl2 fl1
+1
+7 4
+1
+0 10 3 1
+0
+end_operator
+begin_operator
+zoom plane1 city4 city4 fl4 fl3 fl2
+1
+7 4
+1
+0 10 4 2
+0
+end_operator
+begin_operator
+zoom plane1 city4 city4 fl5 fl4 fl3
+1
+7 4
+1
+0 10 5 3
+0
+end_operator
+begin_operator
+zoom plane1 city4 city4 fl6 fl5 fl4
+1
+7 4
+1
+0 10 6 4
+0
+end_operator
+begin_operator
+zoom plane2 city0 city0 fl2 fl1 fl0
+1
+8 0
+1
+0 11 2 0
+0
+end_operator
+begin_operator
+zoom plane2 city0 city0 fl3 fl2 fl1
+1
+8 0
+1
+0 11 3 1
+0
+end_operator
+begin_operator
+zoom plane2 city0 city0 fl4 fl3 fl2
+1
+8 0
+1
+0 11 4 2
+0
+end_operator
+begin_operator
+zoom plane2 city0 city0 fl5 fl4 fl3
+1
+8 0
+1
+0 11 5 3
+0
+end_operator
+begin_operator
+zoom plane2 city0 city0 fl6 fl5 fl4
+1
+8 0
+1
+0 11 6 4
+0
+end_operator
+begin_operator
+zoom plane2 city0 city1 fl2 fl1 fl0
+0
+2
+0 8 0 1
+0 11 2 0
+0
+end_operator
+begin_operator
+zoom plane2 city0 city1 fl3 fl2 fl1
+0
+2
+0 8 0 1
+0 11 3 1
+0
+end_operator
+begin_operator
+zoom plane2 city0 city1 fl4 fl3 fl2
+0
+2
+0 8 0 1
+0 11 4 2
+0
+end_operator
+begin_operator
+zoom plane2 city0 city1 fl5 fl4 fl3
+0
+2
+0 8 0 1
+0 11 5 3
+0
+end_operator
+begin_operator
+zoom plane2 city0 city1 fl6 fl5 fl4
+0
+2
+0 8 0 1
+0 11 6 4
+0
+end_operator
+begin_operator
+zoom plane2 city0 city2 fl2 fl1 fl0
+0
+2
+0 8 0 2
+0 11 2 0
+0
+end_operator
+begin_operator
+zoom plane2 city0 city2 fl3 fl2 fl1
+0
+2
+0 8 0 2
+0 11 3 1
+0
+end_operator
+begin_operator
+zoom plane2 city0 city2 fl4 fl3 fl2
+0
+2
+0 8 0 2
+0 11 4 2
+0
+end_operator
+begin_operator
+zoom plane2 city0 city2 fl5 fl4 fl3
+0
+2
+0 8 0 2
+0 11 5 3
+0
+end_operator
+begin_operator
+zoom plane2 city0 city2 fl6 fl5 fl4
+0
+2
+0 8 0 2
+0 11 6 4
+0
+end_operator
+begin_operator
+zoom plane2 city0 city3 fl2 fl1 fl0
+0
+2
+0 8 0 3
+0 11 2 0
+0
+end_operator
+begin_operator
+zoom plane2 city0 city3 fl3 fl2 fl1
+0
+2
+0 8 0 3
+0 11 3 1
+0
+end_operator
+begin_operator
+zoom plane2 city0 city3 fl4 fl3 fl2
+0
+2
+0 8 0 3
+0 11 4 2
+0
+end_operator
+begin_operator
+zoom plane2 city0 city3 fl5 fl4 fl3
+0
+2
+0 8 0 3
+0 11 5 3
+0
+end_operator
+begin_operator
+zoom plane2 city0 city3 fl6 fl5 fl4
+0
+2
+0 8 0 3
+0 11 6 4
+0
+end_operator
+begin_operator
+zoom plane2 city0 city4 fl2 fl1 fl0
+0
+2
+0 8 0 4
+0 11 2 0
+0
+end_operator
+begin_operator
+zoom plane2 city0 city4 fl3 fl2 fl1
+0
+2
+0 8 0 4
+0 11 3 1
+0
+end_operator
+begin_operator
+zoom plane2 city0 city4 fl4 fl3 fl2
+0
+2
+0 8 0 4
+0 11 4 2
+0
+end_operator
+begin_operator
+zoom plane2 city0 city4 fl5 fl4 fl3
+0
+2
+0 8 0 4
+0 11 5 3
+0
+end_operator
+begin_operator
+zoom plane2 city0 city4 fl6 fl5 fl4
+0
+2
+0 8 0 4
+0 11 6 4
+0
+end_operator
+begin_operator
+zoom plane2 city1 city0 fl2 fl1 fl0
+0
+2
+0 8 1 0
+0 11 2 0
+0
+end_operator
+begin_operator
+zoom plane2 city1 city0 fl3 fl2 fl1
+0
+2
+0 8 1 0
+0 11 3 1
+0
+end_operator
+begin_operator
+zoom plane2 city1 city0 fl4 fl3 fl2
+0
+2
+0 8 1 0
+0 11 4 2
+0
+end_operator
+begin_operator
+zoom plane2 city1 city0 fl5 fl4 fl3
+0
+2
+0 8 1 0
+0 11 5 3
+0
+end_operator
+begin_operator
+zoom plane2 city1 city0 fl6 fl5 fl4
+0
+2
+0 8 1 0
+0 11 6 4
+0
+end_operator
+begin_operator
+zoom plane2 city1 city1 fl2 fl1 fl0
+1
+8 1
+1
+0 11 2 0
+0
+end_operator
+begin_operator
+zoom plane2 city1 city1 fl3 fl2 fl1
+1
+8 1
+1
+0 11 3 1
+0
+end_operator
+begin_operator
+zoom plane2 city1 city1 fl4 fl3 fl2
+1
+8 1
+1
+0 11 4 2
+0
+end_operator
+begin_operator
+zoom plane2 city1 city1 fl5 fl4 fl3
+1
+8 1
+1
+0 11 5 3
+0
+end_operator
+begin_operator
+zoom plane2 city1 city1 fl6 fl5 fl4
+1
+8 1
+1
+0 11 6 4
+0
+end_operator
+begin_operator
+zoom plane2 city1 city2 fl2 fl1 fl0
+0
+2
+0 8 1 2
+0 11 2 0
+0
+end_operator
+begin_operator
+zoom plane2 city1 city2 fl3 fl2 fl1
+0
+2
+0 8 1 2
+0 11 3 1
+0
+end_operator
+begin_operator
+zoom plane2 city1 city2 fl4 fl3 fl2
+0
+2
+0 8 1 2
+0 11 4 2
+0
+end_operator
+begin_operator
+zoom plane2 city1 city2 fl5 fl4 fl3
+0
+2
+0 8 1 2
+0 11 5 3
+0
+end_operator
+begin_operator
+zoom plane2 city1 city2 fl6 fl5 fl4
+0
+2
+0 8 1 2
+0 11 6 4
+0
+end_operator
+begin_operator
+zoom plane2 city1 city3 fl2 fl1 fl0
+0
+2
+0 8 1 3
+0 11 2 0
+0
+end_operator
+begin_operator
+zoom plane2 city1 city3 fl3 fl2 fl1
+0
+2
+0 8 1 3
+0 11 3 1
+0
+end_operator
+begin_operator
+zoom plane2 city1 city3 fl4 fl3 fl2
+0
+2
+0 8 1 3
+0 11 4 2
+0
+end_operator
+begin_operator
+zoom plane2 city1 city3 fl5 fl4 fl3
+0
+2
+0 8 1 3
+0 11 5 3
+0
+end_operator
+begin_operator
+zoom plane2 city1 city3 fl6 fl5 fl4
+0
+2
+0 8 1 3
+0 11 6 4
+0
+end_operator
+begin_operator
+zoom plane2 city1 city4 fl2 fl1 fl0
+0
+2
+0 8 1 4
+0 11 2 0
+0
+end_operator
+begin_operator
+zoom plane2 city1 city4 fl3 fl2 fl1
+0
+2
+0 8 1 4
+0 11 3 1
+0
+end_operator
+begin_operator
+zoom plane2 city1 city4 fl4 fl3 fl2
+0
+2
+0 8 1 4
+0 11 4 2
+0
+end_operator
+begin_operator
+zoom plane2 city1 city4 fl5 fl4 fl3
+0
+2
+0 8 1 4
+0 11 5 3
+0
+end_operator
+begin_operator
+zoom plane2 city1 city4 fl6 fl5 fl4
+0
+2
+0 8 1 4
+0 11 6 4
+0
+end_operator
+begin_operator
+zoom plane2 city2 city0 fl2 fl1 fl0
+0
+2
+0 8 2 0
+0 11 2 0
+0
+end_operator
+begin_operator
+zoom plane2 city2 city0 fl3 fl2 fl1
+0
+2
+0 8 2 0
+0 11 3 1
+0
+end_operator
+begin_operator
+zoom plane2 city2 city0 fl4 fl3 fl2
+0
+2
+0 8 2 0
+0 11 4 2
+0
+end_operator
+begin_operator
+zoom plane2 city2 city0 fl5 fl4 fl3
+0
+2
+0 8 2 0
+0 11 5 3
+0
+end_operator
+begin_operator
+zoom plane2 city2 city0 fl6 fl5 fl4
+0
+2
+0 8 2 0
+0 11 6 4
+0
+end_operator
+begin_operator
+zoom plane2 city2 city1 fl2 fl1 fl0
+0
+2
+0 8 2 1
+0 11 2 0
+0
+end_operator
+begin_operator
+zoom plane2 city2 city1 fl3 fl2 fl1
+0
+2
+0 8 2 1
+0 11 3 1
+0
+end_operator
+begin_operator
+zoom plane2 city2 city1 fl4 fl3 fl2
+0
+2
+0 8 2 1
+0 11 4 2
+0
+end_operator
+begin_operator
+zoom plane2 city2 city1 fl5 fl4 fl3
+0
+2
+0 8 2 1
+0 11 5 3
+0
+end_operator
+begin_operator
+zoom plane2 city2 city1 fl6 fl5 fl4
+0
+2
+0 8 2 1
+0 11 6 4
+0
+end_operator
+begin_operator
+zoom plane2 city2 city2 fl2 fl1 fl0
+1
+8 2
+1
+0 11 2 0
+0
+end_operator
+begin_operator
+zoom plane2 city2 city2 fl3 fl2 fl1
+1
+8 2
+1
+0 11 3 1
+0
+end_operator
+begin_operator
+zoom plane2 city2 city2 fl4 fl3 fl2
+1
+8 2
+1
+0 11 4 2
+0
+end_operator
+begin_operator
+zoom plane2 city2 city2 fl5 fl4 fl3
+1
+8 2
+1
+0 11 5 3
+0
+end_operator
+begin_operator
+zoom plane2 city2 city2 fl6 fl5 fl4
+1
+8 2
+1
+0 11 6 4
+0
+end_operator
+begin_operator
+zoom plane2 city2 city3 fl2 fl1 fl0
+0
+2
+0 8 2 3
+0 11 2 0
+0
+end_operator
+begin_operator
+zoom plane2 city2 city3 fl3 fl2 fl1
+0
+2
+0 8 2 3
+0 11 3 1
+0
+end_operator
+begin_operator
+zoom plane2 city2 city3 fl4 fl3 fl2
+0
+2
+0 8 2 3
+0 11 4 2
+0
+end_operator
+begin_operator
+zoom plane2 city2 city3 fl5 fl4 fl3
+0
+2
+0 8 2 3
+0 11 5 3
+0
+end_operator
+begin_operator
+zoom plane2 city2 city3 fl6 fl5 fl4
+0
+2
+0 8 2 3
+0 11 6 4
+0
+end_operator
+begin_operator
+zoom plane2 city2 city4 fl2 fl1 fl0
+0
+2
+0 8 2 4
+0 11 2 0
+0
+end_operator
+begin_operator
+zoom plane2 city2 city4 fl3 fl2 fl1
+0
+2
+0 8 2 4
+0 11 3 1
+0
+end_operator
+begin_operator
+zoom plane2 city2 city4 fl4 fl3 fl2
+0
+2
+0 8 2 4
+0 11 4 2
+0
+end_operator
+begin_operator
+zoom plane2 city2 city4 fl5 fl4 fl3
+0
+2
+0 8 2 4
+0 11 5 3
+0
+end_operator
+begin_operator
+zoom plane2 city2 city4 fl6 fl5 fl4
+0
+2
+0 8 2 4
+0 11 6 4
+0
+end_operator
+begin_operator
+zoom plane2 city3 city0 fl2 fl1 fl0
+0
+2
+0 8 3 0
+0 11 2 0
+0
+end_operator
+begin_operator
+zoom plane2 city3 city0 fl3 fl2 fl1
+0
+2
+0 8 3 0
+0 11 3 1
+0
+end_operator
+begin_operator
+zoom plane2 city3 city0 fl4 fl3 fl2
+0
+2
+0 8 3 0
+0 11 4 2
+0
+end_operator
+begin_operator
+zoom plane2 city3 city0 fl5 fl4 fl3
+0
+2
+0 8 3 0
+0 11 5 3
+0
+end_operator
+begin_operator
+zoom plane2 city3 city0 fl6 fl5 fl4
+0
+2
+0 8 3 0
+0 11 6 4
+0
+end_operator
+begin_operator
+zoom plane2 city3 city1 fl2 fl1 fl0
+0
+2
+0 8 3 1
+0 11 2 0
+0
+end_operator
+begin_operator
+zoom plane2 city3 city1 fl3 fl2 fl1
+0
+2
+0 8 3 1
+0 11 3 1
+0
+end_operator
+begin_operator
+zoom plane2 city3 city1 fl4 fl3 fl2
+0
+2
+0 8 3 1
+0 11 4 2
+0
+end_operator
+begin_operator
+zoom plane2 city3 city1 fl5 fl4 fl3
+0
+2
+0 8 3 1
+0 11 5 3
+0
+end_operator
+begin_operator
+zoom plane2 city3 city1 fl6 fl5 fl4
+0
+2
+0 8 3 1
+0 11 6 4
+0
+end_operator
+begin_operator
+zoom plane2 city3 city2 fl2 fl1 fl0
+0
+2
+0 8 3 2
+0 11 2 0
+0
+end_operator
+begin_operator
+zoom plane2 city3 city2 fl3 fl2 fl1
+0
+2
+0 8 3 2
+0 11 3 1
+0
+end_operator
+begin_operator
+zoom plane2 city3 city2 fl4 fl3 fl2
+0
+2
+0 8 3 2
+0 11 4 2
+0
+end_operator
+begin_operator
+zoom plane2 city3 city2 fl5 fl4 fl3
+0
+2
+0 8 3 2
+0 11 5 3
+0
+end_operator
+begin_operator
+zoom plane2 city3 city2 fl6 fl5 fl4
+0
+2
+0 8 3 2
+0 11 6 4
+0
+end_operator
+begin_operator
+zoom plane2 city3 city3 fl2 fl1 fl0
+1
+8 3
+1
+0 11 2 0
+0
+end_operator
+begin_operator
+zoom plane2 city3 city3 fl3 fl2 fl1
+1
+8 3
+1
+0 11 3 1
+0
+end_operator
+begin_operator
+zoom plane2 city3 city3 fl4 fl3 fl2
+1
+8 3
+1
+0 11 4 2
+0
+end_operator
+begin_operator
+zoom plane2 city3 city3 fl5 fl4 fl3
+1
+8 3
+1
+0 11 5 3
+0
+end_operator
+begin_operator
+zoom plane2 city3 city3 fl6 fl5 fl4
+1
+8 3
+1
+0 11 6 4
+0
+end_operator
+begin_operator
+zoom plane2 city3 city4 fl2 fl1 fl0
+0
+2
+0 8 3 4
+0 11 2 0
+0
+end_operator
+begin_operator
+zoom plane2 city3 city4 fl3 fl2 fl1
+0
+2
+0 8 3 4
+0 11 3 1
+0
+end_operator
+begin_operator
+zoom plane2 city3 city4 fl4 fl3 fl2
+0
+2
+0 8 3 4
+0 11 4 2
+0
+end_operator
+begin_operator
+zoom plane2 city3 city4 fl5 fl4 fl3
+0
+2
+0 8 3 4
+0 11 5 3
+0
+end_operator
+begin_operator
+zoom plane2 city3 city4 fl6 fl5 fl4
+0
+2
+0 8 3 4
+0 11 6 4
+0
+end_operator
+begin_operator
+zoom plane2 city4 city0 fl2 fl1 fl0
+0
+2
+0 8 4 0
+0 11 2 0
+0
+end_operator
+begin_operator
+zoom plane2 city4 city0 fl3 fl2 fl1
+0
+2
+0 8 4 0
+0 11 3 1
+0
+end_operator
+begin_operator
+zoom plane2 city4 city0 fl4 fl3 fl2
+0
+2
+0 8 4 0
+0 11 4 2
+0
+end_operator
+begin_operator
+zoom plane2 city4 city0 fl5 fl4 fl3
+0
+2
+0 8 4 0
+0 11 5 3
+0
+end_operator
+begin_operator
+zoom plane2 city4 city0 fl6 fl5 fl4
+0
+2
+0 8 4 0
+0 11 6 4
+0
+end_operator
+begin_operator
+zoom plane2 city4 city1 fl2 fl1 fl0
+0
+2
+0 8 4 1
+0 11 2 0
+0
+end_operator
+begin_operator
+zoom plane2 city4 city1 fl3 fl2 fl1
+0
+2
+0 8 4 1
+0 11 3 1
+0
+end_operator
+begin_operator
+zoom plane2 city4 city1 fl4 fl3 fl2
+0
+2
+0 8 4 1
+0 11 4 2
+0
+end_operator
+begin_operator
+zoom plane2 city4 city1 fl5 fl4 fl3
+0
+2
+0 8 4 1
+0 11 5 3
+0
+end_operator
+begin_operator
+zoom plane2 city4 city1 fl6 fl5 fl4
+0
+2
+0 8 4 1
+0 11 6 4
+0
+end_operator
+begin_operator
+zoom plane2 city4 city2 fl2 fl1 fl0
+0
+2
+0 8 4 2
+0 11 2 0
+0
+end_operator
+begin_operator
+zoom plane2 city4 city2 fl3 fl2 fl1
+0
+2
+0 8 4 2
+0 11 3 1
+0
+end_operator
+begin_operator
+zoom plane2 city4 city2 fl4 fl3 fl2
+0
+2
+0 8 4 2
+0 11 4 2
+0
+end_operator
+begin_operator
+zoom plane2 city4 city2 fl5 fl4 fl3
+0
+2
+0 8 4 2
+0 11 5 3
+0
+end_operator
+begin_operator
+zoom plane2 city4 city2 fl6 fl5 fl4
+0
+2
+0 8 4 2
+0 11 6 4
+0
+end_operator
+begin_operator
+zoom plane2 city4 city3 fl2 fl1 fl0
+0
+2
+0 8 4 3
+0 11 2 0
+0
+end_operator
+begin_operator
+zoom plane2 city4 city3 fl3 fl2 fl1
+0
+2
+0 8 4 3
+0 11 3 1
+0
+end_operator
+begin_operator
+zoom plane2 city4 city3 fl4 fl3 fl2
+0
+2
+0 8 4 3
+0 11 4 2
+0
+end_operator
+begin_operator
+zoom plane2 city4 city3 fl5 fl4 fl3
+0
+2
+0 8 4 3
+0 11 5 3
+0
+end_operator
+begin_operator
+zoom plane2 city4 city3 fl6 fl5 fl4
+0
+2
+0 8 4 3
+0 11 6 4
+0
+end_operator
+begin_operator
+zoom plane2 city4 city4 fl2 fl1 fl0
+1
+8 4
+1
+0 11 2 0
+0
+end_operator
+begin_operator
+zoom plane2 city4 city4 fl3 fl2 fl1
+1
+8 4
+1
+0 11 3 1
+0
+end_operator
+begin_operator
+zoom plane2 city4 city4 fl4 fl3 fl2
+1
+8 4
+1
+0 11 4 2
+0
+end_operator
+begin_operator
+zoom plane2 city4 city4 fl5 fl4 fl3
+1
+8 4
+1
+0 11 5 3
+0
+end_operator
+begin_operator
+zoom plane2 city4 city4 fl6 fl5 fl4
+1
+8 4
+1
+0 11 6 4
+0
+end_operator
+begin_operator
+zoom plane3 city0 city0 fl2 fl1 fl0
+1
+9 0
+1
+0 12 2 0
+0
+end_operator
+begin_operator
+zoom plane3 city0 city0 fl3 fl2 fl1
+1
+9 0
+1
+0 12 3 1
+0
+end_operator
+begin_operator
+zoom plane3 city0 city0 fl4 fl3 fl2
+1
+9 0
+1
+0 12 4 2
+0
+end_operator
+begin_operator
+zoom plane3 city0 city0 fl5 fl4 fl3
+1
+9 0
+1
+0 12 5 3
+0
+end_operator
+begin_operator
+zoom plane3 city0 city0 fl6 fl5 fl4
+1
+9 0
+1
+0 12 6 4
+0
+end_operator
+begin_operator
+zoom plane3 city0 city1 fl2 fl1 fl0
+0
+2
+0 9 0 1
+0 12 2 0
+0
+end_operator
+begin_operator
+zoom plane3 city0 city1 fl3 fl2 fl1
+0
+2
+0 9 0 1
+0 12 3 1
+0
+end_operator
+begin_operator
+zoom plane3 city0 city1 fl4 fl3 fl2
+0
+2
+0 9 0 1
+0 12 4 2
+0
+end_operator
+begin_operator
+zoom plane3 city0 city1 fl5 fl4 fl3
+0
+2
+0 9 0 1
+0 12 5 3
+0
+end_operator
+begin_operator
+zoom plane3 city0 city1 fl6 fl5 fl4
+0
+2
+0 9 0 1
+0 12 6 4
+0
+end_operator
+begin_operator
+zoom plane3 city0 city2 fl2 fl1 fl0
+0
+2
+0 9 0 2
+0 12 2 0
+0
+end_operator
+begin_operator
+zoom plane3 city0 city2 fl3 fl2 fl1
+0
+2
+0 9 0 2
+0 12 3 1
+0
+end_operator
+begin_operator
+zoom plane3 city0 city2 fl4 fl3 fl2
+0
+2
+0 9 0 2
+0 12 4 2
+0
+end_operator
+begin_operator
+zoom plane3 city0 city2 fl5 fl4 fl3
+0
+2
+0 9 0 2
+0 12 5 3
+0
+end_operator
+begin_operator
+zoom plane3 city0 city2 fl6 fl5 fl4
+0
+2
+0 9 0 2
+0 12 6 4
+0
+end_operator
+begin_operator
+zoom plane3 city0 city3 fl2 fl1 fl0
+0
+2
+0 9 0 3
+0 12 2 0
+0
+end_operator
+begin_operator
+zoom plane3 city0 city3 fl3 fl2 fl1
+0
+2
+0 9 0 3
+0 12 3 1
+0
+end_operator
+begin_operator
+zoom plane3 city0 city3 fl4 fl3 fl2
+0
+2
+0 9 0 3
+0 12 4 2
+0
+end_operator
+begin_operator
+zoom plane3 city0 city3 fl5 fl4 fl3
+0
+2
+0 9 0 3
+0 12 5 3
+0
+end_operator
+begin_operator
+zoom plane3 city0 city3 fl6 fl5 fl4
+0
+2
+0 9 0 3
+0 12 6 4
+0
+end_operator
+begin_operator
+zoom plane3 city0 city4 fl2 fl1 fl0
+0
+2
+0 9 0 4
+0 12 2 0
+0
+end_operator
+begin_operator
+zoom plane3 city0 city4 fl3 fl2 fl1
+0
+2
+0 9 0 4
+0 12 3 1
+0
+end_operator
+begin_operator
+zoom plane3 city0 city4 fl4 fl3 fl2
+0
+2
+0 9 0 4
+0 12 4 2
+0
+end_operator
+begin_operator
+zoom plane3 city0 city4 fl5 fl4 fl3
+0
+2
+0 9 0 4
+0 12 5 3
+0
+end_operator
+begin_operator
+zoom plane3 city0 city4 fl6 fl5 fl4
+0
+2
+0 9 0 4
+0 12 6 4
+0
+end_operator
+begin_operator
+zoom plane3 city1 city0 fl2 fl1 fl0
+0
+2
+0 9 1 0
+0 12 2 0
+0
+end_operator
+begin_operator
+zoom plane3 city1 city0 fl3 fl2 fl1
+0
+2
+0 9 1 0
+0 12 3 1
+0
+end_operator
+begin_operator
+zoom plane3 city1 city0 fl4 fl3 fl2
+0
+2
+0 9 1 0
+0 12 4 2
+0
+end_operator
+begin_operator
+zoom plane3 city1 city0 fl5 fl4 fl3
+0
+2
+0 9 1 0
+0 12 5 3
+0
+end_operator
+begin_operator
+zoom plane3 city1 city0 fl6 fl5 fl4
+0
+2
+0 9 1 0
+0 12 6 4
+0
+end_operator
+begin_operator
+zoom plane3 city1 city1 fl2 fl1 fl0
+1
+9 1
+1
+0 12 2 0
+0
+end_operator
+begin_operator
+zoom plane3 city1 city1 fl3 fl2 fl1
+1
+9 1
+1
+0 12 3 1
+0
+end_operator
+begin_operator
+zoom plane3 city1 city1 fl4 fl3 fl2
+1
+9 1
+1
+0 12 4 2
+0
+end_operator
+begin_operator
+zoom plane3 city1 city1 fl5 fl4 fl3
+1
+9 1
+1
+0 12 5 3
+0
+end_operator
+begin_operator
+zoom plane3 city1 city1 fl6 fl5 fl4
+1
+9 1
+1
+0 12 6 4
+0
+end_operator
+begin_operator
+zoom plane3 city1 city2 fl2 fl1 fl0
+0
+2
+0 9 1 2
+0 12 2 0
+0
+end_operator
+begin_operator
+zoom plane3 city1 city2 fl3 fl2 fl1
+0
+2
+0 9 1 2
+0 12 3 1
+0
+end_operator
+begin_operator
+zoom plane3 city1 city2 fl4 fl3 fl2
+0
+2
+0 9 1 2
+0 12 4 2
+0
+end_operator
+begin_operator
+zoom plane3 city1 city2 fl5 fl4 fl3
+0
+2
+0 9 1 2
+0 12 5 3
+0
+end_operator
+begin_operator
+zoom plane3 city1 city2 fl6 fl5 fl4
+0
+2
+0 9 1 2
+0 12 6 4
+0
+end_operator
+begin_operator
+zoom plane3 city1 city3 fl2 fl1 fl0
+0
+2
+0 9 1 3
+0 12 2 0
+0
+end_operator
+begin_operator
+zoom plane3 city1 city3 fl3 fl2 fl1
+0
+2
+0 9 1 3
+0 12 3 1
+0
+end_operator
+begin_operator
+zoom plane3 city1 city3 fl4 fl3 fl2
+0
+2
+0 9 1 3
+0 12 4 2
+0
+end_operator
+begin_operator
+zoom plane3 city1 city3 fl5 fl4 fl3
+0
+2
+0 9 1 3
+0 12 5 3
+0
+end_operator
+begin_operator
+zoom plane3 city1 city3 fl6 fl5 fl4
+0
+2
+0 9 1 3
+0 12 6 4
+0
+end_operator
+begin_operator
+zoom plane3 city1 city4 fl2 fl1 fl0
+0
+2
+0 9 1 4
+0 12 2 0
+0
+end_operator
+begin_operator
+zoom plane3 city1 city4 fl3 fl2 fl1
+0
+2
+0 9 1 4
+0 12 3 1
+0
+end_operator
+begin_operator
+zoom plane3 city1 city4 fl4 fl3 fl2
+0
+2
+0 9 1 4
+0 12 4 2
+0
+end_operator
+begin_operator
+zoom plane3 city1 city4 fl5 fl4 fl3
+0
+2
+0 9 1 4
+0 12 5 3
+0
+end_operator
+begin_operator
+zoom plane3 city1 city4 fl6 fl5 fl4
+0
+2
+0 9 1 4
+0 12 6 4
+0
+end_operator
+begin_operator
+zoom plane3 city2 city0 fl2 fl1 fl0
+0
+2
+0 9 2 0
+0 12 2 0
+0
+end_operator
+begin_operator
+zoom plane3 city2 city0 fl3 fl2 fl1
+0
+2
+0 9 2 0
+0 12 3 1
+0
+end_operator
+begin_operator
+zoom plane3 city2 city0 fl4 fl3 fl2
+0
+2
+0 9 2 0
+0 12 4 2
+0
+end_operator
+begin_operator
+zoom plane3 city2 city0 fl5 fl4 fl3
+0
+2
+0 9 2 0
+0 12 5 3
+0
+end_operator
+begin_operator
+zoom plane3 city2 city0 fl6 fl5 fl4
+0
+2
+0 9 2 0
+0 12 6 4
+0
+end_operator
+begin_operator
+zoom plane3 city2 city1 fl2 fl1 fl0
+0
+2
+0 9 2 1
+0 12 2 0
+0
+end_operator
+begin_operator
+zoom plane3 city2 city1 fl3 fl2 fl1
+0
+2
+0 9 2 1
+0 12 3 1
+0
+end_operator
+begin_operator
+zoom plane3 city2 city1 fl4 fl3 fl2
+0
+2
+0 9 2 1
+0 12 4 2
+0
+end_operator
+begin_operator
+zoom plane3 city2 city1 fl5 fl4 fl3
+0
+2
+0 9 2 1
+0 12 5 3
+0
+end_operator
+begin_operator
+zoom plane3 city2 city1 fl6 fl5 fl4
+0
+2
+0 9 2 1
+0 12 6 4
+0
+end_operator
+begin_operator
+zoom plane3 city2 city2 fl2 fl1 fl0
+1
+9 2
+1
+0 12 2 0
+0
+end_operator
+begin_operator
+zoom plane3 city2 city2 fl3 fl2 fl1
+1
+9 2
+1
+0 12 3 1
+0
+end_operator
+begin_operator
+zoom plane3 city2 city2 fl4 fl3 fl2
+1
+9 2
+1
+0 12 4 2
+0
+end_operator
+begin_operator
+zoom plane3 city2 city2 fl5 fl4 fl3
+1
+9 2
+1
+0 12 5 3
+0
+end_operator
+begin_operator
+zoom plane3 city2 city2 fl6 fl5 fl4
+1
+9 2
+1
+0 12 6 4
+0
+end_operator
+begin_operator
+zoom plane3 city2 city3 fl2 fl1 fl0
+0
+2
+0 9 2 3
+0 12 2 0
+0
+end_operator
+begin_operator
+zoom plane3 city2 city3 fl3 fl2 fl1
+0
+2
+0 9 2 3
+0 12 3 1
+0
+end_operator
+begin_operator
+zoom plane3 city2 city3 fl4 fl3 fl2
+0
+2
+0 9 2 3
+0 12 4 2
+0
+end_operator
+begin_operator
+zoom plane3 city2 city3 fl5 fl4 fl3
+0
+2
+0 9 2 3
+0 12 5 3
+0
+end_operator
+begin_operator
+zoom plane3 city2 city3 fl6 fl5 fl4
+0
+2
+0 9 2 3
+0 12 6 4
+0
+end_operator
+begin_operator
+zoom plane3 city2 city4 fl2 fl1 fl0
+0
+2
+0 9 2 4
+0 12 2 0
+0
+end_operator
+begin_operator
+zoom plane3 city2 city4 fl3 fl2 fl1
+0
+2
+0 9 2 4
+0 12 3 1
+0
+end_operator
+begin_operator
+zoom plane3 city2 city4 fl4 fl3 fl2
+0
+2
+0 9 2 4
+0 12 4 2
+0
+end_operator
+begin_operator
+zoom plane3 city2 city4 fl5 fl4 fl3
+0
+2
+0 9 2 4
+0 12 5 3
+0
+end_operator
+begin_operator
+zoom plane3 city2 city4 fl6 fl5 fl4
+0
+2
+0 9 2 4
+0 12 6 4
+0
+end_operator
+begin_operator
+zoom plane3 city3 city0 fl2 fl1 fl0
+0
+2
+0 9 3 0
+0 12 2 0
+0
+end_operator
+begin_operator
+zoom plane3 city3 city0 fl3 fl2 fl1
+0
+2
+0 9 3 0
+0 12 3 1
+0
+end_operator
+begin_operator
+zoom plane3 city3 city0 fl4 fl3 fl2
+0
+2
+0 9 3 0
+0 12 4 2
+0
+end_operator
+begin_operator
+zoom plane3 city3 city0 fl5 fl4 fl3
+0
+2
+0 9 3 0
+0 12 5 3
+0
+end_operator
+begin_operator
+zoom plane3 city3 city0 fl6 fl5 fl4
+0
+2
+0 9 3 0
+0 12 6 4
+0
+end_operator
+begin_operator
+zoom plane3 city3 city1 fl2 fl1 fl0
+0
+2
+0 9 3 1
+0 12 2 0
+0
+end_operator
+begin_operator
+zoom plane3 city3 city1 fl3 fl2 fl1
+0
+2
+0 9 3 1
+0 12 3 1
+0
+end_operator
+begin_operator
+zoom plane3 city3 city1 fl4 fl3 fl2
+0
+2
+0 9 3 1
+0 12 4 2
+0
+end_operator
+begin_operator
+zoom plane3 city3 city1 fl5 fl4 fl3
+0
+2
+0 9 3 1
+0 12 5 3
+0
+end_operator
+begin_operator
+zoom plane3 city3 city1 fl6 fl5 fl4
+0
+2
+0 9 3 1
+0 12 6 4
+0
+end_operator
+begin_operator
+zoom plane3 city3 city2 fl2 fl1 fl0
+0
+2
+0 9 3 2
+0 12 2 0
+0
+end_operator
+begin_operator
+zoom plane3 city3 city2 fl3 fl2 fl1
+0
+2
+0 9 3 2
+0 12 3 1
+0
+end_operator
+begin_operator
+zoom plane3 city3 city2 fl4 fl3 fl2
+0
+2
+0 9 3 2
+0 12 4 2
+0
+end_operator
+begin_operator
+zoom plane3 city3 city2 fl5 fl4 fl3
+0
+2
+0 9 3 2
+0 12 5 3
+0
+end_operator
+begin_operator
+zoom plane3 city3 city2 fl6 fl5 fl4
+0
+2
+0 9 3 2
+0 12 6 4
+0
+end_operator
+begin_operator
+zoom plane3 city3 city3 fl2 fl1 fl0
+1
+9 3
+1
+0 12 2 0
+0
+end_operator
+begin_operator
+zoom plane3 city3 city3 fl3 fl2 fl1
+1
+9 3
+1
+0 12 3 1
+0
+end_operator
+begin_operator
+zoom plane3 city3 city3 fl4 fl3 fl2
+1
+9 3
+1
+0 12 4 2
+0
+end_operator
+begin_operator
+zoom plane3 city3 city3 fl5 fl4 fl3
+1
+9 3
+1
+0 12 5 3
+0
+end_operator
+begin_operator
+zoom plane3 city3 city3 fl6 fl5 fl4
+1
+9 3
+1
+0 12 6 4
+0
+end_operator
+begin_operator
+zoom plane3 city3 city4 fl2 fl1 fl0
+0
+2
+0 9 3 4
+0 12 2 0
+0
+end_operator
+begin_operator
+zoom plane3 city3 city4 fl3 fl2 fl1
+0
+2
+0 9 3 4
+0 12 3 1
+0
+end_operator
+begin_operator
+zoom plane3 city3 city4 fl4 fl3 fl2
+0
+2
+0 9 3 4
+0 12 4 2
+0
+end_operator
+begin_operator
+zoom plane3 city3 city4 fl5 fl4 fl3
+0
+2
+0 9 3 4
+0 12 5 3
+0
+end_operator
+begin_operator
+zoom plane3 city3 city4 fl6 fl5 fl4
+0
+2
+0 9 3 4
+0 12 6 4
+0
+end_operator
+begin_operator
+zoom plane3 city4 city0 fl2 fl1 fl0
+0
+2
+0 9 4 0
+0 12 2 0
+0
+end_operator
+begin_operator
+zoom plane3 city4 city0 fl3 fl2 fl1
+0
+2
+0 9 4 0
+0 12 3 1
+0
+end_operator
+begin_operator
+zoom plane3 city4 city0 fl4 fl3 fl2
+0
+2
+0 9 4 0
+0 12 4 2
+0
+end_operator
+begin_operator
+zoom plane3 city4 city0 fl5 fl4 fl3
+0
+2
+0 9 4 0
+0 12 5 3
+0
+end_operator
+begin_operator
+zoom plane3 city4 city0 fl6 fl5 fl4
+0
+2
+0 9 4 0
+0 12 6 4
+0
+end_operator
+begin_operator
+zoom plane3 city4 city1 fl2 fl1 fl0
+0
+2
+0 9 4 1
+0 12 2 0
+0
+end_operator
+begin_operator
+zoom plane3 city4 city1 fl3 fl2 fl1
+0
+2
+0 9 4 1
+0 12 3 1
+0
+end_operator
+begin_operator
+zoom plane3 city4 city1 fl4 fl3 fl2
+0
+2
+0 9 4 1
+0 12 4 2
+0
+end_operator
+begin_operator
+zoom plane3 city4 city1 fl5 fl4 fl3
+0
+2
+0 9 4 1
+0 12 5 3
+0
+end_operator
+begin_operator
+zoom plane3 city4 city1 fl6 fl5 fl4
+0
+2
+0 9 4 1
+0 12 6 4
+0
+end_operator
+begin_operator
+zoom plane3 city4 city2 fl2 fl1 fl0
+0
+2
+0 9 4 2
+0 12 2 0
+0
+end_operator
+begin_operator
+zoom plane3 city4 city2 fl3 fl2 fl1
+0
+2
+0 9 4 2
+0 12 3 1
+0
+end_operator
+begin_operator
+zoom plane3 city4 city2 fl4 fl3 fl2
+0
+2
+0 9 4 2
+0 12 4 2
+0
+end_operator
+begin_operator
+zoom plane3 city4 city2 fl5 fl4 fl3
+0
+2
+0 9 4 2
+0 12 5 3
+0
+end_operator
+begin_operator
+zoom plane3 city4 city2 fl6 fl5 fl4
+0
+2
+0 9 4 2
+0 12 6 4
+0
+end_operator
+begin_operator
+zoom plane3 city4 city3 fl2 fl1 fl0
+0
+2
+0 9 4 3
+0 12 2 0
+0
+end_operator
+begin_operator
+zoom plane3 city4 city3 fl3 fl2 fl1
+0
+2
+0 9 4 3
+0 12 3 1
+0
+end_operator
+begin_operator
+zoom plane3 city4 city3 fl4 fl3 fl2
+0
+2
+0 9 4 3
+0 12 4 2
+0
+end_operator
+begin_operator
+zoom plane3 city4 city3 fl5 fl4 fl3
+0
+2
+0 9 4 3
+0 12 5 3
+0
+end_operator
+begin_operator
+zoom plane3 city4 city3 fl6 fl5 fl4
+0
+2
+0 9 4 3
+0 12 6 4
+0
+end_operator
+begin_operator
+zoom plane3 city4 city4 fl2 fl1 fl0
+1
+9 4
+1
+0 12 2 0
+0
+end_operator
+begin_operator
+zoom plane3 city4 city4 fl3 fl2 fl1
+1
+9 4
+1
+0 12 3 1
+0
+end_operator
+begin_operator
+zoom plane3 city4 city4 fl4 fl3 fl2
+1
+9 4
+1
+0 12 4 2
+0
+end_operator
+begin_operator
+zoom plane3 city4 city4 fl5 fl4 fl3
+1
+9 4
+1
+0 12 5 3
+0
+end_operator
+begin_operator
+zoom plane3 city4 city4 fl6 fl5 fl4
+1
+9 4
+1
+0 12 6 4
 0
 end_operator
 0

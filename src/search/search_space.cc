@@ -176,17 +176,33 @@ void SearchNode::dump() {
 }
 
 bool SearchNode::is_relevant_for_mariginal_search() {
-	bool found_non_participating_agent = false;
+	if (g_marginal_solution_for_agent[g_num_of_agents] == -1)
+		return true;
 	for (int i = 0; i < g_num_of_agents; i++) {
 		if (!info.participated_agents[i]) {
-			found_non_participating_agent = true;
 			if (g_marginal_solution_for_agent[i] == -1)
 				return true;
 		}
 	}
-	if (!found_non_participating_agent
-			&& g_marginal_solution_for_agent[g_num_of_agents] == -1)
+	return false;
+}
+
+bool SearchNode::is_state_with_agent_action_relevant_for_marginal_search(
+		int agent) {
+	if (g_marginal_solution_for_agent[g_num_of_agents] == -1)
 		return true;
+
+	if (info.participated_agents[agent])
+		return true;
+
+	//Agent does not participate
+	for (int i = 0; i < g_num_of_agents; i++) {
+		if (!info.participated_agents[i] && i != agent) {
+			if (g_marginal_solution_for_agent[i] == -1)
+				return true;
+		}
+	}
+
 	return false;
 }
 

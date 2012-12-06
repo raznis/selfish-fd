@@ -102,6 +102,7 @@ int EagerSearch::step() {
 
 	//pruning states that are no longer relevant in the search for marginal problems
 	if (g_multiple_goal && !node.is_relevant_for_mariginal_search()) {
+		g_pruned_expand_multigoal++;
 		return IN_PROGRESS;
 	}
 	//TODO - add the option to "limit" (by pruning) the number of public actions
@@ -152,6 +153,11 @@ int EagerSearch::step() {
 		if (g_marginal_search && g_marginal_agent == op->agent)
 			continue;
 
+		//if performing this action adds the last agent then prune it, saving heuristic calculation
+		if(g_multiple_goal && !node.is_state_with_agent_action_relevant_for_marginal_search(op->agent)){
+			g_pruned_generate_multigoal++;
+			continue;
+		}
 		State succ_state(s, *op);
 		search_progress.inc_generated();
 		bool is_preferred = (preferred_ops.find(op) != preferred_ops.end());

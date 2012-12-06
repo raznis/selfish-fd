@@ -57,6 +57,7 @@ public:
 
     bool is_relevant_for_mariginal_search();
     bool is_above_limit_of_public_actions();
+    bool is_state_with_agent_action_relevant_for_marginal_search(int agent);
 };
 
 
