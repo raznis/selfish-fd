@@ -26,3 +26,6 @@
 ^scripts/
 ^src/plan_numbers_and_cost$
 ^src/elapsed.time$
+^src/output
+^src/output.sas
+^src/sas_plan
